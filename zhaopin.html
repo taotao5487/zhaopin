@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最新医护招聘信息</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 15px; background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 8px; }
+        h1 { text-align: center; color: #2c3e50; margin-bottom: 25px; }
+        #filterInput {
+            width: calc(100% - 22px); /* 减去padding和border */
+            padding: 12px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            background-color: #e9ecef;
+            font-weight: bold;
+            color: #495057;
+        }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        tr:hover { background-color: #e2e6ea; }
+
+        .job-item {
+            display: block;
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .job-item h3 { margin-top: 0; margin-bottom: 10px; color: #007bff; font-size: 1.2em; }
+        .job-item p { margin: 5px 0; font-size: 0.95em; line-height: 1.6; }
+        .job-item strong { color: #555; }
+        .job-item a { color: #007bff; text-decoration: none; font-weight: bold; }
+        .job-item a:hover { text-decoration: underline; }
+
+        .detail-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 6px 12px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .detail-link:hover { background-color: #0056b3; }
+
+        #loadingMessage, #noResultsMessage { text-align: center; padding: 20px; font-size: 16px; color: #777; }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) { /* 适配平板和手机 */
+            table { display: none; } /* 在小屏幕上隐藏表格 */
+            #jobList { display: block; } /* 在小屏幕上显示卡片列表 */
+            .container { margin: 10px; padding: 10px; }
+            h1 { font-size: 1.5em; }
+        }
+        @media (min-width: 769px) { /* 适配桌面 */
+            #jobList { display: none; } /* 在大屏幕上隐藏卡片列表 */
+            table { display: table; }
+        }
+    </style>
+    <!-- 引入 SheetJS 库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>医护招聘信息查询</h1>
+        <input type="text" id="filterInput" onkeyup="filterJobs()" placeholder="输入关键词筛选 (如：资阳、医师、神经外科)...">
+
+        <!-- 桌面端表格 -->
+        <table id="jobsTable">
+            <thead>
+                <tr id="tableHeader">
+                    <!-- 表头会由 JavaScript 动态生成 -->
+                </tr>
+            </thead>
+            <tbody id="jobsTableBody">
+                <!-- 招聘信息会由 JavaScript 动态插入这里 -->
+            </tbody>
+        </table>
+
+        <!-- 移动端卡片列表 -->
+        <div id="jobList">
+            <!-- 招聘信息会由 JavaScript 动态插入这里 -->
+        </div>
+
+        <p id="loadingMessage">正在加载招聘数据，请稍候...</p>
+        <p id="noResultsMessage" style="display:none;">抱歉，没有找到符合条件的招聘信息。</p>
+    </div>
+
+    <script>
+        let allJobsData = []; // 存放所有招聘数据
+        let tableHeaders = []; // 存放表头
+
+        // --- 配置你的 Excel 文件名 ---
+        const excelFilePath = '汇总招聘信息.xlsx'; // 确保这个文件名和 Gitee 上的文件名一致
+
+        // --- 配置 Excel 中列名（请确保与你的 Excel 表头完全一致！） ---
+        const jobTitleColumn = '岗位名称';       // 用于卡片视图的主标题
+        const sourceUrlColumn = '来源url';      // 用于“查看详情”链接
+        // 可选：如果你不想在卡片视图中显示某些列，可以在下面数组中配置
+        const hiddenInCardViewColumns = ['是否过期', '处理时间', '来源url']; // 这些列在卡片中不会逐条显示，但来源url会用作链接
+
+        async function loadAndDisplayJobs() {
+            try {
+                document.getElementById('loadingMessage').style.display = 'block';
+                const response = await fetch(excelFilePath);
+                if (!response.ok) {
+                    throw new Error(`无法加载 Excel 文件: ${response.statusText} (请检查 ${excelFilePath} 文件是否已正确上传到 Gitee Pages 仓库的根目录，并且 Gitee Pages 服务已更新部署)`);
+                }
+                const arrayBuffer = await response.arrayBuffer();
+                const workbook = XLSX.read(arrayBuffer, { type: 'array' });
+                const firstSheetName = workbook.SheetNames[0];
+                const worksheet = workbook.Sheets[firstSheetName];
+                const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, defval: '' });
+
+                if (jsonData.length < 2) {
+                    document.getElementById('loadingMessage').innerText = 'Excel 文件中没有招聘数据或表头格式不正确。请确保至少包含表头和一行数据。';
+                    return;
+                }
+
+                tableHeaders = jsonData[0];
+                allJobsData = jsonData.slice(1).map(row => {
+                    let jobObject = {};
+                    tableHeaders.forEach((header, index) => {
+                        jobObject[header] = row[index];
+                    });
+                    return jobObject;
+                });
+
+                document.getElementById('loadingMessage').style.display = 'none';
+                renderTableHeaders();
+                filterJobs(); // 初始加载时显示所有数据
+
+            } catch (error) {
+                console.error('加载 Excel 数据时出错:', error);
+                document.getElementById('loadingMessage').innerText = `加载数据失败: ${error.message}。请检查 Excel 文件和网络连接。`;
+            }
+        }
+
+        function renderTableHeaders() {
+            const headerRow = document.getElementById('tableHeader');
+            headerRow.innerHTML = ''; // 清空旧表头
+            tableHeaders.forEach(headerText => {
+                const th = document.createElement('th');
+                th.textContent = headerText;
+                headerRow.appendChild(th);
+            });
+        }
+
+        function displayJobs(jobsToDisplay) {
+            const tableBody = document.getElementById('jobsTableBody');
+            const jobListDiv = document.getElementById('jobList');
+            const noResultsMsg = document.getElementById('noResultsMessage');
+
+            tableBody.innerHTML = '';
+            jobListDiv.innerHTML = '';
+
+            if (jobsToDisplay.length === 0) {
+                noResultsMsg.style.display = 'block';
+                return;
+            }
+            noResultsMsg.style.display = 'none';
+
+            jobsToDisplay.forEach(job => {
+                // 1. 渲染表格行 (桌面视图)
+                const tr = document.createElement('tr');
+                tableHeaders.forEach(header => {
+                    const td = document.createElement('td');
+                    const cellValue = job[header] || ''; // 使用表头作为对象的键
+
+                    if (header === sourceUrlColumn && cellValue) {
+                        const link = document.createElement('a');
+                        link.href = String(cellValue).trim();
+                        link.textContent = "查看原链接"; // 或者你可以用 cellValue 作为文本，如果它本身就是链接
+                        link.target = '_blank'; // 在新标签页打开
+                        td.appendChild(link);
+                    } else {
+                        td.textContent = cellValue;
+                    }
+                    tr.appendChild(td);
+                });
+                tableBody.appendChild(tr);
+
+                // 2. 渲染卡片 (移动视图)
+                const jobCard = document.createElement('div');
+                jobCard.className = 'job-item';
+
+                let cardHTML = `<h3>${job[jobTitleColumn] || '未知岗位'}</h3>`;
+
+                tableHeaders.forEach(header => {
+                    // 如果配置了在卡片中隐藏，或者当前列是主标题列，则跳过
+                    if (hiddenInCardViewColumns.includes(header) || header === jobTitleColumn) {
+                        return;
+                    }
+                    const value = job[header];
+                    if (value) { // 只显示有值的字段
+                        cardHTML += `<p><strong>${header}:</strong> ${value}</p>`;
+                    }
+                });
+
+                // 添加“查看详情”链接 (如果来源 URL 存在)
+                const sourceLink = job[sourceUrlColumn];
+                if (sourceLink && String(sourceLink).trim() !== '') {
+                    cardHTML += `<a href="${String(sourceLink).trim()}" target="_blank" class="detail-link">查看详情 »</a>`;
+                }
+
+                jobCard.innerHTML = cardHTML;
+                jobListDiv.appendChild(jobCard);
+            });
+        }
+
+        function filterJobs() {
+            const filterValue = document.getElementById('filterInput').value.toLowerCase().trim();
+            let filteredJobs;
+
+            if (!filterValue) {
+                filteredJobs = allJobsData;
+            } else {
+                const keywords = filterValue.split(/\s+/).filter(k => k); // 支持多个空格分隔的关键词
+                filteredJobs = allJobsData.filter(job => {
+                    return keywords.every(keyword => // 所有关键词都必须匹配
+                        Object.values(job).some(value =>
+                            String(value).toLowerCase().includes(keyword)
+                        )
+                    );
+                });
+            }
+            displayJobs(filteredJobs);
+        }
+
+        // 页面加载完成后执行
+        window.onload = loadAndDisplayJobs;
+    </script>
+
+</body>
+</html>
