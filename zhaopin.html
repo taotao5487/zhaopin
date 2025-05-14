@@ -3,254 +3,498 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>最新医护招聘信息</title>
+    <title>医护招聘信息搜索 - 白衣驿站</title>
     <style>
-        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
-        .container { max-width: 1000px; margin: 20px auto; padding: 15px; background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 8px; }
-        h1 { text-align: center; color: #2c3e50; margin-bottom: 25px; }
-        #filterInput {
-            width: calc(100% - 22px); /* 减去padding和border */
-            padding: 12px;
-            margin-bottom: 20px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
         }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-            font-size: 14px;
-        }
-        th {
-            background-color: #e9ecef;
-            font-weight: bold;
-            color: #495057;
-        }
-        tr:nth-child(even) { background-color: #f8f9fa; }
-        tr:hover { background-color: #e2e6ea; }
-
-        .job-item {
-            display: block;
-            margin-bottom: 15px;
-            padding: 15px;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
             background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
         }
-        .job-item h3 { margin-top: 0; margin-bottom: 10px; color: #007bff; font-size: 1.2em; }
-        .job-item p { margin: 5px 0; font-size: 0.95em; line-height: 1.6; }
-        .job-item strong { color: #555; }
-        .job-item a { color: #007bff; text-decoration: none; font-weight: bold; }
-        .job-item a:hover { text-decoration: underline; }
+        h1 {
+            text-align: center;
+            color: #2a8c6d;
+            margin-bottom: 10px;
+        }
+        /* --- Top QR Code Section --- */
+        .top-qr-code-section {
+            padding: 5px;
+            background-color: #e6f4f0;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 10px;
+            border: 1px dashed #34a884;
+        }
+        .top-qr-code-section img {
+            max-width: 60px; /* Slightly larger QR code */
+            height: auto;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+        }
+        .top-qr-code-section p {
+            font-size: 17px;
+            color: #2a8c6d;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .top-qr-code-section .sub-text {
+            font-size: 14px;
+            color: #555;
+            font-weight: normal;
+        }
 
-        .detail-link {
+        .search-area {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        #searchInput {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        #searchButton {
+            padding: 10px 20px;
+            background-color: #34a884;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #searchButton:hover {
+            background-color: #2a8c6d;
+        }
+        .job-listing {
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            position: relative;
+        }
+        .job-listing h3 {
+            margin-top: 0;
+            margin-right: 100px; /* Space for the follow prompt */
+            color: #34a884;
+        }
+        .job-listing p {
+            margin: 5px 0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .job-listing strong {
+            color: #555;
+            min-width: 80px;
             display: inline-block;
-            margin-top: 8px;
-            padding: 6px 12px;
+        }
+        .job-listing .job-detail {
+            margin-bottom: 3px;
+        }
+        .job-listing .source-link a {
+            display: inline-block;
+            padding: 5px 10px;
             background-color: #007bff;
             color: white;
             text-decoration: none;
+            border-radius: 3px;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+        .job-listing .source-link a:hover {
+            background-color: #0056b3;
+        }
+        /* --- Follow Prompt on each job --- */
+        .follow-prompt-job {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 12px;
+            background-color: #34a884;
+            color: white;
+            padding: 5px 10px;
             border-radius: 4px;
-            font-size: 0.9em;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
         }
-        .detail-link:hover { background-color: #0056b3; }
+        .follow-prompt-job:hover {
+            background-color: #2a8c6d;
+        }
+        .follow-prompt-job .icon { /* Optional: if you add an icon */
+            margin-right: 3px;
+        }
 
-        #loadingMessage, #noResultsMessage { text-align: center; padding: 20px; font-size: 16px; color: #777; }
+        #resultsInfo {
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        .expired-tag {
+            color: red;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .no-results-guide {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px dashed #ccc;
+            border-radius: 5px;
+        }
+        .no-results-guide p {
+            margin-bottom: 10px;
+        }
+        .no-results-guide .action-button {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #34a884;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .no-results-guide .action-button:hover {
+            background-color: #2a8c6d;
+        }
 
-        /* 响应式设计 */
-        @media (max-width: 768px) { /* 适配平板和手机 */
-            table { display: none; } /* 在小屏幕上隐藏表格 */
-            #jobList { display: block; } /* 在小屏幕上显示卡片列表 */
-            .container { margin: 10px; padding: 10px; }
-            h1 { font-size: 1.5em; }
+        /* --- Modal Styles --- */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.7);
+            padding-top: 60px; /* Location of the box */
         }
-        @media (min-width: 769px) { /* 适配桌面 */
-            #jobList { display: none; } /* 在大屏幕上隐藏卡片列表 */
-            table { display: table; }
+        .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 25px;
+            border: 1px solid #888;
+            width: 90%;
+            max-width: 320px; /* Optimal for QR code */
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            position: relative;
         }
+        .modal-content img {
+            max-width: 250px; /* QR code size in modal */
+            height: auto;
+            margin-bottom: 15px;
+            border: 1px solid #eee;
+        }
+        .modal-content p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .modal-content .modal-title {
+             font-size: 18px;
+             font-weight: bold;
+             color: #2a8c6d;
+             margin-bottom: 15px;
+        }
+        .close-button {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .close-button:hover,
+        .close-button:focus {
+            color: #333;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* --- Bottom QR Code Section (Optional or modified) --- */
+        .bottom-qr-code-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .bottom-qr-code-section img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        .bottom-qr-code-section p {
+            font-size: 16px;
+            color: #2a8c6d;
+            font-weight: bold;
+        }
+
     </style>
-    <!-- 引入 SheetJS 库 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
 <body>
-
     <div class="container">
-        <h1>医护招聘信息查询</h1>
-        <input type="text" id="filterInput" onkeyup="filterJobs()" placeholder="输入关键词筛选 (如：资阳、医师、神经外科)...">
 
-        <!-- 桌面端表格 -->
-        <table id="jobsTable">
-            <thead>
-                <tr id="tableHeader">
-                    <!-- 表头会由 JavaScript 动态生成 -->
-                </tr>
-            </thead>
-            <tbody id="jobsTableBody">
-                <!-- 招聘信息会由 JavaScript 动态插入这里 -->
-            </tbody>
-        </table>
-
-        <!-- 移动端卡片列表 -->
-        <div id="jobList">
-            <!-- 招聘信息会由 JavaScript 动态插入这里 -->
+        <div class="top-qr-code-section">
+            <img src="qrcode.png" alt="白衣驿站公众号二维码">
+            <p>关注「白衣驿站」公众号</p>
+            <p class="sub-text">获取最新医护招聘信息推送，不错过好机会！</p>
         </div>
 
-        <p id="loadingMessage">正在加载招聘数据，请稍候...</p>
-        <p id="noResultsMessage" style="display:none;">抱歉，没有找到符合条件的招聘信息。</p>
+        <h1>医护招聘岗位信息</h1>
+
+        <div class="search-area">
+            <input type="text" id="searchInput" placeholder="输入岗位、医院、地区、专业等关键词...">
+            <button id="searchButton">搜索</button>
+        </div>
+
+        <div id="resultsInfo"></div>
+        <div id="jobsContainer">
+            <!-- 招聘信息将在这里显示 -->
+        </div>
+
+        <!-- Optional: Kept the bottom QR section, can be removed or repurposed -->
+        <div class="bottom-qr-code-section" id="follow-us-qr-bottom">
+            <img src="qrcode.png" alt="公众号二维码">
+            <p>扫码关注「白衣驿站」，获取最新医护招聘信息！</p>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="qrModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <p class="modal-title">微信扫码关注「白衣驿站」</p>
+            <img src="qrcode.png" alt="关注白衣驿站公众号">
+            <p>第一时间获取最新医护招聘岗位！</p>
+        </div>
     </div>
 
     <script>
-        let allJobsData = []; // 存放所有招聘数据
-        let tableHeaders = []; // 存放表头
+        let allJobsData = [];
+        let displayedJobs = [];
 
-        // --- 配置你的 Excel 文件名 ---
-        const excelFilePath = '汇总招聘信息.xlsx'; // 确保这个文件名和 Gitee 上的文件名一致
+        const COL_HOSPITAL = '医院名称';
+        const COL_PROVINCE = '省/直辖市';
+        const COL_REGION = '地区';
+        const COL_POSITION = '岗位名称';
+        const COL_CATEGORY = '岗位大类';
+        const COL_TITLE_REQ = '职称要求';
+        const COL_NUM_RECRUIT = '招聘人数';
+        const COL_EDUCATION = '学历（学位）';
+        const COL_MAJOR = '专业';
+        const COL_OTHER_COND = '其他条件';
+        const COL_PUB_DATE = '发布日期';
+        const COL_DEADLINE = '截止日期';
+        const COL_SOURCE_URL = '来源url';
+        const COL_IS_EXPIRED = '是否过期';
+        const COL_PROCESS_TIME = '处理时间';
 
-        // --- 配置 Excel 中列名（请确保与你的 Excel 表头完全一致！） ---
-        const jobTitleColumn = '岗位名称';       // 用于卡片视图的主标题
-        const sourceUrlColumn = '来源url';      // 用于“查看详情”链接
-        // 可选：如果你不想在卡片视图中显示某些列，可以在下面数组中配置
-        const hiddenInCardViewColumns = ['是否过期', '处理时间', '来源url']; // 这些列在卡片中不会逐条显示，但来源url会用作链接
-
-        async function loadAndDisplayJobs() {
+        async function loadJobsData() {
             try {
-                document.getElementById('loadingMessage').style.display = 'block';
-                const response = await fetch(excelFilePath);
-                if (!response.ok) {
-                    throw new Error(`无法加载 Excel 文件: ${response.statusText} (请检查 ${excelFilePath} 文件是否已正确上传到 Gitee Pages 仓库的根目录，并且 Gitee Pages 服务已更新部署)`);
-                }
-                const arrayBuffer = await response.arrayBuffer();
-                const workbook = XLSX.read(arrayBuffer, { type: 'array' });
-                const firstSheetName = workbook.SheetNames[0];
-                const worksheet = workbook.Sheets[firstSheetName];
-                const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, defval: '' });
+                const response = await fetch('jobs_data.json');
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                allJobsData = await response.json();
 
-                if (jsonData.length < 2) {
-                    document.getElementById('loadingMessage').innerText = 'Excel 文件中没有招聘数据或表头格式不正确。请确保至少包含表头和一行数据。';
-                    return;
-                }
-
-                tableHeaders = jsonData[0];
-                allJobsData = jsonData.slice(1).map(row => {
-                    let jobObject = {};
-                    tableHeaders.forEach((header, index) => {
-                        jobObject[header] = row[index];
-                    });
-                    return jobObject;
+                allJobsData.sort((a, b) => {
+                    const dateA_str = a[COL_PROCESS_TIME] || a[COL_PUB_DATE];
+                    const dateB_str = b[COL_PROCESS_TIME] || b[COL_PUB_DATE];
+                    if (!dateA_str && !dateB_str) return 0;
+                    if (!dateA_str) return 1;
+                    if (!dateB_str) return -1;
+                    try {
+                        const dateA = new Date(String(dateA_str).replace(/-/g, "/"));
+                        const dateB = new Date(String(dateB_str).replace(/-/g, "/"));
+                        if (isNaN(dateA.getTime()) && isNaN(dateB.getTime())) return 0;
+                        if (isNaN(dateA.getTime())) return 1;
+                        if (isNaN(dateB.getTime())) return -1;
+                        return dateB - dateA;
+                    } catch (e) { return 0; }
                 });
 
-                document.getElementById('loadingMessage').style.display = 'none';
-                renderTableHeaders();
-                filterJobs(); // 初始加载时显示所有数据
-
+                displayedJobs = [...allJobsData];
+                displayJobs(displayedJobs);
+                updateResultsInfo(displayedJobs.length, allJobsData.length);
             } catch (error) {
-                console.error('加载 Excel 数据时出错:', error);
-                document.getElementById('loadingMessage').innerText = `加载数据失败: ${error.message}。请检查 Excel 文件和网络连接。`;
+                console.error("无法加载或解析招聘数据:", error);
+                document.getElementById('jobsContainer').innerHTML = '<p>抱歉，加载招聘数据失败，请刷新页面或稍后再试。</p>';
             }
         }
 
-        function renderTableHeaders() {
-            const headerRow = document.getElementById('tableHeader');
-            headerRow.innerHTML = ''; // 清空旧表头
-            tableHeaders.forEach(headerText => {
-                const th = document.createElement('th');
-                th.textContent = headerText;
-                headerRow.appendChild(th);
-            });
+        function getJobProperty(job, propertyName, defaultValue = 'N/A') {
+            if (job && job.hasOwnProperty(propertyName) && job[propertyName] !== null && job[propertyName] !== undefined) {
+                if (typeof job[propertyName] === 'number' && job[propertyName] === 0) return job[propertyName];
+                if (job[propertyName] !== "") return job[propertyName];
+            }
+            return defaultValue;
         }
 
-        function displayJobs(jobsToDisplay) {
-            const tableBody = document.getElementById('jobsTableBody');
-            const jobListDiv = document.getElementById('jobList');
-            const noResultsMsg = document.getElementById('noResultsMessage');
+        function formatDate(dateString) {
+            if (!dateString || dateString === 'N/A') return 'N/A';
+            try {
+                const date = new Date(String(dateString).replace(/-/g, "/"));
+                if (isNaN(date.getTime())) return dateString;
+                const format = String(dateString).includes(':') ?
+                    `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}` :
+                    `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+                return format;
+            } catch (e) { return dateString; }
+        }
 
-            tableBody.innerHTML = '';
-            jobListDiv.innerHTML = '';
+        function displayJobs(jobs) {
+            const container = document.getElementById('jobsContainer');
+            container.innerHTML = '';
 
-            if (jobsToDisplay.length === 0) {
-                noResultsMsg.style.display = 'block';
+            if (jobs.length === 0) {
+                const searchTerm = document.getElementById('searchInput').value.trim();
+                let message = '<div class="no-results-guide">';
+                message += '<p>抱歉，没有找到符合条件的岗位信息。</p>';
+                if (searchTerm) message += `<p>您可以尝试更换关键词或减少筛选条件。</p>`;
+                message += `<p>最新招聘信息会第一时间推送到「白衣驿站」公众号。</p>`;
+                message += `<p><button class="action-button" onclick="openQrModal()">点此扫码关注</button> 获取最新动态！</p>`;
+                message += '</div>';
+                container.innerHTML = message;
                 return;
             }
-            noResultsMsg.style.display = 'none';
 
-            jobsToDisplay.forEach(job => {
-                // 1. 渲染表格行 (桌面视图)
-                const tr = document.createElement('tr');
-                tableHeaders.forEach(header => {
-                    const td = document.createElement('td');
-                    const cellValue = job[header] || ''; // 使用表头作为对象的键
+            jobs.forEach(job => {
+                const jobDiv = document.createElement('div');
+                jobDiv.className = 'job-listing';
 
-                    if (header === sourceUrlColumn && cellValue) {
-                        const link = document.createElement('a');
-                        link.href = String(cellValue).trim();
-                        link.textContent = "查看原链接"; // 或者你可以用 cellValue 作为文本，如果它本身就是链接
-                        link.target = '_blank'; // 在新标签页打开
-                        td.appendChild(link);
-                    } else {
-                        td.textContent = cellValue;
-                    }
-                    tr.appendChild(td);
-                });
-                tableBody.appendChild(tr);
+                const hospital = getJobProperty(job, COL_HOSPITAL);
+                const province = getJobProperty(job, COL_PROVINCE);
+                const region = getJobProperty(job, COL_REGION);
+                const position = getJobProperty(job, COL_POSITION, '未知岗位');
+                const category = getJobProperty(job, COL_CATEGORY);
+                const titleReq = getJobProperty(job, COL_TITLE_REQ);
+                const numRecruit = getJobProperty(job, COL_NUM_RECRUIT);
+                const education = getJobProperty(job, COL_EDUCATION);
+                const major = getJobProperty(job, COL_MAJOR);
+                const otherCond = getJobProperty(job, COL_OTHER_COND);
+                const pubDate = formatDate(getJobProperty(job, COL_PUB_DATE));
+                const deadline = formatDate(getJobProperty(job, COL_DEADLINE));
+                const sourceUrl = getJobProperty(job, COL_SOURCE_URL, '');
+                const isExpiredRaw = getJobProperty(job, COL_IS_EXPIRED, '未知');
 
-                // 2. 渲染卡片 (移动视图)
-                const jobCard = document.createElement('div');
-                jobCard.className = 'job-item';
+                let hospitalDisplay = hospital;
+                if (province !== 'N/A' && region !== 'N/A' && province && region) hospitalDisplay = `${hospital} (${province} - ${region})`;
+                else if (province !== 'N/A' && province) hospitalDisplay = `${hospital} (${province})`;
+                else if (region !== 'N/A' && region) hospitalDisplay = `${hospital} (${region})`;
 
-                let cardHTML = `<h3>${job[jobTitleColumn] || '未知岗位'}</h3>`;
-
-                tableHeaders.forEach(header => {
-                    // 如果配置了在卡片中隐藏，或者当前列是主标题列，则跳过
-                    if (hiddenInCardViewColumns.includes(header) || header === jobTitleColumn) {
-                        return;
-                    }
-                    const value = job[header];
-                    if (value) { // 只显示有值的字段
-                        cardHTML += `<p><strong>${header}:</strong> ${value}</p>`;
-                    }
-                });
-
-                // 添加“查看详情”链接 (如果来源 URL 存在)
-                const sourceLink = job[sourceUrlColumn];
-                if (sourceLink && String(sourceLink).trim() !== '') {
-                    cardHTML += `<a href="${String(sourceLink).trim()}" target="_blank" class="detail-link">查看详情 »</a>`;
+                let expiredStatusHTML = '';
+                if ((typeof isExpiredRaw === 'string' && (isExpiredRaw.toLowerCase() === '是' || isExpiredRaw.toLowerCase() === 'true')) || (typeof isExpiredRaw === 'boolean' && isExpiredRaw === true)) {
+                    expiredStatusHTML = '<span class="expired-tag">已过期</span>';
                 }
 
-                jobCard.innerHTML = cardHTML;
-                jobListDiv.appendChild(jobCard);
+                const followPromptHTML = `
+                    <div class="follow-prompt-job" onclick="openQrModal()" title="关注「白衣驿站」获取最新岗位">
+                        <span class="icon">⭐</span> 扫码关注
+                    </div>
+                `;
+                // 您可以把 <span class="icon">⭐</span> 替换为 <img src="your-wechat-icon.png" class="icon-img"> 如果有图标的话。
+                // .icon-img { width: 14px; height: 14px; vertical-align: middle; margin-right: 3px; }
+
+                jobDiv.innerHTML = `
+                    ${followPromptHTML}
+                    <h3>${position}${expiredStatusHTML}</h3>
+                    <p class="job-detail"><strong>医院:</strong> ${hospitalDisplay}</p>
+                    <p class="job-detail"><strong>岗位大类:</strong> ${category}</p>
+                    <p class="job-detail"><strong>学历要求:</strong> ${education}</p>
+                    <p class="job-detail"><strong>专业要求:</strong> ${major}</p>
+                    <p class="job-detail"><strong>招聘人数:</strong> ${numRecruit}</p>
+                    <p class="job-detail"><strong>职称要求:</strong> ${titleReq}</p>
+                    ${otherCond !== 'N/A' && otherCond ? `<p class="job-detail"><strong>其他条件:</strong> ${otherCond}</p>` : ''}
+                    <p class="job-detail"><strong>发布日期:</strong> ${pubDate}</p>
+                    <p class="job-detail"><strong>截止日期:</strong> ${deadline}</p>
+                    ${sourceUrl ? `<p class="job-detail source-link"><strong>报名方式:</strong> <a href="${sourceUrl}" target="_blank">点击查看官网/报名</a></p>` : ''}
+                `;
+                container.appendChild(jobDiv);
             });
         }
 
-        function filterJobs() {
-            const filterValue = document.getElementById('filterInput').value.toLowerCase().trim();
-            let filteredJobs;
-
-            if (!filterValue) {
-                filteredJobs = allJobsData;
+        function updateResultsInfo(foundCount, totalCount) {
+            const resultsInfoDiv = document.getElementById('resultsInfo');
+            const searchTerm = document.getElementById('searchInput').value.trim();
+            if (searchTerm === '') {
+                 resultsInfoDiv.textContent = `当前展示 ${foundCount} 条最新岗位信息 (共 ${totalCount} 条)。数据按更新时间排序。`;
             } else {
-                const keywords = filterValue.split(/\s+/).filter(k => k); // 支持多个空格分隔的关键词
-                filteredJobs = allJobsData.filter(job => {
-                    return keywords.every(keyword => // 所有关键词都必须匹配
-                        Object.values(job).some(value =>
-                            String(value).toLowerCase().includes(keyword)
-                        )
-                    );
-                });
+                 resultsInfoDiv.textContent = `在 ${totalCount} 条信息中，共找到 ${foundCount} 条与 "${searchTerm}" 相关的岗位。`;
             }
-            displayJobs(filteredJobs);
         }
 
-        // 页面加载完成后执行
-        window.onload = loadAndDisplayJobs;
-    </script>
+        function searchJobs() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            if (!searchTerm) {
+                displayedJobs = [...allJobsData];
+                displayJobs(displayedJobs);
+                updateResultsInfo(displayedJobs.length, allJobsData.length);
+                return;
+            }
+            displayedJobs = allJobsData.filter(job => {
+                return [
+                    getJobProperty(job, COL_POSITION, ''),
+                    getJobProperty(job, COL_HOSPITAL, ''),
+                    getJobProperty(job, COL_PROVINCE, ''),
+                    getJobProperty(job, COL_REGION, ''),
+                    getJobProperty(job, COL_MAJOR, ''),
+                    getJobProperty(job, COL_CATEGORY, ''),
+                    getJobProperty(job, COL_EDUCATION, ''),
+                    getJobProperty(job, COL_OTHER_COND, ''),
+                    getJobProperty(job, COL_TITLE_REQ, '')
+                ].some(field => field.toString().toLowerCase().includes(searchTerm));
+            });
+            displayJobs(displayedJobs);
+            updateResultsInfo(displayedJobs.length, allJobsData.length);
+        }
 
+        document.getElementById('searchButton').addEventListener('click', searchJobs);
+        document.getElementById('searchInput').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                searchJobs();
+                event.preventDefault();
+            }
+        });
+
+        // Modal Getters
+        const modal = document.getElementById("qrModal");
+        const closeBtn = document.getElementsByClassName("close-button")[0];
+
+        // Function to open modal
+        function openQrModal() {
+            if(modal) modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        if(closeBtn) {
+            closeBtn.onclick = function() {
+                if(modal) modal.style.display = "none";
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                if(modal) modal.style.display = "none";
+            }
+        }
+
+        window.onload = loadJobsData;
+    </script>
 </body>
 </html>
