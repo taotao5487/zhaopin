@@ -8,7 +8,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # --- 配置 ---
 # 使用 os.path.join 来构建路径，这样更跨平台且不易出错
-excel_file_path = os.path.join(script_dir, '/Users/xiongtao/Documents/招聘网站信息/招聘文本分类呀/汇总招聘信息.xlsx') # 假设 Excel 在同级目录
+excel_file_path = os.path.join(script_dir, 'E:\my_recruitment_calagaru\汇总招聘信息.xlsx') # 假设 Excel 在同级目录
 json_file_path = os.path.join(script_dir, 'jobs_data.json')   # JSON 也输出到同级目录
 
 sheet_name = 0  # Excel 工作表索引或名称
