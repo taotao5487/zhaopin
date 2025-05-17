@@ -25,17 +25,25 @@
             color: #2a8c6d;
             margin-bottom: 10px;
         }
+        /* --- Last Updated Info --- */
+        .last-updated-text {
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 18px; /* Space before filters */
+            margin-top: -5px; /* Pull closer to H1 */
+        }
         /* --- Top QR Code Section --- */
         .top-qr-code-section {
             padding: 5px;
             background-color: #e6f4f0;
             border-radius: 8px;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 10px; /* Adjusted margin */
             border: 1px dashed #34a884;
         }
         .top-qr-code-section img {
-            max-width: 60px; /* Slightly larger QR code */
+            max-width: 60px;
             height: auto;
             margin-bottom: 5px;
             border: 1px solid #ccc;
@@ -52,17 +60,39 @@
             font-weight: normal;
         }
 
-        .search-area {
+        .filter-area {
             display: flex;
+            flex-wrap: wrap;
             gap: 10px;
             margin-bottom: 20px;
+            padding: 15px;
+            background-color: #eef3f1;
+            border-radius: 6px;
         }
-        #searchInput {
-            flex-grow: 1;
-            padding: 10px;
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            flex-basis: calc(33.333% - 10px);
+            min-width: 150px;
+        }
+        .filter-group label {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 4px;
+        }
+        .filter-group select, .filter-group input {
+            padding: 9px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            font-size: 16px;
+            font-size: 15px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .search-button-container {
+            display: flex;
+            align-items: flex-end;
+            flex-basis: 100%;
+            margin-top: 10px;
         }
         #searchButton {
             padding: 10px 20px;
@@ -72,10 +102,12 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
+            width: 100%;
         }
         #searchButton:hover {
             background-color: #2a8c6d;
         }
+
         .job-listing {
             border: 1px solid #e0e0e0;
             padding: 15px;
@@ -86,7 +118,7 @@
         }
         .job-listing h3 {
             margin-top: 0;
-            margin-right: 100px; /* Space for the follow prompt */
+            margin-right: 100px;
             color: #34a884;
         }
         .job-listing p {
@@ -115,7 +147,6 @@
         .job-listing .source-link a:hover {
             background-color: #0056b3;
         }
-        /* --- Follow Prompt on each job --- */
         .follow-prompt-job {
             position: absolute;
             top: 10px;
@@ -132,7 +163,7 @@
         .follow-prompt-job:hover {
             background-color: #2a8c6d;
         }
-        .follow-prompt-job .icon { /* Optional: if you add an icon */
+        .follow-prompt-job .icon {
             margin-right: 3px;
         }
 
@@ -168,7 +199,6 @@
             background-color: #2a8c6d;
         }
 
-        /* --- Modal Styles --- */
         .modal {
             display: none;
             position: fixed;
@@ -179,7 +209,7 @@
             height: 100%;
             overflow: auto;
             background-color: rgba(0,0,0,0.7);
-            padding-top: 60px; /* Location of the box */
+            padding-top: 60px;
         }
         .modal-content {
             background-color: #fff;
@@ -187,14 +217,14 @@
             padding: 25px;
             border: 1px solid #888;
             width: 90%;
-            max-width: 320px; /* Optimal for QR code */
+            max-width: 320px;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
             position: relative;
         }
         .modal-content img {
-            max-width: 250px; /* QR code size in modal */
+            max-width: 250px;
             height: auto;
             margin-bottom: 15px;
             border: 1px solid #eee;
@@ -226,7 +256,6 @@
             cursor: pointer;
         }
 
-        /* --- Bottom QR Code Section (Optional or modified) --- */
         .bottom-qr-code-section {
             margin-top: 40px;
             padding: 20px;
@@ -245,7 +274,6 @@
             color: #2a8c6d;
             font-weight: bold;
         }
-
     </style>
 </head>
 <body>
@@ -258,10 +286,34 @@
         </div>
 
         <h1>医护招聘岗位信息</h1>
+        <div id="lastUpdatedInfo" class="last-updated-text"></div> <!-- 新增：数据更新日期显示位置 -->
 
-        <div class="search-area">
-            <input type="text" id="searchInput" placeholder="输入岗位、医院、地区、专业等关键词...">
-            <button id="searchButton">搜索</button>
+        <div class="filter-area">
+            <div class="filter-group">
+                <label for="provinceFilter">省/直辖市:</label>
+                <select id="provinceFilter">
+                    <option value="">全部省份</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="regionFilter">地区:</label>
+                <select id="regionFilter">
+                    <option value="">全部地区</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="categoryFilter">岗位大类:</label>
+                <select id="categoryFilter">
+                    <option value="">全部大类</option>
+                </select>
+            </div>
+            <div class="filter-group" style="flex-grow: 1;">
+                <label for="searchInput">关键词搜索:</label>
+                <input type="text" id="searchInput" placeholder="岗位、医院、专业等...">
+            </div>
+            <div class="search-button-container">
+                <button id="searchButton">搜索</button>
+            </div>
         </div>
 
         <div id="resultsInfo"></div>
@@ -269,14 +321,12 @@
             <!-- 招聘信息将在这里显示 -->
         </div>
 
-        <!-- Optional: Kept the bottom QR section, can be removed or repurposed -->
         <div class="bottom-qr-code-section" id="follow-us-qr-bottom">
             <img src="qrcode.png" alt="公众号二维码">
             <p>扫码关注「白衣驿站」，获取最新医护招聘信息！</p>
         </div>
     </div>
 
-    <!-- The Modal -->
     <div id="qrModal" class="modal">
         <div class="modal-content">
             <span class="close-button">×</span>
@@ -306,6 +356,19 @@
         const COL_IS_EXPIRED = '是否过期';
         const COL_PROCESS_TIME = '处理时间';
 
+        // 新增：仅格式化日期为 YYYY-MM-DD
+        function formatDateOnly(dateString) {
+            if (!dateString || dateString === 'N/A') return 'N/A';
+            try {
+                // 替换短横线以兼容Safari等浏览器对 new Date() 的解析
+                const date = new Date(String(dateString).replace(/-/g, "/"));
+                if (isNaN(date.getTime())) return dateString; // 如果解析失败，返回原始字符串
+                return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+            } catch (e) {
+                return dateString; // 出错也返回原始字符串
+            }
+        }
+
         async function loadJobsData() {
             try {
                 const response = await fetch('jobs_data.json');
@@ -328,24 +391,83 @@
                     } catch (e) { return 0; }
                 });
 
+                // 新增：设置数据更新日期显示
+                const lastUpdatedInfoEl = document.getElementById('lastUpdatedInfo');
+                if (allJobsData.length > 0) {
+                    const latestJob = allJobsData[0]; // 数据已按日期降序排序
+                    let latestTimestamp = getJobProperty(latestJob, COL_PROCESS_TIME, null);
+                    if (!latestTimestamp || latestTimestamp === 'N/A') {
+                        latestTimestamp = getJobProperty(latestJob, COL_PUB_DATE, null);
+                    }
+
+                    if (latestTimestamp && latestTimestamp !== 'N/A') {
+                        const displayDate = formatDateOnly(latestTimestamp);
+                        // 检查是否成功格式化为 YYYY-MM-DD
+                        if (/^\d{4}-\d{2}-\d{2}$/.test(displayDate)) {
+                            lastUpdatedInfoEl.textContent = `数据更新至: ${displayDate}`;
+                        } else {
+                            lastUpdatedInfoEl.textContent = '最新数据日期解析失败';
+                        }
+                    } else {
+                        lastUpdatedInfoEl.textContent = '数据更新日期未知';
+                    }
+                } else {
+                    lastUpdatedInfoEl.textContent = '暂无数据';
+                }
+
+                populateFilters();
                 displayedJobs = [...allJobsData];
                 displayJobs(displayedJobs);
-                updateResultsInfo(displayedJobs.length, allJobsData.length);
+                updateResultsInfo(displayedJobs.length, allJobsData.length, false);
             } catch (error) {
                 console.error("无法加载或解析招聘数据:", error);
                 document.getElementById('jobsContainer').innerHTML = '<p>抱歉，加载招聘数据失败，请刷新页面或稍后再试。</p>';
+                document.getElementById('lastUpdatedInfo').textContent = '数据加载失败';
             }
+        }
+
+        function populateFilters() {
+            const provinces = new Set();
+            const regions = new Set();
+            const categories = new Set();
+
+            allJobsData.forEach(job => {
+                const province = getJobProperty(job, COL_PROVINCE, null);
+                const region = getJobProperty(job, COL_REGION, null);
+                const category = getJobProperty(job, COL_CATEGORY, null);
+
+                if (province && province !== 'N/A') provinces.add(province);
+                if (region && region !== 'N/A') regions.add(region);
+                if (category && category !== 'N/A') categories.add(category);
+            });
+
+            populateSelectWithOptions('provinceFilter', Array.from(provinces).sort(), "全部省份");
+            populateSelectWithOptions('regionFilter', Array.from(regions).sort(), "全部地区");
+            populateSelectWithOptions('categoryFilter', Array.from(categories).sort(), "全部大类");
+        }
+
+        function populateSelectWithOptions(selectId, optionsArray, defaultOptionText) {
+            const selectElement = document.getElementById(selectId);
+            selectElement.innerHTML = `<option value="">${defaultOptionText}</option>`;
+            optionsArray.forEach(opt => {
+                if (opt) {
+                    const option = document.createElement('option');
+                    option.value = opt;
+                    option.textContent = opt;
+                    selectElement.appendChild(option);
+                }
+            });
         }
 
         function getJobProperty(job, propertyName, defaultValue = 'N/A') {
             if (job && job.hasOwnProperty(propertyName) && job[propertyName] !== null && job[propertyName] !== undefined) {
-                if (typeof job[propertyName] === 'number' && job[propertyName] === 0) return job[propertyName];
-                if (job[propertyName] !== "") return job[propertyName];
+                if (typeof job[propertyName] === 'number' && job[propertyName] === 0) return String(job[propertyName]);
+                if (job[propertyName] !== "") return String(job[propertyName]);
             }
             return defaultValue;
         }
 
-        function formatDate(dateString) {
+        function formatDate(dateString) { // This is the original detailed formatter
             if (!dateString || dateString === 'N/A') return 'N/A';
             try {
                 const date = new Date(String(dateString).replace(/-/g, "/"));
@@ -362,10 +484,9 @@
             container.innerHTML = '';
 
             if (jobs.length === 0) {
-                const searchTerm = document.getElementById('searchInput').value.trim();
                 let message = '<div class="no-results-guide">';
-                message += '<p>抱歉，没有找到符合条件的岗位信息。</p>';
-                if (searchTerm) message += `<p>您可以尝试更换关键词或减少筛选条件。</p>`;
+                message += '<p>抱歉，没有找到符合当前筛选条件的岗位信息。</p>';
+                message += `<p>您可以尝试调整筛选条件或减少关键词。</p>`;
                 message += `<p>最新招聘信息会第一时间推送到「白衣驿站」公众号。</p>`;
                 message += `<p><button class="action-button" onclick="openQrModal()">点此扫码关注</button> 获取最新动态！</p>`;
                 message += '</div>';
@@ -387,8 +508,8 @@
                 const education = getJobProperty(job, COL_EDUCATION);
                 const major = getJobProperty(job, COL_MAJOR);
                 const otherCond = getJobProperty(job, COL_OTHER_COND);
-                const pubDate = formatDate(getJobProperty(job, COL_PUB_DATE));
-                const deadline = formatDate(getJobProperty(job, COL_DEADLINE));
+                const pubDate = formatDate(getJobProperty(job, COL_PUB_DATE)); // Uses detailed formatter
+                const deadline = formatDate(getJobProperty(job, COL_DEADLINE)); // Uses detailed formatter
                 const sourceUrl = getJobProperty(job, COL_SOURCE_URL, '');
                 const isExpiredRaw = getJobProperty(job, COL_IS_EXPIRED, '未知');
 
@@ -407,8 +528,6 @@
                         <span class="icon">⭐</span> 扫码关注
                     </div>
                 `;
-                // 您可以把 <span class="icon">⭐</span> 替换为 <img src="your-wechat-icon.png" class="icon-img"> 如果有图标的话。
-                // .icon-img { width: 14px; height: 14px; vertical-align: middle; margin-right: 3px; }
 
                 jobDiv.innerHTML = `
                     ${followPromptHTML}
@@ -428,39 +547,63 @@
             });
         }
 
-        function updateResultsInfo(foundCount, totalCount) {
+        function updateResultsInfo(foundCount, totalCount, isSearching) {
             const resultsInfoDiv = document.getElementById('resultsInfo');
-            const searchTerm = document.getElementById('searchInput').value.trim();
-            if (searchTerm === '') {
+            if (!isSearching) {
                  resultsInfoDiv.textContent = `当前展示 ${foundCount} 条最新岗位信息 (共 ${totalCount} 条)。数据按更新时间排序。`;
             } else {
-                 resultsInfoDiv.textContent = `在 ${totalCount} 条信息中，共找到 ${foundCount} 条与 "${searchTerm}" 相关的岗位。`;
+                 resultsInfoDiv.textContent = `在 ${totalCount} 条信息中，根据您的筛选，共找到 ${foundCount} 条岗位。`;
             }
         }
 
         function searchJobs() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
-            if (!searchTerm) {
+            const selectedProvince = document.getElementById('provinceFilter').value;
+            const selectedRegion = document.getElementById('regionFilter').value;
+            const selectedCategory = document.getElementById('categoryFilter').value;
+
+            const isFiltering = searchTerm || selectedProvince || selectedRegion || selectedCategory;
+
+            if (!isFiltering) {
                 displayedJobs = [...allJobsData];
                 displayJobs(displayedJobs);
-                updateResultsInfo(displayedJobs.length, allJobsData.length);
+                updateResultsInfo(displayedJobs.length, allJobsData.length, false);
                 return;
             }
+
             displayedJobs = allJobsData.filter(job => {
-                return [
-                    getJobProperty(job, COL_POSITION, ''),
-                    getJobProperty(job, COL_HOSPITAL, ''),
-                    getJobProperty(job, COL_PROVINCE, ''),
-                    getJobProperty(job, COL_REGION, ''),
-                    getJobProperty(job, COL_MAJOR, ''),
-                    getJobProperty(job, COL_CATEGORY, ''),
-                    getJobProperty(job, COL_EDUCATION, ''),
-                    getJobProperty(job, COL_OTHER_COND, ''),
-                    getJobProperty(job, COL_TITLE_REQ, '')
-                ].some(field => field.toString().toLowerCase().includes(searchTerm));
+                let provinceMatch = true;
+                if (selectedProvince) {
+                    provinceMatch = (getJobProperty(job, COL_PROVINCE, '') === selectedProvince);
+                }
+
+                let regionMatch = true;
+                if (selectedRegion) {
+                    regionMatch = (getJobProperty(job, COL_REGION, '') === selectedRegion);
+                }
+
+                let categoryMatch = true;
+                if (selectedCategory) {
+                    categoryMatch = (getJobProperty(job, COL_CATEGORY, '') === selectedCategory);
+                }
+
+                let keywordMatch = true;
+                if (searchTerm) {
+                    keywordMatch = [
+                        getJobProperty(job, COL_POSITION, ''),
+                        getJobProperty(job, COL_HOSPITAL, ''),
+                        getJobProperty(job, COL_MAJOR, ''),
+                        getJobProperty(job, COL_EDUCATION, ''),
+                        getJobProperty(job, COL_OTHER_COND, ''),
+                        getJobProperty(job, COL_TITLE_REQ, '')
+                    ].some(field => field.toString().toLowerCase().includes(searchTerm));
+                }
+
+                return provinceMatch && regionMatch && categoryMatch && keywordMatch;
             });
+
             displayJobs(displayedJobs);
-            updateResultsInfo(displayedJobs.length, allJobsData.length);
+            updateResultsInfo(displayedJobs.length, allJobsData.length, true);
         }
 
         document.getElementById('searchButton').addEventListener('click', searchJobs);
@@ -471,23 +614,19 @@
             }
         });
 
-        // Modal Getters
         const modal = document.getElementById("qrModal");
         const closeBtn = document.getElementsByClassName("close-button")[0];
 
-        // Function to open modal
         function openQrModal() {
             if(modal) modal.style.display = "block";
         }
 
-        // When the user clicks on <span> (x), close the modal
         if(closeBtn) {
             closeBtn.onclick = function() {
                 if(modal) modal.style.display = "none";
             }
         }
 
-        // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {
             if (event.target == modal) {
                 if(modal) modal.style.display = "none";
