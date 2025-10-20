@@ -1,14 +1,14 @@
 import pandas as pd
 import json
 import numpy as np
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # --- 配置 ---
 # 使用 os.path.join 来构建路径，这样更跨平台且不易出错
-excel_file_path = os.path.join(script_dir, 'E:\my_recruitment_calagaru\汇总招聘信息.xlsx') # 假设 Excel 在同级目录
+excel_file_path = os.path.join(script_dir, '/Users/xiongtao/Documents/Automation of medical job postings/汇总招聘信息.xlsx') # 假设 Excel 在同级目录
 json_file_path = os.path.join(script_dir, 'jobs_data.json')   # JSON 也输出到同级目录
 
 sheet_name = 0  # Excel 工作表索引或名称
@@ -32,6 +32,48 @@ DEFAULT_EMPTY_DEADLINE_TEXT = "长期/招满即止"
 
 
 # --- 配置结束 ---
+
+def get_deadline_status(deadline_str, process_time_str):
+    """
+    根据截止日期和处理时间判断招聘状态
+    返回: ('status', 'color', 'should_display', 'is_expired')
+    status: 'urgent' (3天内截止), 'normal' (正常), 'expired' (已过期), 'long_term' (长期)
+    color: 'red', 'green', 'gray'
+    should_display: True/False (是否应该显示)
+    is_expired: '是'/'否'/'长期有效' (是否过期状态)
+    """
+    current_date = datetime.now().date()
+    
+    # 处理长期招聘
+    if deadline_str == DEFAULT_EMPTY_DEADLINE_TEXT or not deadline_str or deadline_str == 'N/A':
+        # 对于长期招聘，检查处理时间是否超过一个月
+        if process_time_str and process_time_str != 'N/A':
+            try:
+                process_date = datetime.strptime(process_time_str, '%Y-%m-%d %H:%M:%S').date()
+                if current_date - process_date > timedelta(days=30):
+                    return 'long_term_expired', 'gray', False, '长期有效(超过30天)'
+                else:
+                    return 'long_term', 'green', True, '长期有效'
+            except:
+                return 'long_term', 'green', True, '长期有效'
+        return 'long_term', 'green', True, '长期有效'
+    
+    # 处理有明确截止日期的招聘
+    try:
+        deadline_date = datetime.strptime(deadline_str, '%Y-%m-%d').date()
+        days_diff = (deadline_date - current_date).days
+        
+        if days_diff < -7:  # 过期超过7天
+            return 'expired_old', 'gray', False, '是'
+        elif days_diff < 0:  # 已过期但不超过7天
+            return 'expired', 'gray', True, '是'
+        elif days_diff <= 3:  # 3天内截止
+            return 'urgent', 'red', True, '否'
+        else:  # 正常
+            return 'normal', 'green', True, '否'
+    except:
+        # 日期格式错误，按长期处理
+        return 'long_term', 'green', True, '日期格式错误'
 
 def safe_convert_to_datetime_and_format(value, target_format):
     """
@@ -109,14 +151,103 @@ try:
                 processed_record[key] = value
         processed_records.append(processed_record)
 
-    final_records = processed_records
+    # 添加状态判断和过滤
+    filtered_records = []
+    for record in processed_records:
+        deadline = record.get(COL_DEADLINE, '')
+        process_time = record.get(COL_PROCESS_TIME, '')
+        
+        status, color, should_display, is_expired = get_deadline_status(deadline, process_time)
+        
+        if should_display:
+            record['招聘状态'] = status
+            record['状态颜色'] = color
+            record['是否过期'] = is_expired
+            filtered_records.append(record)
+    
+    # 按医院分组
+    hospitals_data = {}
+    for record in filtered_records:
+        hospital_name = record.get('医院名称', '未知医院')
+        if hospital_name not in hospitals_data:
+            hospitals_data[hospital_name] = {
+                'hospital_name': hospital_name,
+                'province': record.get('省/直辖市', ''),
+                'region': record.get('地区', ''),
+                'jobs': [],
+                'total_jobs': 0,
+                'urgent_count': 0,
+                'normal_count': 0,
+                'expired_count': 0,
+                'latest_process_time': None,
+                'earliest_deadline': None
+            }
+        
+        hospitals_data[hospital_name]['jobs'].append(record)
+        hospitals_data[hospital_name]['total_jobs'] += 1
+        
+        # 统计各状态数量
+        status = record.get('招聘状态', '')
+        if status == 'urgent':
+            hospitals_data[hospital_name]['urgent_count'] += 1
+        elif status in ['normal', 'long_term']:
+            hospitals_data[hospital_name]['normal_count'] += 1
+        elif status in ['expired']:
+            hospitals_data[hospital_name]['expired_count'] += 1
+        
+        # 更新最新处理时间
+        process_time = record.get('处理时间')
+        if process_time and process_time != 'N/A':
+            try:
+                process_date = datetime.strptime(process_time, '%Y-%m-%d %H:%M:%S')
+                if hospitals_data[hospital_name]['latest_process_time'] is None or process_date > hospitals_data[hospital_name]['latest_process_time']:
+                    hospitals_data[hospital_name]['latest_process_time'] = process_date
+            except:
+                pass
+        
+        # 更新最早截止时间（用于显示）
+        deadline = record.get('截止日期')
+        if deadline and deadline != 'N/A' and deadline != '长期/招满即止':
+            try:
+                deadline_date = datetime.strptime(deadline, '%Y-%m-%d')
+                if hospitals_data[hospital_name]['earliest_deadline'] is None or deadline_date < hospitals_data[hospital_name]['earliest_deadline']:
+                    hospitals_data[hospital_name]['earliest_deadline'] = deadline_date
+            except:
+                pass
+    
+    # 转换为列表并按最新处理时间排序
+    hospitals_list = list(hospitals_data.values())
+    
+    # 按最新处理时间降序排序（最新的在前面）
+    hospitals_list.sort(key=lambda x: x['latest_process_time'] if x['latest_process_time'] else datetime.min, reverse=True)
+    
+    # 格式化时间字段为字符串
+    for hospital in hospitals_list:
+        if hospital['latest_process_time']:
+            hospital['latest_process_time'] = hospital['latest_process_time'].strftime('%Y-%m-%d %H:%M:%S')
+        else:
+            hospital['latest_process_time'] = 'N/A'
+        
+        if hospital['earliest_deadline']:
+            hospital['earliest_deadline'] = hospital['earliest_deadline'].strftime('%Y-%m-%d')
+        else:
+            hospital['earliest_deadline'] = 'N/A'
+    
+    # 转换为列表格式，按医院名称排序
+    final_data = {
+        'hospitals': hospitals_list,
+        'total_hospitals': len(hospitals_data),
+        'total_jobs': len(filtered_records),
+        'last_updated': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    }
 
-    # 将处理后的字典列表写入 JSON 文件
+    # 将数据写入 JSON 文件
     with open(json_file_path, 'w', encoding='utf-8') as f:
-        json.dump(final_records, f, ensure_ascii=False, indent=4)
+        json.dump(final_data, f, ensure_ascii=False, indent=4)
 
     print(f"成功将 Excel 文件 '{excel_file_path}' 转换为 JSON 文件 '{json_file_path}'")
-    print(f"共转换了 {len(final_records)} 条记录。")
+    print(f"共处理了 {len(processed_records)} 条原始记录，过滤后保留 {len(filtered_records)} 条有效记录。")
+    print(f"按医院分组后共有 {len(hospitals_data)} 家医院的招聘信息。")
 
 except FileNotFoundError:
     print(f"错误：未找到 Excel 文件 '{excel_file_path}'。请检查文件名和路径是否正确。")
