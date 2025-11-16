@@ -1,6 +1,38 @@
 {
     "hospitals": [
         {
+            "hospital_name": "四川天府新区永兴卫生院",
+            "province": "四川省",
+            "region": "成都市",
+            "jobs": [
+                {
+                    "医院名称": "四川天府新区永兴卫生院",
+                    "省/直辖市": "四川省",
+                    "地区": "成都市",
+                    "岗位名称": "护士",
+                    "岗位大类": "护理类",
+                    "职称要求": "不限",
+                    "招聘人数": "2",
+                    "学历（学位）": "大专及以上",
+                    "专业": "护理/护理学",
+                    "其他条件": "1.1995年1月1日之后出生；2.具有护士执业资格证；3.能熟练开展护理临床操作；4.能适应住院部倒班工作制。",
+                    "发布日期": null,
+                    "截止日期": "2025-11-21",
+                    "来源url": "https://mp.weixin.qq.com/s/3GEnYUaaWUxtSiuGQqgv3w",
+                    "是否过期": "否",
+                    "处理时间": "2025-11-16 15:54:44",
+                    "招聘状态": "normal",
+                    "状态颜色": "green"
+                }
+            ],
+            "total_jobs": 1,
+            "urgent_count": 0,
+            "normal_count": 1,
+            "expired_count": 0,
+            "latest_process_time": "2025-11-16 15:54:44",
+            "earliest_deadline": "2025-11-21"
+        },
+        {
             "hospital_name": "成都市成华区妇幼保健院",
             "province": "四川省",
             "region": "成都市",
@@ -26156,7 +26188,7 @@
             "earliest_deadline": "2025-12-31"
         }
     ],
-    "total_hospitals": 185,
-    "total_jobs": 1250,
-    "last_updated": "2025-11-16 15:16:13"
+    "total_hospitals": 186,
+    "total_jobs": 1251,
+    "last_updated": "2025-11-16 16:01:20"
 }
