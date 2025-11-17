@@ -418,20 +418,20 @@
                     "专业": "临床医师全科医学执业范围",
                     "其他条件": "年龄45周岁以下，爱岗敬业、积极向上、身体健康；取得医师资格证、执业医师证，有外科工作经验、心内科工作经验及住院医师规范化培训者优先，要求能承担日常门诊工作，能独立值班。",
                     "发布日期": null,
-                    "截止日期": "2025-11-17",
+                    "截止日期": "长期/招满即止",
                     "来源url": "https://www.fsthr.com/post/item.html?postID=25534",
-                    "是否过期": "否",
+                    "是否过期": "长期有效",
                     "处理时间": "2025-11-17 22:53:41",
-                    "招聘状态": "urgent",
-                    "状态颜色": "red"
+                    "招聘状态": "long_term",
+                    "状态颜色": "green"
                 }
             ],
             "total_jobs": 1,
-            "urgent_count": 1,
-            "normal_count": 0,
+            "urgent_count": 0,
+            "normal_count": 1,
             "expired_count": 0,
             "latest_process_time": "2025-11-17 22:53:41",
-            "earliest_deadline": "2025-11-17"
+            "earliest_deadline": "N/A"
         },
         {
             "hospital_name": "重庆大学附属中心医院",
@@ -25113,5 +25113,5 @@
     ],
     "total_hospitals": 185,
     "total_jobs": 1195,
-    "last_updated": "2025-11-17 23:06:17"
+    "last_updated": "2025-11-17 23:07:13"
 }
