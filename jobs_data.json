@@ -1,6 +1,38 @@
 {
     "hospitals": [
         {
+            "hospital_name": "重庆市万州区第一人民医院",
+            "province": "重庆市",
+            "region": "万州区",
+            "jobs": [
+                {
+                    "医院名称": "重庆市万州区第一人民医院",
+                    "省/直辖市": "重庆市",
+                    "地区": "万州区",
+                    "岗位名称": "临床医师",
+                    "岗位大类": "医师类",
+                    "职称要求": "不限",
+                    "招聘人数": "2",
+                    "学历（学位）": "本科",
+                    "专业": "临床医学专业（内科方向或全科方向）",
+                    "其他条件": "年龄40周岁及以下；取得执业医师资格证书；遵守宪法和法律；具有良好的品行；适应岗位要求的身体条件。",
+                    "发布日期": null,
+                    "截止日期": "2025-12-26",
+                    "来源url": "https://mp.weixin.qq.com/s/EIDanA6nWi8NxX4cgSaBTg?scene=25#wechat_redirect",
+                    "是否过期": "否",
+                    "处理时间": "2025-12-21 19:37:27",
+                    "招聘状态": "normal",
+                    "状态颜色": "green"
+                }
+            ],
+            "total_jobs": 1,
+            "urgent_count": 0,
+            "normal_count": 1,
+            "expired_count": 0,
+            "latest_process_time": "2025-12-21 19:37:27",
+            "earliest_deadline": "2025-12-26"
+        },
+        {
             "hospital_name": "四川大学华西医院营山医院",
             "province": "四川省",
             "region": "南充市",
@@ -123,8 +155,8 @@
                     "来源url": "https://mp.weixin.qq.com/s/gxYGXERcJKrp49yiIWqVUg?scene=25#wechat_redirect",
                     "是否过期": "否",
                     "处理时间": "2025-12-20 18:28:09",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 },
                 {
                     "医院名称": "重庆市九龙坡区中医院",
@@ -142,8 +174,8 @@
                     "来源url": "https://mp.weixin.qq.com/s/gxYGXERcJKrp49yiIWqVUg?scene=25#wechat_redirect",
                     "是否过期": "否",
                     "处理时间": "2025-12-20 18:28:09",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 },
                 {
                     "医院名称": "重庆市九龙坡区中医院",
@@ -161,13 +193,13 @@
                     "来源url": "https://mp.weixin.qq.com/s/gxYGXERcJKrp49yiIWqVUg?scene=25#wechat_redirect",
                     "是否过期": "否",
                     "处理时间": "2025-12-20 18:28:09",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 }
             ],
             "total_jobs": 3,
-            "urgent_count": 0,
-            "normal_count": 3,
+            "urgent_count": 3,
+            "normal_count": 0,
             "expired_count": 0,
             "latest_process_time": "2025-12-20 18:28:09",
             "earliest_deadline": "2025-12-24"
@@ -2755,8 +2787,8 @@
                     "来源url": "https://www.pidu.gov.cn/pidu/c125577/2025-12/18/content_2c68e9756a1b466d82f155cab4e92e60.shtml",
                     "是否过期": "否",
                     "处理时间": "2025-12-18 19:19:48",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 },
                 {
                     "医院名称": "成都子归人才发展有限公司",
@@ -2774,8 +2806,8 @@
                     "来源url": "https://www.pidu.gov.cn/pidu/c125577/2025-12/18/content_2c68e9756a1b466d82f155cab4e92e60.shtml",
                     "是否过期": "否",
                     "处理时间": "2025-12-18 19:19:49",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 },
                 {
                     "医院名称": "成都子归人才发展有限公司",
@@ -2793,13 +2825,13 @@
                     "来源url": "https://www.pidu.gov.cn/pidu/c125577/2025-12/18/content_2c68e9756a1b466d82f155cab4e92e60.shtml",
                     "是否过期": "否",
                     "处理时间": "2025-12-18 19:19:51",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 }
             ],
             "total_jobs": 3,
-            "urgent_count": 0,
-            "normal_count": 3,
+            "urgent_count": 3,
+            "normal_count": 0,
             "expired_count": 0,
             "latest_process_time": "2025-12-18 19:19:51",
             "earliest_deadline": "2025-12-24"
@@ -11939,8 +11971,8 @@
                     "来源url": "https://www.msfybj.com/news_job/2025/ZdPZKWaK.html",
                     "是否过期": "否",
                     "处理时间": "2025-12-09 17:54:31",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 },
                 {
                     "医院名称": "四川大学华西第二医院眉山市妇女儿童医院",
@@ -11958,13 +11990,13 @@
                     "来源url": "https://www.msfybj.com/news_job/2025/ZdPZKWaK.html",
                     "是否过期": "否",
                     "处理时间": "2025-12-09 17:54:31",
-                    "招聘状态": "normal",
-                    "状态颜色": "green"
+                    "招聘状态": "urgent",
+                    "状态颜色": "red"
                 }
             ],
             "total_jobs": 2,
-            "urgent_count": 0,
-            "normal_count": 2,
+            "urgent_count": 2,
+            "normal_count": 0,
             "expired_count": 0,
             "latest_process_time": "2025-12-09 17:54:31",
             "earliest_deadline": "2025-12-24"
@@ -19133,7 +19165,7 @@
             "earliest_deadline": "2025-12-31"
         }
     ],
-    "total_hospitals": 130,
-    "total_jobs": 918,
-    "last_updated": "2025-12-20 18:40:11"
+    "total_hospitals": 131,
+    "total_jobs": 919,
+    "last_updated": "2025-12-21 19:38:28"
 }
