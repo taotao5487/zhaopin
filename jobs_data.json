@@ -49,20 +49,20 @@
                     "专业": null,
                     "其他条件": "年龄要求详见附件1；需提供二级级以上综合医院2年以上内科工作经历证明；需提供执业证书、资格证书、规培证书；副高级职称及以上职称、硕士研究生及以上学历只进行面试。",
                     "发布日期": null,
-                    "截止日期": "2026-02-05",
+                    "截止日期": "长期/招满即止",
                     "来源url": "http://www.dymhc.cn/Html/NewsView.asp?ID=1716&SortID=22",
-                    "是否过期": "否",
+                    "是否过期": "长期有效",
                     "处理时间": "2026-02-05 20:48:25",
-                    "招聘状态": "urgent",
-                    "状态颜色": "red"
+                    "招聘状态": "long_term",
+                    "状态颜色": "green"
                 }
             ],
             "total_jobs": 1,
-            "urgent_count": 1,
-            "normal_count": 0,
+            "urgent_count": 0,
+            "normal_count": 1,
             "expired_count": 0,
             "latest_process_time": "2026-02-05 20:48:25",
-            "earliest_deadline": "2026-02-05"
+            "earliest_deadline": "N/A"
         },
         {
             "hospital_name": "四川大学华西医院",
@@ -21723,5 +21723,5 @@
     ],
     "total_hospitals": 275,
     "total_jobs": 955,
-    "last_updated": "2026-02-05 20:54:12"
+    "last_updated": "2026-02-05 20:58:25"
 }
