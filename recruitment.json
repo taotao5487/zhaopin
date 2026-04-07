@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-07 13:50:03",
-  "count": 69,
+  "generated_at": "2026-04-07 13:51:13",
+  "count": 104,
   "items": [
     {
       "title": "两江新区多岗位招聘！速看→",
@@ -19,12 +19,36 @@
       "source_type": "rss"
     },
     {
-      "title": "招54人！重庆市荣昌区人民医院2026年招聘正式启动",
+      "title": "四川大学华西医院陈蕾教授常年招聘专职博士后",
+      "url": "https://www.wchscu.cn/public/notice/recruit/91345.html",
+      "source_name": "四川大学华西医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775224708,
+      "source_type": "crawler"
+    },
+    {
+      "title": "重庆市荣昌区人民医院2026年临床医师招聘",
       "url": "https://mp.weixin.qq.com/s/Aj-Onoee9vLfxRXIpgKTlQ",
       "source_name": "重庆市荣昌区人民医院",
       "publish_date": "2026-04-03",
-      "publish_timestamp": 1775212658,
-      "source_type": "rss"
+      "publish_timestamp": 1775224692,
+      "source_type": "crawler"
+    },
+    {
+      "title": "重庆市荣昌区人民医院2026年4月感染性疾病科艾滋病门诊数据统计员招聘启事",
+      "url": "https://mp.weixin.qq.com/s/hT38OvHlJM-g0wPYkEmxTg",
+      "source_name": "重庆市荣昌区人民医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775224692,
+      "source_type": "crawler"
+    },
+    {
+      "title": "重庆医科大学附属大学城医院妇产科全职博士后招聘启事",
+      "url": "http://www.uhcmu.com/info/1259/13109.htm",
+      "source_name": "重庆医科大学附属大学城医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775224675,
+      "source_type": "crawler"
     },
     {
       "title": "绵阳万江眼科医院关于招聘眼科医师等岗位的公告",
@@ -33,6 +57,70 @@
       "publish_date": "2026-04-03",
       "publish_timestamp": 1775211012,
       "source_type": "rss"
+    },
+    {
+      "title": "重庆两江新区金山社区卫生服务中心招募简章",
+      "url": "https://www.cqljzp.com/announcement/index.php?id=1618",
+      "source_name": "两江新区人才招聘",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205973,
+      "source_type": "crawler"
+    },
+    {
+      "title": "川北医学院附属医院2026年度招聘公告2026.04.03",
+      "url": "https://www.hospital-nsmc.com.cn/hzb_rcgz_tzgg/010062100013225.html",
+      "source_name": "川北医学院附属医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205902,
+      "source_type": "crawler"
+    },
+    {
+      "title": "自贡市第一人民医院招收2026年药师、康复治疗师、眼视光技师、医学影像技师、检验技师规范化培训学员公告",
+      "url": "https://www.zgno1hos.com.cn/details/yygg/zxls/3578377.html",
+      "source_name": "自贡市第一人民医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205856,
+      "source_type": "crawler"
+    },
+    {
+      "title": "华西医院胸部肿瘤研究所程青课题组招聘启事",
+      "url": "https://www.wchscu.cn/public/notice/recruit/91323.html",
+      "source_name": "四川大学华西医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205805,
+      "source_type": "crawler"
+    },
+    {
+      "title": "四川省医学科学院·四川省人民医院关于延长神经外科医师招聘报名时间的补充公告",
+      "url": "https://www.samsph.cn/hos_hr/2026/mepmqraM.html",
+      "source_name": "四川省医学科学院·四川省人民医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205796,
+      "source_type": "crawler"
+    },
+    {
+      "title": "重庆小蚂蚁人力资源服务集团有限公司公开招...",
+      "url": "http://www.hcrmyy.cn/list/287/5452.html",
+      "source_name": "重庆市合川区人民医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205788,
+      "source_type": "crawler"
+    },
+    {
+      "title": "重庆医科大学附属璧山医院2026年上半年编外人才招聘正式启动",
+      "url": "https://www.bsrmyy.com/rczp/zpgg/content_473801",
+      "source_name": "重庆医科大学附属璧山医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205787,
+      "source_type": "crawler"
+    },
+    {
+      "title": "重庆市江津区中心医院 2026年护士规范化培训招生简章重庆市江津区中心医院为重庆市护士规范化培训基地，根据重庆市卫生健康委员会《关于开展2026年重庆市护士规范化培训招收工作的通知》，现将我院2026年护士规范化培训招生事宜公布如下：一、培训目的经过规范的临床..发布时间：2026-04-03访问人数：16",
+      "url": "http://www.jjhospital.com.cn/html/content/26/04/28133.shtml",
+      "source_name": "重庆大学附属江津医院",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775205785,
+      "source_type": "crawler"
     },
     {
       "title": "招聘公告 | 四川省儿童医院（四川省儿童医学中心）2026年心理治疗师招聘公告",
@@ -91,6 +179,62 @@
       "source_type": "rss"
     },
     {
+      "title": "中心公开招募高层次人才公告",
+      "url": "https://www.cqgwzx.com/article-detail?id=5776",
+      "source_name": "重庆市公共卫生医疗救助中心",
+      "publish_date": "2026-04-03",
+      "publish_timestamp": 1775177266,
+      "source_type": "crawler"
+    },
+    {
+      "title": "绵阳市骨科医院见习人员招募公告",
+      "url": "https://www.scsmysgkyy.cn/index.php?m=content&c=index&a=show&catid=20&id=261",
+      "source_name": "绵阳市骨科医院",
+      "publish_date": "2026-04-02",
+      "publish_timestamp": 1775125634,
+      "source_type": "crawler"
+    },
+    {
+      "title": "2026年上半年成都市温江区面向社会考核招聘副高级及以上职称教师公告",
+      "url": "https://www.wenjiang.gov.cn/wjqrmzf/c177205/2026-04/02/content_b7e132345dd44eadbf20b29e93f6e242.shtml",
+      "source_name": "成都市人力资源和社会保障局",
+      "publish_date": "2026-04-02",
+      "publish_timestamp": 1775125607,
+      "source_type": "crawler"
+    },
+    {
+      "title": "2026年4月诚聘医师助理的公告",
+      "url": "https://www.sczy120.com/rcyj_zpgg1/2026/kaz70rbJ.html",
+      "source_name": "资阳市中心医院",
+      "publish_date": "2026-04-02",
+      "publish_timestamp": 1775125551,
+      "source_type": "crawler"
+    },
+    {
+      "title": "自贡市第四人民医院2026年技师及药师规范化培训招生简章",
+      "url": "https://www.zg120.cn/Di/Jobs/Details/00310033003400310036.html",
+      "source_name": "自贡市第四人民医院",
+      "publish_date": "2026-04-02",
+      "publish_timestamp": 1775125481,
+      "source_type": "crawler"
+    },
+    {
+      "title": "自贡市第一人民医院2026年住院医师规范化培训招收简章（第四批）",
+      "url": "https://www.zgno1hos.com.cn/details/yygg/zxls/36524663.html",
+      "source_name": "自贡市第一人民医院",
+      "publish_date": "2026-04-02",
+      "publish_timestamp": 1775125480,
+      "source_type": "crawler"
+    },
+    {
+      "title": "四川省八一康复中心（四川省康复医院）2026年公开招聘工作人员（编制外）公告2026-04-01",
+      "url": "https://mp.weixin.qq.com/s/eztlNeZ9gEYgFJCxLTRluQ",
+      "source_name": "四川省八一康复中心（四川省康复医院）",
+      "publish_date": "2026-04-02",
+      "publish_timestamp": 1775125459,
+      "source_type": "crawler"
+    },
+    {
       "title": "重庆市九龙坡区中医院招聘公告",
       "url": "https://mp.weixin.qq.com/s/VZ_gaVSbHQV0l3tMilkRcw",
       "source_name": "重庆九龙坡区中医院",
@@ -121,6 +265,78 @@
       "publish_date": "2026-04-02",
       "publish_timestamp": 1775098139,
       "source_type": "rss"
+    },
+    {
+      "title": "乐山市沙湾区医疗集团 （乐山市沙湾区人民医院）招聘公告",
+      "url": "https://www.swqrmyy.cn/nd.jsp?fromColId=126&id=582#_np=126_573",
+      "source_name": "乐山市沙湾区人民医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049996,
+      "source_type": "crawler"
+    },
+    {
+      "title": "202604-01成都市青白江区中医医院集团2026年第二季度编外人员招聘公告因业务发展需要，现面向社会公开招聘编外人员31名，本次公开招聘为院内自主招聘，招聘的人员按合同制管理，现将相关事项公告如下：\n\n一、招聘岗位及名额\n\n卫生专业技术人员共计31名，其中集团中医医院8名，集团清泉医院19名，集团红阳医院1名、集团福洪医院1名、集团弥牟医院2名。\n\n二、报名条件\n\n（一）政治要求。政治思想素质好，认真贯彻执行党的路线、方针、政策，遵纪守法，德才兼备。\n\n（二）健康状况。身体健康，具有正常履行招聘岗位的身体条件，体检合格。\n\n（三）学历条件。具体学历条件详见附件。经",
+      "url": "https://www.qbjzyy.cn/go.htm?url=new_detail&ctype=article&id=76147",
+      "source_name": "成都青白江区中医医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049988,
+      "source_type": "crawler"
+    },
+    {
+      "title": "成都市郫都区人民医院 关于招聘辅助岗位职工的公告",
+      "url": "https://www.pdqrmyy.cn/show/2026/04/01/1594.html",
+      "source_name": "成都市郫都区人民医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049951,
+      "source_type": "crawler"
+    },
+    {
+      "title": "广元市第一人民医院 2026年度非在编工作人员自主招聘公告（第三批）",
+      "url": "https://www.gys072.cn/article.html?id=39854",
+      "source_name": "广元市第一人民医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049870,
+      "source_type": "crawler"
+    },
+    {
+      "title": "自贡市中医医院2026年编外人员招聘工作公告",
+      "url": "https://www.zgszyyy.cn/zp-View-191-15153.html",
+      "source_name": "自贡市中医医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049849,
+      "source_type": "crawler"
+    },
+    {
+      "title": "刘吉峰主任医师课题组专职博士后招聘启事",
+      "url": "https://www.wchscu.cn/public/notice/recruit/91289.html",
+      "source_name": "四川大学华西医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049812,
+      "source_type": "crawler"
+    },
+    {
+      "title": "招聘公告 | 成都中医药大学附属医院（四川省中医医院）2026年春季招聘",
+      "url": "https://mp.weixin.qq.com/s/KxnkEq47iDW__vpg2ik9rQ",
+      "source_name": "成都中医药大学附属医院（四川省中医医院  成都中医药大学附属医院（四川省中医医院）互联网医院）",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049807,
+      "source_type": "crawler"
+    },
+    {
+      "title": "四川省医学科学院·四川省人民医院神经外科医师招聘公告",
+      "url": "https://www.samsph.cn/hos_hr/2026/Xe07mGdx.html",
+      "source_name": "四川省医学科学院·四川省人民医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049804,
+      "source_type": "crawler"
+    },
+    {
+      "title": "四川省医医学验光配镜眼镜有限公司招聘信息",
+      "url": "https://www.samsph.cn/hos_hr/2026/nelgmJdK.html",
+      "source_name": "四川省医学科学院·四川省人民医院",
+      "publish_date": "2026-04-01",
+      "publish_timestamp": 1775049804,
+      "source_type": "crawler"
     },
     {
       "title": "31名！成都市青白江区中医医院集团2026年第二季度编外人员招聘公告",
@@ -171,6 +387,62 @@
       "source_type": "rss"
     },
     {
+      "title": "宜宾市第四人民医院2026年第二次公开招募就业见习人员公告2026-03-31",
+      "url": "https://www.ybsdsrmyy.com/job/1800.html",
+      "source_name": "宜宾市第四人民医院",
+      "publish_date": "2026-03-31",
+      "publish_timestamp": 1774938254,
+      "source_type": "crawler"
+    },
+    {
+      "title": ">泸县第二人民医院招聘公告",
+      "url": "https://www.lxery.com/go.htm?url=home_detail&ctype=article&id=74733&k=zhao_pin_xin_xi",
+      "source_name": "泸县第二人民医院",
+      "publish_date": "2026-03-31",
+      "publish_timestamp": 1774938225,
+      "source_type": "crawler"
+    },
+    {
+      "title": "自贡市第四人民医院辅助性岗位人员招聘公告",
+      "url": "https://www.zg120.cn/Di/Jobs/Details/00310033003300390034.html",
+      "source_name": "自贡市第四人民医院",
+      "publish_date": "2026-03-31",
+      "publish_timestamp": 1774938207,
+      "source_type": "crawler"
+    },
+    {
+      "title": "重庆大学附属江津医院 2026年医院自聘岗位招聘简章发布时间：2026-03-31访问人数：7",
+      "url": "http://www.jjhospital.com.cn/html/content/26/03/28119.shtml",
+      "source_name": "重庆大学附属江津医院",
+      "publish_date": "2026-03-31",
+      "publish_timestamp": 1774938163,
+      "source_type": "crawler"
+    },
+    {
+      "title": "德阳市人民医院非全日制工作人员招聘公告",
+      "url": "https://www.dy120.net/yygg_zpgg/010038300023416.html",
+      "source_name": "德阳市人民医院",
+      "publish_date": "2026-03-30",
+      "publish_timestamp": 1774866799,
+      "source_type": "crawler"
+    },
+    {
+      "title": "成都市第六人民医院2026年护士规范化培训招收简章2026.03.30",
+      "url": "https://www.cd6hospital.cn/gzb_ywgk_zbzp2_zpgs/010085000012412.html",
+      "source_name": "成都市第六人民医院",
+      "publish_date": "2026-03-30",
+      "publish_timestamp": 1774866752,
+      "source_type": "crawler"
+    },
+    {
+      "title": "天府锦城实验室(前沿医学中心)招聘启示",
+      "url": "https://www.wchscu.cn/public/notice/recruit/91210.html",
+      "source_name": "四川大学华西医院",
+      "publish_date": "2026-03-30",
+      "publish_timestamp": 1774866749,
+      "source_type": "crawler"
+    },
+    {
       "title": "【公告】崇州市中医医院医共体单位招聘公告（第一批）",
       "url": "https://mp.weixin.qq.com/s/VdnbMJlyyKa01eak41LLEg",
       "source_name": "健康崇州官微",
@@ -209,6 +481,14 @@
       "publish_date": "2026-03-30",
       "publish_timestamp": 1774830936,
       "source_type": "rss"
+    },
+    {
+      "title": "屏山县人民医院2026年上半年公开招聘工作人员公告",
+      "url": "https://www.psxrmyy.com/index.php?m=content&c=index&a=show&catid=33&id=19",
+      "source_name": "屏山县人民医院",
+      "publish_date": "2026-03-28",
+      "publish_timestamp": 1774691404,
+      "source_type": "crawler"
     },
     {
       "title": "【寻贤觅才】武胜县人民医院关于2026年公开招聘卫生人才简章",
