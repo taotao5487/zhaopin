@@ -3,56 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>招聘公告</title>
+  <title>白衣驿站</title>
   <link rel="stylesheet" href="./assets/site.css">
 </head>
 <body>
   <main class="page-shell">
-    <header class="hero">
-      <p class="eyebrow">Recruitment Digest</p>
-      <h1>最新招聘公告</h1>
-      <p class="hero-copy">展示最近 30 天已确认招聘公告，按发布时间汇总，支持标题和来源检索。</p>
+    <header class="toolbar">
+      <div class="toolbar-copy">
+        <p class="eyebrow">Structured Recruitment Worksheet</p>
+        <h1>白衣驿站</h1>
+        <p class="toolbar-note">按医院、地区和关键词快速筛选公告，点击整行可查看岗位明细，点“点我报名”可直达原公告。</p>
+      </div>
+      <p id="updateTime" class="update-time">更新时间：正在加载...</p>
     </header>
 
-    <section class="search-panel" aria-label="搜索招聘标题">
-      <label class="search-label" for="searchInput">关键词搜索</label>
+    <section class="search-strip" aria-label="搜索招聘公告">
+      <label class="search-label" for="searchInput">搜索医院、公告标题、岗位关键词，或按地区快速筛选</label>
       <div class="search-row">
-        <input id="searchInput" type="search" placeholder="输入医院、地区、人才引进等关键词">
+        <select id="provinceFilter" aria-label="按省份筛选">
+          <option value="">全部省份/直辖市</option>
+        </select>
+        <select id="regionFilter" aria-label="按地区筛选">
+          <option value="">全部地区</option>
+        </select>
+        <input id="searchInput" type="search" placeholder="输入医院、公告标题、岗位关键词">
         <button id="searchButton" type="button">搜索</button>
       </div>
       <p id="resultMeta" class="result-meta">正在加载招聘公告...</p>
-      <p id="updateTime" class="update-time">更新时间：正在加载...</p>
     </section>
 
-    <section aria-label="招聘公告列表">
+    <section class="sheet-table" aria-label="招聘公告列表">
+      <div class="sheet-head" aria-hidden="true">
+        <span>医院</span>
+        <span>公告标题</span>
+        <span>岗位数</span>
+        <span>发布时间</span>
+        <span>操作</span>
+      </div>
       <div id="emptyState" class="empty-state" hidden>没有找到匹配的招聘公告。</div>
-      <div id="resultsList" class="results-list"></div>
+      <div id="resultsList" class="sheet-body"></div>
     </section>
   </main>
 
-  <div id="readOriginalModal" class="modal" hidden>
-    <div class="modal-backdrop" data-close-modal="true"></div>
-    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button id="closeModalButton" class="modal-close" type="button" aria-label="关闭弹层">×</button>
-      <p class="modal-eyebrow">继续查看前</p>
-      <h2 id="modalTitle">请先关注公众号</h2>
-      <img class="modal-qr" src="./assets/official_wx_card_qr.jpg" alt="公众号二维码">
-      <p class="modal-copy">扫码关注后，再点击下面的按钮继续查看原始招聘公告。</p>
-      <div class="modal-actions">
-        <button id="continueButton" class="primary-action" type="button">我已关注，继续查看</button>
-        <button id="cancelButton" class="secondary-action" type="button">关闭</button>
+  <template id="announcementRowTemplate">
+    <section class="sheet-group">
+      <article class="sheet-row" role="button" tabindex="0" aria-expanded="false">
+        <div class="cell hospital-cell">
+          <div class="hospital-heading">
+            <p class="hospital-name">医院名称待补充</p>
+            <span class="hospital-region" hidden>地区待补充</span>
+          </div>
+        </div>
+        <div class="cell title-cell">
+          <p class="source-title">公告标题待补充</p>
+        </div>
+        <div class="cell count-cell">
+          <span class="job-total">0</span>
+        </div>
+        <div class="cell time-cell">
+          <span class="publish-time">待补充</span>
+        </div>
+        <div class="cell action-cell">
+          <a class="apply-link" href="#" target="_blank" rel="noopener noreferrer">点我报名</a>
+        </div>
+      </article>
+      <div class="row-detail" hidden>
+        <p class="detail-label">岗位明细</p>
+        <ul class="job-list"></ul>
+        <p class="missing-link-note" hidden>当前公告未附报名链接</p>
       </div>
-    </div>
-  </div>
-
-  <template id="jobCardTemplate">
-    <article class="job-card">
-      <h2 class="job-title"></h2>
-      <p class="job-date"></p>
-      <button class="read-button" type="button">阅读原文</button>
-    </article>
+    </section>
   </template>
 
-  <script src="./assets/site.js?v=202604071410" defer></script>
+  <script src="./assets/site.js?v=202604131510" defer></script>
 </body>
 </html>
