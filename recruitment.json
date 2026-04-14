@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-04-13 22:23:55",
-  "count": 75,
-  "job_count": 384,
+  "generated_at": "2026-04-14 18:28:00",
+  "count": 79,
+  "job_count": 389,
   "items": [
+    {
+      "group_key": "https://mp.weixin.qq.com/s/zZdxF-y863waOITc-lOdDw",
+      "hospital_name": "绵阳市第三人民医院",
+      "source_title": "招聘公告 | 四川三益司法鉴定所 绵阳市第三人民医院司法精神医学科招聘法医助理公告",
+      "province": "四川省",
+      "city": "绵阳市",
+      "district": "",
+      "region": "绵阳市",
+      "publish_date": "2026-04-13",
+      "apply_url": "https://mp.weixin.qq.com/s/zZdxF-y863waOITc-lOdDw",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "法医病理鉴定助理",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "法医学",
+          "other_conditions": "具有法医学鉴定如尸检相关工作经历者优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/TE0rO8TB3hVDkC12d70Tww",
+      "hospital_name": "璧山区中医院",
+      "source_title": "【招贤纳士】璧玉岐黄 秀湖论境——重庆中医药学院附属璧山医院（重庆市璧山区中医院）高层次人才招聘简章",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "璧山区",
+      "region": "璧山区",
+      "publish_date": "2026-04-13",
+      "apply_url": "https://mp.weixin.qq.com/s/TE0rO8TB3hVDkC12d70Tww",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "临床护理、行政管理人才",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "本科及以上，高级职称",
+          "major_requirement": "护理学类，具有三甲医院工作经历的行政管理型人才不限专业",
+          "other_conditions": "高级职称 45周岁以下"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/1_AQcHZmotLpXQR4SDNG3w",
+      "hospital_name": "资阳市雁江区妇幼保健院服务号",
+      "source_title": "资阳市雁江区妇幼保健院2026年招聘公告（第1期）",
+      "province": "",
+      "city": "资阳市",
+      "district": "雁江区",
+      "region": "雁江区",
+      "publish_date": "2026-04-13",
+      "apply_url": "https://mp.weixin.qq.com/s/1_AQcHZmotLpXQR4SDNG3w",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "医学检验",
+          "job_family": "medical_tech",
+          "headcount": "",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "",
+          "other_conditions": "持执业医师资格证、规培证优先；"
+        },
+        {
+          "title": "康复治疗学",
+          "job_family": "rehab",
+          "headcount": "",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "",
+          "other_conditions": "持康复治疗师资格证优先；"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/yKtxDB1o0QftuSSdDPSNdg",
+      "hospital_name": "垫江国慷骨科医院",
+      "source_title": "垫江国慷骨科医院.招聘启示",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-13",
+      "apply_url": "https://mp.weixin.qq.com/s/yKtxDB1o0QftuSSdDPSNdg",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "康复治疗师",
+          "job_family": "rehab",
+          "headcount": "1名",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
     {
       "group_key": "https://mp.weixin.qq.com/s/JwXO93Podq3KFZDxkXMipQ",
       "hospital_name": "青神县总医院",
