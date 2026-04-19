@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-19 15:24:30",
-  "count": 127,
-  "job_count": 601,
+  "generated_at": "2026-04-19 22:41:30",
+  "count": 129,
+  "job_count": 606,
   "items": [
     {
       "group_key": "https://mp.weixin.qq.com/s/TbSsA4-vezOoj6hL7QzLtw",
@@ -696,6 +696,74 @@
           "education_requirement": "",
           "major_requirement": "",
           "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/4UqbKKSaeQj2RcgLdN5YQA",
+      "hospital_name": "沙坪坝区天星桥社区卫生服务中心",
+      "source_title": "【职等你来】急寻人才，虚位以待！",
+      "province": "",
+      "city": "",
+      "district": "沙坪坝区",
+      "region": "沙坪坝区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/4UqbKKSaeQj2RcgLdN5YQA",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "中医康复科护士",
+          "job_family": "nursing",
+          "headcount": "2",
+          "education_requirement": "全日制护理专业大学专科及以上学历",
+          "major_requirement": "",
+          "other_conditions": "取得护士资格证"
+        },
+        {
+          "title": "学科带头人",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "中西医临床医学专业本科及以上学历",
+          "major_requirement": "具有中医类执业医师资格，且注册执业范围为中西医结合专业；中级及以上职称",
+          "other_conditions": "≤40岁；具有副高级以上职称者，年龄可放宽至45周岁以下"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/OVhJTQTgC_qoz_99IXV-lw",
+      "hospital_name": "营门口社区卫生服务中心",
+      "source_title": "【人才招聘】金牛区营门口社区卫生服务中心公开招聘啦！",
+      "province": "",
+      "city": "",
+      "district": "营门口社区",
+      "region": "营门口社区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/OVhJTQTgC_qoz_99IXV-lw",
+      "job_count": 3,
+      "jobs": [
+        {
+          "title": "中医骨伤医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "中医骨伤或针灸推拿专业",
+          "other_conditions": "有医师资格证和执业证，副高及以上职称"
+        },
+        {
+          "title": "口腔护士",
+          "job_family": "nursing",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "",
+          "other_conditions": "具有护师及以上职称，有护士执业证，取得口腔护理专科护士培训合格证 有五年以上口腔科工作经历"
+        },
+        {
+          "title": "财务人员",
+          "job_family": "admin_support",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "会计学、审计学或财务管理专业",
+          "other_conditions": "取得相应资格证书 有医保工作经历"
         }
       ]
     },
