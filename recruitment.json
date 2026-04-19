@@ -1,8 +1,1972 @@
 {
-  "generated_at": "2026-04-14 22:05:02",
-  "count": 94,
-  "job_count": 454,
+  "generated_at": "2026-04-19 15:24:30",
+  "count": 127,
+  "job_count": 601,
   "items": [
+    {
+      "group_key": "https://mp.weixin.qq.com/s/TbSsA4-vezOoj6hL7QzLtw",
+      "hospital_name": "重庆福城医院",
+      "source_title": "【人才招聘】福城医院四月招聘公告！",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "",
+      "region": "重庆市",
+      "publish_date": "2026-04-18",
+      "apply_url": "https://mp.weixin.qq.com/s/TbSsA4-vezOoj6hL7QzLtw",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "中药师",
+          "job_family": "pharmacy",
+          "headcount": "1名",
+          "education_requirement": "药学相关专业大专及以上学历",
+          "major_requirement": "药学相关专业",
+          "other_conditions": "持有中药士及以上专业技术资格证书优先 至少1年以上医院药房工作经验"
+        },
+        {
+          "title": "康复理疗师",
+          "job_family": "rehab",
+          "headcount": "1名",
+          "education_requirement": "",
+          "major_requirement": "中医、康复理疗等相关专业",
+          "other_conditions": "持康复治疗士（师）职称优先 有5年以上康复治疗工作经历"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/a-lq7YTjcNpziPxp-TsXpg",
+      "hospital_name": "西昌市中医医院",
+      "source_title": "【人才招聘】西昌市中医医院招聘简章",
+      "province": "",
+      "city": "西昌市",
+      "district": "",
+      "region": "西昌市",
+      "publish_date": "2026-04-18",
+      "apply_url": "https://mp.weixin.qq.com/s/a-lq7YTjcNpziPxp-TsXpg",
+      "job_count": 5,
+      "jobs": [
+        {
+          "title": "中医医师A",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "全日制本科学历（学士学位）及以上",
+          "major_requirement": "本科：中医学（100501K）、中西医临床医学（100601K）、中医儿科学（100512TK）；硕士研究生：中医（105700）、中西医结合临床（105709）、中医内科学（105701）、中医儿科学（105705）",
+          "other_conditions": "具有执业医师资格，取得相应专业规培证，中级及以上职称者年龄可放宽至40岁"
+        },
+        {
+          "title": "中医医师B",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科学历（学士学位）及以上",
+          "major_requirement": "本科：针灸推拿学（100502K）、中医康复学（100510TK）；硕士研究生：中医（105700）、针灸推拿学（105707）、针灸（105900）",
+          "other_conditions": "具有执业医师资格，取得相应专业规培证，中级及以上职称者年龄可放宽至40岁"
+        },
+        {
+          "title": "急救医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科学历（学士学位）及以上",
+          "major_requirement": "本科：临床医学（100201K）、中医学（100501K）、中西医临床医学（100601K）；硕士研究生：临床医学（105100）、急诊医学（105107）、中医（105700）、中西医结合临床（105709）、中医外科学（105702）",
+          "other_conditions": "具有执业医师资格，从事急诊专业"
+        },
+        {
+          "title": "超声医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科学历（学士学位）及以上",
+          "major_requirement": "本科：医学影像学（100203TK）；硕士研究生：超声医学（105124）",
+          "other_conditions": "具有执业医师资格，从事超声医学工作，中级及以上职称者年龄可放宽至40岁"
+        },
+        {
+          "title": "重症医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科学历（学士学位）及以上",
+          "major_requirement": "本科：临床医学（100201K）中医学（100501K）、中西医临床医学（100601K）；硕士研究生：中医（105700）、中西医结合临床（105709）、重症医学（105108）",
+          "other_conditions": "具有执业医师资格，从事重症专业，中级及以上职称者年龄可放宽至40岁"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/QbIOAWi34gS142Ymm0nOsg",
+      "hospital_name": "金堂县第二人民医院",
+      "source_title": "【招聘公告】金堂县第二人民医院安保人员招聘公告",
+      "province": "",
+      "city": "",
+      "district": "金堂县",
+      "region": "金堂县",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/QbIOAWi34gS142Ymm0nOsg",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "安保人员",
+          "job_family": "other_healthcare",
+          "headcount": "5人",
+          "education_requirement": "高中（含职高）及以上文化程度",
+          "major_requirement": "",
+          "other_conditions": "优先退役军人、中共党员及持有消防相关资格证书"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/Rz6Nya5EEoK7cKlU8rsPyA",
+      "hospital_name": "绵阳市游仙区妇幼保健院",
+      "source_title": "12名！绵阳市游仙区妇幼保健院最新招聘公告",
+      "province": "四川省",
+      "city": "绵阳市",
+      "district": "游仙区",
+      "region": "游仙区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/Rz6Nya5EEoK7cKlU8rsPyA",
+      "job_count": 12,
+      "jobs": [
+        {
+          "title": "乳腺/甲状腺外科医生",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "临床医学、外科学",
+          "other_conditions": "主治医师及以上职称；乳腺或甲状腺专业，高级职称年龄可放宽。 年龄：35岁及以下"
+        },
+        {
+          "title": "产科医生",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "临床医学",
+          "other_conditions": "执业医师及以上职称； 年龄：30岁及以下"
+        },
+        {
+          "title": "全科医疗科医生",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "临床医学",
+          "other_conditions": "本科学历需具有中级及以上职称（儿科/内科/全科专业）、研究生学历需具有初级证书。取得住院医师规范化培训（儿科/内科/全科）专业合格证。 年龄：40岁及以下"
+        },
+        {
+          "title": "内科（内镜）医生",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "临床医学、中西医临床医学",
+          "other_conditions": "执业医师及以上职称； 年龄：35岁及以下，有三级医院工作经历。"
+        },
+        {
+          "title": "影像科（超声）医师",
+          "job_family": "doctor",
+          "headcount": "2名",
+          "education_requirement": "本科及以上",
+          "major_requirement": "医学影像学、临床医学、临床医学（超声方向）",
+          "other_conditions": "执业医师及以上职称； 年龄：35岁及以下，取得住院医师规范化培训合格证优先考虑。"
+        },
+        {
+          "title": "影像科（超声）医师住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "2名",
+          "education_requirement": "本科及以上",
+          "major_requirement": "医学影像学、临床医学、临床医学（超声方向）",
+          "other_conditions": "执业医师及以上职称；取得住院医师规范化培训合格证优先考虑 无明确具体经验要求描述"
+        },
+        {
+          "title": "托育月子中心教师",
+          "job_family": "other_healthcare",
+          "headcount": "1名",
+          "education_requirement": "本科及以上",
+          "major_requirement": "早期教育/学前教育",
+          "other_conditions": "幼儿园教师资格证 年龄：35岁及以下"
+        },
+        {
+          "title": "病案与医保一体化编码员",
+          "job_family": "admin_support",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "病案信息管理、卫生信息管理、公共卫生管理方向等相关专业",
+          "other_conditions": "持有病案信息技术资格证书或取得国际编码证书（应届研究生除外）；熟悉国家病案管理规范、ICD-10及手术操作编码标准，掌握DRG/DIP分组规则。； 具有三级医院2年以上该专业工作经验（应届研究生除外）。年龄：35岁及以下"
+        },
+        {
+          "title": "病理科医师",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "本科及以上",
+          "major_requirement": "临床医学、病理学",
+          "other_conditions": "执业医师及以上职称；熟练掌握组织病理学、免疫组化（IHC）、分子病理（FISH、PCR、NGS等）技术应用及结果判读；熟悉病理科质量控制标准，能够规范撰写病理报告并参与科室质控管理 年龄：35岁及以下，中级及以上职称年龄可适当放宽。"
+        },
+        {
+          "title": "皮肤科医生",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "临床医学、皮肤病与性病学或中医外科学（皮肤科方向）、外科学（整形）方向等相关专业",
+          "other_conditions": "具有住院医师规范化培训合格证书或有三级医院工作经历者优先考虑；本科需具备中级及以上职称、研究生学历需具有执业医师及以上资格证书；执业范围为皮肤病与性病等相关专业；取得高级职称年龄可适当放宽。 年龄：35岁及以下"
+        },
+        {
+          "title": "脑/胸外科医生",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "临床医学、外科学",
+          "other_conditions": "执业医师及以上职称；胸外或脑外专业。高级职称年龄可适当放宽。 年龄：35岁及以下"
+        },
+        {
+          "title": "运营",
+          "job_family": "public_health",
+          "headcount": "1名",
+          "education_requirement": "本科及以上，并取得相应学位",
+          "major_requirement": "医院管理/公共卫生管理/公共事业管理/会计",
+          "other_conditions": "取得相应专业中级及以上职称 年龄：40岁及以下"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/8DKhoHiD_sTZKox6fHQakQ",
+      "hospital_name": "重庆市第六人民医院",
+      "source_title": "【招聘】重庆医药高专附一院（重庆市第六人民医院）2026年学科带头人招聘公告",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "南岸区",
+      "region": "南岸区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/8DKhoHiD_sTZKox6fHQakQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "学科带头人",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "博士研究生学历及相应学位，核医学科可放宽至硕士研究生学历及取得相应中级职称",
+          "major_requirement": "内科学专业、外科学专业、核医学专业、临床医学【类】、中西医结合【类】",
+          "other_conditions": "具有相应高级职称，核医学科可放宽至取得相应中级职称"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/3BXlCVMxL54W1lEndcKcdw",
+      "hospital_name": "温江区金马街道社区卫生服务中心",
+      "source_title": "【招聘信息】编外人员劳务派遣招聘公告",
+      "province": "",
+      "city": "",
+      "district": "温江区金马街道社区",
+      "region": "温江区金马街道社区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/3BXlCVMxL54W1lEndcKcdw",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "护士",
+          "job_family": "nursing",
+          "headcount": "2",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "护理专业",
+          "other_conditions": "持护士执业资格证 有1年以上工作经验"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/t3WtwWeoUSkLyUmeaOvoWg",
+      "hospital_name": "彭水县人民医院",
+      "source_title": "彭水自治县人民医院2026年4月药剂人员招聘启事",
+      "province": "重庆市",
+      "city": "经重庆市",
+      "district": "彭水县",
+      "region": "彭水县",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/t3WtwWeoUSkLyUmeaOvoWg",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "药剂人员",
+          "job_family": "pharmacy",
+          "headcount": "",
+          "education_requirement": "全日制普通高校大专及以上学历(不含全日制普通中专3年+全日制专科2年或3年的学历教育）",
+          "major_requirement": "药学类相关专业",
+          "other_conditions": "须具有药师及以上专业技术资格证书"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/MdlFTDayBdQYaSM9CZO2xg",
+      "hospital_name": "华蓥市人民医院",
+      "source_title": "【人才招聘】华蓥市人民医院2026年上半年医务人员招聘公告",
+      "province": "四川省",
+      "city": "华蓥市",
+      "district": "",
+      "region": "华蓥市",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/MdlFTDayBdQYaSM9CZO2xg",
+      "job_count": 5,
+      "jobs": [
+        {
+          "title": "中医/康复科技师",
+          "job_family": "rehab",
+          "headcount": "2",
+          "education_requirement": "全日制本科及以上学历并取得相应学位",
+          "major_requirement": "康复治疗学",
+          "other_conditions": "30周岁及以下（1996年4月14日以后出生）"
+        },
+        {
+          "title": "呼吸内科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制研究生及以上学历并取得相应学位",
+          "major_requirement": "内科学",
+          "other_conditions": "取得执业医师证；取得规培合格证 35周岁及以下（1991年4月14日以后出生）"
+        },
+        {
+          "title": "心血管内科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制研究生及以上学历并取得相应学位",
+          "major_requirement": "内科学",
+          "other_conditions": "取得执业医师证；取得规培合格证；中级及以上职称学历可放宽到全日制本科；有心血管介入工作经验者优先 35周岁及以下（1991年4月14日以后出生）"
+        },
+        {
+          "title": "神经/肾内科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上学历并取得相应学位",
+          "major_requirement": "内科学神经病学",
+          "other_conditions": "取得执业医师证；取得规培合格证 30周岁及以下（1996年4月14日以后出生）"
+        },
+        {
+          "title": "骨科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上学历并取得相应学位",
+          "major_requirement": "外科学骨科学",
+          "other_conditions": "取得执业医师证；取得规培合格证 30周岁及以下（1996年4月14日以后出生）"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/piMahQpMcY5mT-z6JPhnyQ",
+      "hospital_name": "越西县第一人民医院",
+      "source_title": "【招聘公告】越西县第一人民医院关于公开招聘紧缺专业技术人员的公告",
+      "province": "",
+      "city": "",
+      "district": "同时为我院打造凉山北部区",
+      "region": "同时为我院打造凉山北部区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/piMahQpMcY5mT-z6JPhnyQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "学科带头人",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "各学科，第一批次以呼吸内科专业、普外科专业优先",
+          "other_conditions": "副高级及以上职称 学科带头人需在三级甲等综合医院从事本专业 5 年以上"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/18uKi465CmUqYP8uMbW75A",
+      "hospital_name": "歌乐山社区卫生服务中心",
+      "source_title": "【招贤纳士】歌乐山社区卫生服务中心广纳人才",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "歌乐山社区",
+      "region": "歌乐山社区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/18uKi465CmUqYP8uMbW75A",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "外科医生",
+          "job_family": "doctor",
+          "headcount": "1人",
+          "education_requirement": "大学本科及以上学历",
+          "major_requirement": "临床医学专业",
+          "other_conditions": "取得执业医师资格证书，且执业范围为外科专业 具有临床工作经验，完成外科专业住院医师规范化培训并考核合格者优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/E4Ay5UGywMIb2bc8H7paMg",
+      "hospital_name": "重庆市梁平区人民医院",
+      "source_title": "重庆市梁平区人民医院健康管理科工勤人员招聘简章",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "梁平区",
+      "region": "梁平区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/E4Ay5UGywMIb2bc8H7paMg",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "健康管理科导检工勤人员",
+          "job_family": "other_healthcare",
+          "headcount": "2",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "",
+          "other_conditions": "1.35周岁及以下；2.身高1.55m以上；3.有亲和力，服务意识强；4.无犯罪记录，具备正常履职的身体条件；5.有医学背景从优"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/k2ACmGpbD4PGLcz5nE5k0Q",
+      "hospital_name": "重庆市合川区精神卫生中心",
+      "source_title": "【招聘公告】重庆市合川区精神卫生中心2026年第二季度公开招聘非编工作人员简章",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "合川区",
+      "region": "合川区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/k2ACmGpbD4PGLcz5nE5k0Q",
+      "job_count": 4,
+      "jobs": [
+        {
+          "title": "应急岗",
+          "job_family": "nursing",
+          "headcount": "2",
+          "education_requirement": "本科及以上学历及相应学位",
+          "major_requirement": "本科：护理、护理学；研究生：护理、护理学",
+          "other_conditions": "1.限男性；2.限2026年应届毕业生；3.需在2026年6月30日前取得护士资格证，否则取消聘用资格。 四年制本科（有服役经历的学历可放宽至两年制本科）"
+        },
+        {
+          "title": "心理治疗师岗",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "研究生及以上学历及相应学位",
+          "major_requirement": "研究生：心理学、基础心理学、发展与教育心理学、应用心理学、应用心理专业；本科阶段所学专业须为心理学专业或应用心理学专业",
+          "other_conditions": "1.2024年以前毕业须取得心理治疗师资格证；2.2024届及2025届毕业生，须在毕业两年内取得心理治疗师资格证。 根据工作需要，安排在相应院区工作"
+        },
+        {
+          "title": "护理岗",
+          "job_family": "nursing",
+          "headcount": "3",
+          "education_requirement": "本科及以上学历及相应学位",
+          "major_requirement": "本科：护理、护理学；研究生：护理、护理学",
+          "other_conditions": "1.限2026年应届毕业生；2.需在2026年6月30日前取得护士资格证，否则取消聘用资格。 四年制本科"
+        },
+        {
+          "title": "超声科医师岗",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历并取得相应学位",
+          "major_requirement": "本科：临床医学、医学影像学；研究生：临床医学、超声医学专业、影像医学与核医学（超声方向）专业",
+          "other_conditions": "取得执业医师执业证书且注册范围为医学影像和放射治疗专业。 五年制本科"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/ks6pUONS4tkKzghHgErAew",
+      "hospital_name": "绵阳市游仙区信义中心卫生院",
+      "source_title": "绵阳市游仙区信义中心卫生院招聘公告",
+      "province": "四川省",
+      "city": "绵阳市",
+      "district": "游仙区",
+      "region": "游仙区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/ks6pUONS4tkKzghHgErAew",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "口腔医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "具有专科学历。",
+          "major_requirement": "",
+          "other_conditions": "初级及以上职称。"
+        },
+        {
+          "title": "放射科技师",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "具有专科学历。",
+          "major_requirement": "",
+          "other_conditions": "初级及以上职称。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/VgLVr6fubx9oLEL2KBGeqA",
+      "hospital_name": "重庆市急救医疗中心",
+      "source_title": "医院招聘 | 重庆大学附属中心医院（重庆市急救医疗中心）2026年第二季度2批次招聘公告",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "",
+      "region": "重庆市",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/VgLVr6fubx9oLEL2KBGeqA",
+      "job_count": 10,
+      "jobs": [
+        {
+          "title": "HASU医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "35周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "神经病学",
+          "other_conditions": "取得执业医师资格。具有介入工作经历者优先。"
+        },
+        {
+          "title": "内分泌代谢科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "45周岁及以下，研究生学历或学位",
+          "major_requirement": "内科学",
+          "other_conditions": "取得执业医师资格，具有高级职称资格，具有三甲医院10年及以上工作经历。 应聘者须服从医院双院区运行工作安排。"
+        },
+        {
+          "title": "医学检验科技师1",
+          "job_family": "medical_tech",
+          "headcount": "1",
+          "education_requirement": "30周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "临床检验诊断学",
+          "other_conditions": "限应届毕业生。"
+        },
+        {
+          "title": "医学检验科技师2",
+          "job_family": "medical_tech",
+          "headcount": "1",
+          "education_requirement": "30周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "临床检验诊断学",
+          "other_conditions": "取得初级及以上检验技师资格证，限应届毕业生。"
+        },
+        {
+          "title": "病案编码员",
+          "job_family": "admin_support",
+          "headcount": "1",
+          "education_requirement": "35周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "临床医学【类】、流行病与卫生统计学、社会医学与卫生事业管理",
+          "other_conditions": "具备ICD编码资格。"
+        },
+        {
+          "title": "神经内科医师住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "35周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "神经病学",
+          "other_conditions": "取得执业医师资格，住院医师规范化培训合格证。"
+        },
+        {
+          "title": "肝胆血管外科医师住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "35周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "外科学",
+          "other_conditions": "取得执业医师资格，住院医师规范化培训合格证。具有血管介入工作经历者、外科学（血管外科方向）专业者优先。"
+        },
+        {
+          "title": "肾内科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "35周岁及以下，研究生学历及相应博士学位",
+          "major_requirement": "内科学",
+          "other_conditions": ""
+        },
+        {
+          "title": "肿瘤/血液内科肿瘤放射治疗医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "35周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "放射肿瘤学",
+          "other_conditions": "取得执业医师资格，LA医师上岗证。"
+        },
+        {
+          "title": "麻醉科医师住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "30周岁及以下，研究生学历并取得相应学位",
+          "major_requirement": "麻醉学",
+          "other_conditions": "取得执业医师资格，住院医师规范化培训合格证。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/hod02-YMYL6_HC44MJIB1Q",
+      "hospital_name": "绵竹市新市镇卫生院",
+      "source_title": "诚聘英才！绵竹市新市镇卫生院招聘公告",
+      "province": "四川省",
+      "city": "德阳市",
+      "district": "绵竹市",
+      "region": "绵竹市",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://mp.weixin.qq.com/s/hod02-YMYL6_HC44MJIB1Q",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "针灸推拿专业医师",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "针灸推拿专业",
+          "other_conditions": "具有相关专业执业助理医师资格及以上 有针灸推拿临床实操经验、熟悉中医适宜技术操作"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cd2120.com/news_offer/2026/1aKLo8bQ.html",
+      "hospital_name": "成都市新都区第二人民医院",
+      "source_title": "成都市第二人民医院2026年住院医师规范化培训第二批招收简章",
+      "province": "",
+      "city": "成都市",
+      "district": "新都区",
+      "region": "新都区",
+      "publish_date": "2026-04-17",
+      "apply_url": "https://www.cd2120.com/news_offer/2026/1aKLo8bQ.html",
+      "job_count": 11,
+      "jobs": [
+        {
+          "title": "内科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "外科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "外科（整形外科方向）住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "外科（泌尿外科方向）住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "外科（神经外科方向）住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "妇产科（紧缺专业）住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "放射科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "7",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "眼科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "耳鼻咽喉科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "骨科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "麻醉科（紧缺专业）住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "8",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/A_ro-OonWvN0RfRMmqM9mg",
+      "hospital_name": "雷波县人民医院 订阅号",
+      "source_title": "【寻才启示】雷波县人民医院2026年4月招聘专业技术人员公告",
+      "province": "",
+      "city": "",
+      "district": "雷波县",
+      "region": "雷波县",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/A_ro-OonWvN0RfRMmqM9mg",
+      "job_count": 6,
+      "jobs": [
+        {
+          "title": "临床医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "临床医学及相关专业",
+          "other_conditions": ""
+        },
+        {
+          "title": "临床护理",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "护理学、助产专业",
+          "other_conditions": "持有护士执业资格证（应届毕业生可不要求，但需一次性考过） 熟悉临床护理操作规范，具备良好的沟通与应对能力"
+        },
+        {
+          "title": "康复技师",
+          "job_family": "rehab",
+          "headcount": "2",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "康复治疗学相关专业",
+          "other_conditions": "熟悉康复评定、运动治疗、作业治疗、物理因子治疗等康复技术操作，具备独立开展康复治疗工作能力；已规培者优先"
+        },
+        {
+          "title": "康复科医生",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "",
+          "other_conditions": "中医类别执业医师 具备相关手术操作资质与临床经验，能独立开展中医诊疗及康复相关手术工作；已规培者优先"
+        },
+        {
+          "title": "放射技师",
+          "job_family": "medical_tech",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "放射医学技术、医学影像技术、医学影像学专业",
+          "other_conditions": "能熟练操作DR、CT、MRI等设备，懂PACS系统、影像后处理，掌握放射防护规范与设备质控"
+        },
+        {
+          "title": "药剂科工作人员",
+          "job_family": "pharmacy",
+          "headcount": "3",
+          "education_requirement": "全日制硕士研究生学历",
+          "major_requirement": "药学专业",
+          "other_conditions": "熟悉药品管理法规，掌握处方审核、药品调配基础技能"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/SBtTPGCO3paNl5rCy80IkQ",
+      "hospital_name": "四川大学华西第四医院",
+      "source_title": "四川大学华西第四医院面向全国招聘优秀人才！",
+      "province": "四川省",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/SBtTPGCO3paNl5rCy80IkQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "高水平临床医师",
+          "job_family": "doctor",
+          "headcount": "10",
+          "education_requirement": "全日制博士研究生学历学位",
+          "major_requirement": "外科学（骨科）、外科学（神外）、外科学（泌尿）、外科学（胸外）、外科学（普外）、外科学（血管）、外科学（烧伤整形）、外科学（甲乳）、麻醉学、内科学（内分泌）、内科学（呼吸）、内科学（感染）、内科学（消化）、内科学（心内）、内科学（肾内）、运动医学、老年医学、康复医学与理疗学、肿瘤学/放射肿瘤学、重症医学、急诊医学、精神病与精神卫生学、神经病学、皮肤病学、耳鼻咽喉科学、眼科学、病理学/临床病理、影像医学与核医学（超声）、影像医学与核医学（放射）、全科医学、口腔医学、中医学",
+          "other_conditions": "高水平三甲医院在职人员，且具有高级职称；或省级、地市级三级甲等医院在职人员，且具有副高级职称5年及以上或具有正高级职称，达到四川大学相应高级职称申报条件"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/8CQafZ-xmYlLd70OLtmPOg",
+      "hospital_name": "叙永安民医院订阅号",
+      "source_title": "招聘公告｜安民医院诚聘临床医师",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/8CQafZ-xmYlLd70OLtmPOg",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
+          "headcount": "3名",
+          "education_requirement": "国家认可的临床医学专业专科及以上学历",
+          "major_requirement": "临床医学专业",
+          "other_conditions": "执业助理医师及以上资格 有二级及以上综合医院工作经验者优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/2IGbk-hOnDw_EBUQhIjVJw",
+      "hospital_name": "重庆市江津区精神卫生中心",
+      "source_title": "重庆市江津区精神卫生中心公开招聘非在编护理类专业技术人员简章",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "江津区",
+      "region": "江津区",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/2IGbk-hOnDw_EBUQhIjVJw",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "护理岗",
+          "job_family": "nursing",
+          "headcount": "9",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "护理类",
+          "other_conditions": "须取得护士执业资格证 男士优先、有精神卫生工作经验优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/M_fONd2gyQEnVbJRL7EJMw",
+      "hospital_name": "古蔺县人民医院",
+      "source_title": "古蔺县人民医院2026年第二季度招聘见习人员公告",
+      "province": "",
+      "city": "发放按照不低于我市",
+      "district": "古蔺县",
+      "region": "古蔺县",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/M_fONd2gyQEnVbJRL7EJMw",
+      "job_count": 6,
+      "jobs": [
+        {
+          "title": "见习临床护士",
+          "job_family": "nursing",
+          "headcount": "14",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "护理学",
+          "other_conditions": "1年"
+        },
+        {
+          "title": "见习康复技师",
+          "job_family": "rehab",
+          "headcount": "2",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "康复治疗技术",
+          "other_conditions": "1年"
+        },
+        {
+          "title": "见习普通外科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "临床医学",
+          "other_conditions": "1年"
+        },
+        {
+          "title": "见习检验技师",
+          "job_family": "medical_tech",
+          "headcount": "1",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "医学检验技术",
+          "other_conditions": "1年"
+        },
+        {
+          "title": "见习肾病内科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上",
+          "major_requirement": "临床医学",
+          "other_conditions": "1年"
+        },
+        {
+          "title": "见习超声科技师",
+          "job_family": "medical_tech",
+          "headcount": "2",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "医学影像技术",
+          "other_conditions": "1年"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/PhFJsXe4iLNL2Hl6bVuUCQ",
+      "hospital_name": "武警特色医学中心",
+      "source_title": "武警特色医学中心2026年上半年社会用工招聘公告",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/PhFJsXe4iLNL2Hl6bVuUCQ",
+      "job_count": 36,
+      "jobs": [
+        {
+          "title": "中医科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "预士研究生及取得中医执业医师资格证及住院医师规范化"
+        },
+        {
+          "title": "中心招录社会用工落实国家住院医师规",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "参加中心专业技术职务晋升聘任；对特",
+          "other_conditions": ""
+        },
+        {
+          "title": "军人生殖医学科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "博士学历优先",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "医学影像科-医疗岗",
+          "job_family": "medical_tech",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及已取得医师资格证及住院医师规范化培训合"
+        },
+        {
+          "title": "医技和护理等岗",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "医技岗（病案编码员）",
+          "job_family": "admin_support",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "具有端码资格证者优先。"
+        },
+        {
+          "title": "呼吸内科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "康复医学科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "作经验。"
+        },
+        {
+          "title": "康复治疗学/运动",
+          "job_family": "rehab",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "硕士研究生及取得相应专业技术职称证书，应届毕业生可",
+          "other_conditions": "不受资格证书限制。"
+        },
+        {
+          "title": "心血管病科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "急诊医学科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "书。有急诊科及重症工作经验及科研能力强"
+        },
+        {
+          "title": "感染控制科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "硕士研究生及已取得中级职称并从事相关专业10年及以上",
+          "other_conditions": "已取得医师资格证，博士优先。"
+        },
+        {
+          "title": "核医学科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "经验者优先，国内知名专家或高职专家年龄"
+        },
+        {
+          "title": "检验科-医技岗",
+          "job_family": "medical_tech",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "具备检验技师资格证书，有执业医师资格证"
+        },
+        {
+          "title": "消化内科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "烧伤科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "皮肤科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "性疾病综合整治，以及光电治疗者优先。"
+        },
+        {
+          "title": "眼科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "神经内科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "神经外科一病区-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "神经外科三病区-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "神经外科三病区-护理岗",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得护士执业资格证。"
+        },
+        {
+          "title": "神经外科四病区-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "究病房）-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "病工作经历的优先。"
+        },
+        {
+          "title": "综合重症医学科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "综合重症医学科-护理岗",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得护士执业资格证。"
+        },
+        {
+          "title": "耳泉明联科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "的优先，"
+        },
+        {
+          "title": "耳鼻咽喉科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得医师资格证及住院医师规范化培训证书"
+        },
+        {
+          "title": "肾病学科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "胸心血管外科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "证书，有胸心血管外科或体外循环经验的优"
+        },
+        {
+          "title": "血波科-医疗岗",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "的优先，"
+        },
+        {
+          "title": "超声诊断",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "运动康复",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "作经历的优先。"
+        },
+        {
+          "title": "骨科三病区-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "硕士研究生及取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "骨科四病区-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得医师资格证及住院医师规范化培训合格"
+        },
+        {
+          "title": "麻醉科-医疗岗",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "取得医师资格证及住院医师规范化培训合格"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/CMIJz6_3zTR65ZYDnbv7VA",
+      "hospital_name": "重庆海吉亚医院",
+      "source_title": "【热点招聘】重庆海吉亚医院2026年４月人才需求简章",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "",
+      "region": "重庆市",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/CMIJz6_3zTR65ZYDnbv7VA",
+      "job_count": 8,
+      "jobs": [
+        {
+          "title": "介入医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "临床医学、神经病学等",
+          "other_conditions": "具备执业医师资格证、医师规培证；能力优秀者，学历条件可适当放宽 具备神经内科介入经验，意向学习介入手术者也可投递、科室"
+        },
+        {
+          "title": "住院医师",
+          "job_family": "doctor",
+          "headcount": "7",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "临床医学或相关专业",
+          "other_conditions": "具备执业医师资格证、医师规培证；能力优秀者，学历条件可适当放宽 具有三级医院专科工作或规培经验"
+        },
+        {
+          "title": "助理医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "口腔医学",
+          "other_conditions": "具备助理医师执业证、助理医师资格证；有2年以上口腔科工作经验，已完成规培优先考虑；能规范完成补牙，根管治疗、牙周治疗、牙冠修复、简单拔牙等治疗项目"
+        },
+        {
+          "title": "学科带头人",
+          "job_family": "other_healthcare",
+          "headcount": "若干",
+          "education_requirement": "研究生及以上",
+          "major_requirement": "",
+          "other_conditions": "学科带头人或科主任要求三甲医院工作十年以上，正高级职称，条件优秀者可适当放宽要求：科室副主任可放宽至副高、硕士、三甲医院工作十年以上；有重点大学学习经历、国外学习工作经历均可投递，具体情况可面谈；十年以上三甲教学医院工作经历、具备医院或科室管理工作经验者优先考虑；任职国家级学会/协会各专业委员会常委、省级学会/协会各专业委员会副主任委员以上者优先考虑；教授、副教授、博士生导师、硕士生导师优先考虑"
+        },
+        {
+          "title": "护士",
+          "job_family": "nursing",
+          "headcount": "2",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "护理学",
+          "other_conditions": "具备护士执业证，护士及以上职称，助产士需持有母婴保健技术合格证 有两年及以上三级医院专科工作经历优先"
+        },
+        {
+          "title": "护士长",
+          "job_family": "nursing",
+          "headcount": "1",
+          "education_requirement": "本科及以上",
+          "major_requirement": "护理学",
+          "other_conditions": "持有护士执业证、中级及以上职称优先考虑。 3年及以上护理管理经验，有老年护理院、养老院、医养结合机构工作经历者优先。"
+        },
+        {
+          "title": "涉外护士",
+          "job_family": "nursing",
+          "headcount": "3",
+          "education_requirement": "本科及以上",
+          "major_requirement": "护理学/涉外护理学",
+          "other_conditions": "持有中国护士执业证书，并已完成护士规范化培训。本科学历、涉外护理专业背景者优先。持有护士执业证书，并已完成护士规范化培训。本科学历、涉外护理专业背景者优先。 具备一年及以上临床护理工作经验，拥有涉外医院、国际部门或服务外籍患者经验者优先。"
+        },
+        {
+          "title": "骨干医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "临床医学或相关专业",
+          "other_conditions": "具备执业医师资格证、医师规培证，中级及以上职称；能力优秀者，学历条件可适当放宽 具有5年以及上三级医院专科工作经验"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/P63fvio299nW_UAjYJRFyQ",
+      "hospital_name": "天府新区万安社区卫生服务中心",
+      "source_title": "【招聘公告】万安社区卫生服务中心2026年第一批次招聘开始啦！",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "天府新区",
+      "region": "天府新区",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/P63fvio299nW_UAjYJRFyQ",
+      "job_count": 3,
+      "jobs": [
+        {
+          "title": "中药师",
+          "job_family": "pharmacy",
+          "headcount": "1",
+          "education_requirement": "本科及以上",
+          "major_requirement": "中药学",
+          "other_conditions": "1.一般为1991年4月16日后出生，中级职称可放宽至1986年4月16日后出生，副高级及以上职称可放宽至1981年4月16日后出生。2.具备中药师及以上职称。3.熟练开展中药调剂、饮片鉴别、药品管理、处方审核技能。（个人简历中体现）4.具备2年及以上的医院药房工作经验。（个人简历中体现）"
+        },
+        {
+          "title": "放射医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上",
+          "major_requirement": "本科:医学影像学/临床医学/放射医学；研究生:放射肿瘤学/放射影像学",
+          "other_conditions": "1.初级职称应为1991年4月16日后出生，中级职称可放宽至1986年4月16日后出生，副高级及以上职称可放宽至1981年4月16日后出生。2.具备医师及以上职称。3.执业注册范围含医学影像和放射治疗专业。4.熟练操作DR、CT等设备，熟练开展放射常规检查及判读影像学资料并撰写诊断报告。（个人简历中体现）"
+        },
+        {
+          "title": "皮肤医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上",
+          "major_requirement": "本科:临床医学；研究生:皮肤病与性病学",
+          "other_conditions": "1.初级职称应为1991年4月16日后出生，中级职称可放宽至1986年4月16日后出生，副高级及以上职称可放宽至1981年4月16日后出生。2.具备医师及以上职称。3.执业注册范围含皮肤病与性病专业。4.熟练诊治皮肤常见病、多发病，熟练掌握皮肤外科操作，熟练开展激光、电灼等物理治疗。（个人简历中体现）5.具备3年及以上的医院皮肤科临床工作经验。（个人简历中体现）"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/1lvQmO_Lex177Ascs3t-xA",
+      "hospital_name": "内江市第六人民医院",
+      "source_title": "内江市第六人民医院2026年度员额人员招聘公告",
+      "province": "",
+      "city": "内江市",
+      "district": "市中区",
+      "region": "市中区",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/1lvQmO_Lex177Ascs3t-xA",
+      "job_count": 4,
+      "jobs": [
+        {
+          "title": "养老护理员",
+          "job_family": "nursing",
+          "headcount": "2",
+          "education_requirement": "全日制专科及以上",
+          "major_requirement": "护理、护理学专业、助产、助产学专业",
+          "other_conditions": "1.护士资格证；2.28周岁及以下"
+        },
+        {
+          "title": "外科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上",
+          "major_requirement": "本科：临床医学专业；研究生：外科学专业、骨科学专业",
+          "other_conditions": "1.执业医师（执业证应为可变更状态）；2.35周岁及以下；具有主治医师及以上职称的年龄放宽至40周岁及以下"
+        },
+        {
+          "title": "急诊医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上",
+          "major_requirement": "本科：临床医学专业；研究生：急诊医学专业",
+          "other_conditions": "1.执业医师（执业证应为可变更状态）；2.35周岁及以下；具有主治医师及以上职称的年龄放宽至40周岁及以下"
+        },
+        {
+          "title": "护士",
+          "job_family": "nursing",
+          "headcount": "9",
+          "education_requirement": "全日制本科及以上",
+          "major_requirement": "本科：护理学专业；研究生：护理学专业",
+          "other_conditions": "1.护士资格证；2.本科学历须取得规培证，其中2026年规培结业的须在本年度取得规培证；3.32周岁及以下"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/JuXd3guEpGTdM7oGgdqCMQ",
+      "hospital_name": "武侯区簇桥社区卫生服务中心",
+      "source_title": "【小桥公告】成都市武侯区簇桥社区卫生服务中心招聘西医康复医师啦~",
+      "province": "",
+      "city": "成都市",
+      "district": "武侯区簇桥社区",
+      "region": "武侯区簇桥社区",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://mp.weixin.qq.com/s/JuXd3guEpGTdM7oGgdqCMQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "西医康复医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "大学专科及以上学历",
+          "major_requirement": "临床医学、康复医学或运动医学相关专业",
+          "other_conditions": "初级及以上 1.年龄在45周岁及以下，副高级及以上职称年龄可放宽至50周岁及以下；2.持有医师执业证。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cqljzp.com/announcement/index.php?id=1629",
+      "hospital_name": "两江新区人民医院",
+      "source_title": "两江新区人民医院招聘简章",
+      "province": "",
+      "city": "",
+      "district": "两江新区",
+      "region": "两江新区",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://www.cqljzp.com/announcement/index.php?id=1629",
+      "job_count": 9,
+      "jobs": [
+        {
+          "title": "临床护士",
+          "job_family": "nursing",
+          "headcount": "18名",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "护理学",
+          "other_conditions": "取得护士资格证 取得规培证者优先"
+        },
+        {
+          "title": "初级医师",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "硕士研究生及以上学历",
+          "major_requirement": "临床医学或病理学相关专业",
+          "other_conditions": "取得医师资格证书及医师执业证书，执业范围为病理专业 完成住院医师规培（病理方向），具有三甲医院规培经历及1-3年病理诊断经验"
+        },
+        {
+          "title": "心血管内科医师",
+          "job_family": "doctor",
+          "headcount": "2名",
+          "education_requirement": "硕士研究生及以上学历（博士优先）",
+          "major_requirement": "心血管内科专业",
+          "other_conditions": "取得执业医师资格证、规培证 具备心血管内科专科工作经历或CCU工作经历"
+        },
+        {
+          "title": "急诊部医师",
+          "job_family": "doctor",
+          "headcount": "6名",
+          "education_requirement": "研究生及以上学历",
+          "major_requirement": "大内、大外、全科急诊专业",
+          "other_conditions": "取得执业医师资格证书、规培证 具备三甲医院工作经历者优先"
+        },
+        {
+          "title": "病理科医师（初级）",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "硕士研究生及以上学历",
+          "major_requirement": "临床医学或病理学相关专业",
+          "other_conditions": "取得医师资格证书及医师执业证书，执业范围为病理专业，完成住院医师规培（病理方向） 具有三甲医院规培经历及1-3年病理诊断经验，病理形态学基础扎实，具备一定科研能力者优先"
+        },
+        {
+          "title": "病理科医师（高级职称）",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "硕士研究生及以上学历",
+          "major_requirement": "临床医学或病理学相关专业",
+          "other_conditions": "副主任医师及以上专业技术职称 从事临床病理诊断工作10年及以上，熟悉术中冰冻，免疫组化及常见分子病理技术的临床应用，有三甲医院病理科工作经历，具备一定科研能力者优先"
+        },
+        {
+          "title": "超声科医师",
+          "job_family": "doctor",
+          "headcount": "4名",
+          "education_requirement": "硕士研究生及以上学历，博士/博士后优先",
+          "major_requirement": "临床医学/超声医学/影像医学与核医学专业",
+          "other_conditions": "取得规培证、执业医师资格证 具有三甲医院超声科工作经验优先，以第一作者/通讯作者发表专业相关SCI论文IF>5优先"
+        },
+        {
+          "title": "重症医学科医师",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "硕士研究生及以上学历",
+          "major_requirement": "",
+          "other_conditions": "取得医师执业证及规培证 有工作经验的执业注册范围须为“重症”"
+        },
+        {
+          "title": "高级职称病理医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上学历",
+          "major_requirement": "临床医学或病理学相关专业",
+          "other_conditions": "副主任医师及以上专业技术职称 从事临床病理诊断工作10年及以上，熟悉术中冰冻，免疫组化及常见分子病理技术的临床应用，有三甲医院病理科工作经历"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cqljzp.com/announcement/index.php?id=1628",
+      "hospital_name": "两江新区人民医院",
+      "source_title": "两江新区人民医院劳务派遣岗位招聘简章",
+      "province": "",
+      "city": "",
+      "district": "两江新区",
+      "region": "两江新区",
+      "publish_date": "2026-04-16",
+      "apply_url": "https://www.cqljzp.com/announcement/index.php?id=1628",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "临床助理护士",
+          "job_family": "nursing",
+          "headcount": "9名",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "",
+          "other_conditions": "取得护士资格证"
+        },
+        {
+          "title": "超声科记录员",
+          "job_family": "nursing",
+          "headcount": "4名",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "医学相关专业背景，护理学专业优先",
+          "other_conditions": "取得执业护士证，具有护士及以上职称 具有2年以上超声科相关工作经验优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.120cq.com.cn/rsrc_ryzl/2026/Le3lEMa6.html",
+      "hospital_name": "重庆市急救医疗中心",
+      "source_title": "重庆大学附属中心医院（重庆市急救医疗中心）2026年第二季度2批次招聘公告",
+      "province": "重庆市",
+      "city": "重庆市",
+      "district": "",
+      "region": "重庆市",
+      "publish_date": "2026-04-15",
+      "apply_url": "https://www.120cq.com.cn/rsrc_ryzl/2026/Le3lEMa6.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "肝胆血管外科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.wchscu.cn/hxsj/zhaoshengzhaopin/96332.html",
+      "hospital_name": "成都上锦南府医院",
+      "source_title": "护理岗位招聘启事",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-15",
+      "apply_url": "https://www.wchscu.cn/hxsj/zhaoshengzhaopin/96332.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "护理岗位",
+          "job_family": "nursing",
+          "headcount": "8",
+          "education_requirement": "护理学本科及以上学历且持有护士执业证书或护士资格证书或持有省级护士规范化培训结业证书",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.wchscu.cn/hxsj/zhaoshengzhaopin/96333.html",
+      "hospital_name": "成都上锦南府医院",
+      "source_title": "病理科辅助人员招聘启事",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-15",
+      "apply_url": "https://www.wchscu.cn/hxsj/zhaoshengzhaopin/96333.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "病理科辅助人员（取材助理）",
+          "job_family": "medical_tech",
+          "headcount": "1人",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "临床医学、护理学、医学检验技术等相关医学专业",
+          "other_conditions": "具有病理标本取材经验或持有病理住院技师规范化培训结业证者优先考虑"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.qbjzyy.cn/go.htm?url=new_detail&ctype=article&id=76227",
+      "hospital_name": "成都青白江区中医医院",
+      "source_title": "202604-14成都市青白江区中医医院2026年面向社会公开招募见习人员的公告为切实促进高校毕业生（青年）等重点群体提升就业技能、实现充分就业，成都市青白区中医医院2026年计划面向高校毕业生（青年）公开招募23名见习人员，现将有关事项公告如下：",
+      "province": "",
+      "city": "成都市",
+      "district": "成都青白江区",
+      "region": "成都青白江区",
+      "publish_date": "2026-04-14",
+      "apply_url": "https://www.qbjzyy.cn/go.htm?url=new_detail&ctype=article&id=76227",
+      "job_count": 5,
+      "jobs": [
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上",
+          "major_requirement": "临床医学类、口腔医学类、公共卫生与预防医学类、中医学类、中西医结合类",
+          "other_conditions": ""
+        },
+        {
+          "title": "临床护士",
+          "job_family": "nursing",
+          "headcount": "11",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "护理学类",
+          "other_conditions": ""
+        },
+        {
+          "title": "合计",
+          "job_family": "other_healthcare",
+          "headcount": "23",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "技师",
+          "job_family": "medical_tech",
+          "headcount": "6",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "医学检验技术、医学实验技术、卫生检验与检疫、医学影像技术、康复治疗学、中医康复技术",
+          "other_conditions": ""
+        },
+        {
+          "title": "药师",
+          "job_family": "pharmacy",
+          "headcount": "4",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "药学类、中药学类",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cd2120.com/news_offer/2026/7e5RoXa2.html",
+      "hospital_name": "成都市新都区第二人民医院",
+      "source_title": "成都市第二人民医院编外招聘公告",
+      "province": "",
+      "city": "成都市",
+      "district": "成都市新都区",
+      "region": "成都市新都区",
+      "publish_date": "2026-04-14",
+      "apply_url": "https://www.cd2120.com/news_offer/2026/7e5RoXa2.html",
+      "job_count": 10,
+      "jobs": [
+        {
+          "title": "全科医疗科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "内科学、全科医学",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        },
+        {
+          "title": "内分泌科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "内科学\n（内分泌与代谢病方向）",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        },
+        {
+          "title": "急诊科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "急诊医学、重症医学",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        },
+        {
+          "title": "护理人员",
+          "job_family": "nursing",
+          "headcount": "15",
+          "education_requirement": "",
+          "major_requirement": "护理、护理学",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.本科及以上，已取得学历证书；\n3.取得护士资格证；\n4.主管护师及以上职称年龄可放宽至1990年4月14日及以后出生。"
+        },
+        {
+          "title": "消化内科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "内科学\n（消化病学方向）",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        },
+        {
+          "title": "皮肤科医师",
+          "job_family": "doctor",
+          "headcount": "4",
+          "education_requirement": "",
+          "major_requirement": "皮肤病与性病学",
+          "other_conditions": "1.年龄要求：1990年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        },
+        {
+          "title": "耳鼻咽喉头颈外科听力技师",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "耳鼻咽喉科学",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.硕士研究生及以上，已取得学历学位证书。"
+        },
+        {
+          "title": "肾病内科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "内科学\n（肾脏内科方向）",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书，具有\nCET-6证书及相应英语水平；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        },
+        {
+          "title": "超声影像科医师",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "",
+          "major_requirement": "超声医学",
+          "other_conditions": "1.年龄要求：1996年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        },
+        {
+          "title": "重症医学科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "重症医学",
+          "other_conditions": "1.年龄要求：1990年4月14日及以后出生；\n2.2026年7月31日前毕业，取得硕士研究生及以上学历学位证书；\n3.初级职称及以上，取得医师资格证书和执业证书；\n4.取得住院医师规范化培训合格证书，或2026年8月前通过住院医师规范\n化培训结业考核。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cd7yy.com/recruitment/2026/mepQm1aM.html",
+      "hospital_name": "成都市第七人民医院",
+      "source_title": "成都市第七人民医院2026年编外招聘工作人员的公告",
+      "province": "",
+      "city": "成都市",
+      "district": "",
+      "region": "成都市",
+      "publish_date": "2026-04-14",
+      "apply_url": "https://www.cd7yy.com/recruitment/2026/mepQm1aM.html",
+      "job_count": 31,
+      "jobs": [
+        {
+          "title": "儿科/新生儿科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "博士研究生",
+          "major_requirement": "儿科学",
+          "other_conditions": "1.1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
+        },
+        {
+          "title": "内分泌与代谢性疾病科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "内科学（内分泌方向）",
+          "other_conditions": "1.1996年1月1日及以后出生，博士放宽至1986年1月1日及以后出生。"
+        },
+        {
+          "title": "呼吸内科医师A",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "内科学（呼吸内科方向）",
+          "other_conditions": "1.1996年1月1日及以后出生，中级职称可以放宽至1991年1月1日及以后；\n2.博士研究生、有呼吸科工作经验、发表过北大核心期刊及以上文章者优先考虑。"
+        },
+        {
+          "title": "呼吸内科医师B",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "内科学（呼吸内科方向）",
+          "other_conditions": "1.1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.需有三级医院担任医疗组长工作职责经历2年及以上；\n3.有介入工作经验或纤支镜工作经验；\n4.博士研究生、发表过北大核心期刊及以上文章者优先考虑。"
+        },
+        {
+          "title": "国际医学部/老年医学科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "博士研究生",
+          "major_requirement": "全科医学/老年医学",
+          "other_conditions": "1.1986年1月1日及以后出生。"
+        },
+        {
+          "title": "妇产科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "妇产科学（妇科方向、产科方向）",
+          "other_conditions": "1.1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生；\n2.副主任医师及以上职称须具备产钳助产和产科危急重症救治能力或须胜任妇科恶性肿瘤根治术或盆底重建等手术主刀工作。"
+        },
+        {
+          "title": "康复科医师A",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "中医康复、针灸推拿、康复医学等",
+          "other_conditions": "1.1996年1月1日及以后出生。"
+        },
+        {
+          "title": "康复科医师B",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "中医康复、针灸推拿、康复医学",
+          "other_conditions": "1.1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生。"
+        },
+        {
+          "title": "康复科治疗师",
+          "job_family": "rehab",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "康复治疗学、运动康复学",
+          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生。"
+        },
+        {
+          "title": "心血管内科医师",
+          "job_family": "doctor",
+          "headcount": "5",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "内科学（心血管内科方向）",
+          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.能从事心脏介入工作优先考虑。"
+        },
+        {
+          "title": "急诊医学科医师",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "临床医学、急诊医学、全科医学",
+          "other_conditions": "1.1996年1月1日及以后出生，主治医师放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生；\n2.急诊、全科规培优先考虑。"
+        },
+        {
+          "title": "感染性疾病科医师",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "临床医学、感染性疾病",
+          "other_conditions": "1.1996年1月1日及以后出生，主治医师放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
+        },
+        {
+          "title": "放射科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "医学影像与核医学",
+          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.专业基础理论扎实，熟悉CT及MR成像原理，能够独立处理常见病及多发病影像诊断；\n3.以第一作者身份发表SCI、中文核心期刊论著优先考虑；\n4.中级及以上职称主持纵向课题立项或结题者优先考虑。"
+        },
+        {
+          "title": "放疗技师",
+          "job_family": "other_healthcare",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "影像技术专业、放射治疗技术、生物医学工程",
+          "other_conditions": "1.1996年1月1日及以后出生，主管技师职称可放宽至1991年1月1日后出生，博士、副主任技师职称可放宽至1986年1月1日以后出生，主任技师职称可放宽至1981年1月1日及以后出生；\n2.具有技师资格证、放射工作人员证、辐射安全与防护培训合格证；\n3.熟悉本专业基础理论，熟悉瓦里安和医科达加速器，能够独立完成放疗技师工作。"
+        },
+        {
+          "title": "核医学科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "核医学",
+          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.有PET，SPECT工作经历优先考虑。"
+        },
+        {
+          "title": "核医学科技师",
+          "job_family": "medical_tech",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "医学影像与核医学",
+          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.有PET，SPECT工作经历优先考虑。"
+        },
+        {
+          "title": "检验技师",
+          "job_family": "medical_tech",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "医学检验技术、临床检验诊断学",
+          "other_conditions": "1.2000年1月1日及以后出生，中级职称及以上人员可放宽至1996年1月1日及以后出生；\n2.具有检验技师或医师执业资格证书；\n3.以第一作者身份发表SCI论著（不含综述、meta分析）、中文核心期刊论著（不含综述）优先考虑；\n4.主持局级课题立项或结题者优先考虑（需提供任务书或结题证明）；\n5.有三级甲等医院2年以上从业经历人员优先考虑。"
+        },
+        {
+          "title": "病理科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "病理学及病理生理学",
+          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
+        },
+        {
+          "title": "眼科技师",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "眼视光专业",
+          "other_conditions": "1.1996年1月1日及以后出生；\n2.有三级医院眼科独立病区工作经验；\n3.对斜弱视训练及角膜塑形镜验配熟练者优先考虑；\n4.熟悉眼科各种特检仪器使用，拥有丰富的眼视光理论及实际操作经验优先考虑。"
+        },
+        {
+          "title": "神经内科医师A",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "神经病学（神经介入）",
+          "other_conditions": "1.1996年1月1日及以后出生；\n2.能独立行脑血管造影；\n3.熟悉本专业基础理论，具有一定的技术操作能力，能独立处理本专业常见病。"
+        },
+        {
+          "title": "神经内科医师B",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "神经病学",
+          "other_conditions": "1.1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.经国家或省级卫生健康行政部门认可的神经血管介入诊疗技术规范化培训并取得合格证书，具备限制类介入诊疗技术资质者优先考虑；\n3.能独立处理神经介入领域疑难危重症病例，熟练掌握围手术期并发症防控技术，具备丰富的急诊介入救治经验优先考虑；\n4.拥有3年以上三甲医院神经介入相关专业组管理或核心骨干工作经验，具备清晰的学科发展规划能力与团队统筹协调能力优先考虑；\n5.能够制定组内工作计划与人才培养方案，组织病例讨论、技术培训及质量控制，指导下级医师开展临床工作与技能提升优先考虑。"
+        },
+        {
+          "title": "神经外科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "神经外科",
+          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
+        },
+        {
+          "title": "耳鼻咽喉头颈外科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "耳鼻咽喉科学",
+          "other_conditions": "1.1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.熟悉本专业基础理论，具有一定的技术操作能力，能独立处理本专业常见病。"
+        },
+        {
+          "title": "肝胆外科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上（应届毕业生）",
+          "major_requirement": "普通外科（肝胆方向）、血管外科（外周血管介入方向）",
+          "other_conditions": "1.1996年1月1日以后出生，2026年应届毕业生；\n2.须在2026年8月前取得公告要求的国家承认的普通高等学校毕业证书、学位证书（学历与学位层次须相对应）及其他岗位相关证明材料，并凭证书及相关证明材料办理入职手续。"
+        },
+        {
+          "title": "肾病内科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "内科学（肾病方向）",
+          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，副主任医师及以上职称可放宽至1986年1月1日及以后出生；\n2熟悉本专业基础理论，能进行透析血管通路手术及DSA下介入手术操作者优先考虑。"
+        },
+        {
+          "title": "肿瘤科医师",
+          "job_family": "doctor",
+          "headcount": "6",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "肿瘤学、放射肿瘤学",
+          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.有肿瘤介入、放射治疗经验者优先考虑。"
+        },
+        {
+          "title": "药师",
+          "job_family": "pharmacy",
+          "headcount": "1",
+          "education_requirement": "博士研究生",
+          "major_requirement": "药学或临床药学",
+          "other_conditions": "1.1996年1月1日及以后出生，博士放宽至1986年1月1日及以后出生。"
+        },
+        {
+          "title": "血液科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "内科学(血液病）、重症医学",
+          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，博士放宽至1986年1月1日及以后出生；\n2.有细胞治疗的工作经历优先考虑。"
+        },
+        {
+          "title": "静配中心药师",
+          "job_family": "pharmacy",
+          "headcount": "5",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "",
+          "other_conditions": "1.1996年1月1日及以后出生，博士放宽至1986年1月1日及以后出生；\n2.有PIVAS工作经验者优先考虑。"
+        },
+        {
+          "title": "骨外科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "骨科学（脊柱外科方向）",
+          "other_conditions": "1.1996年1月1日及以后出生。"
+        },
+        {
+          "title": "麻醉手术中心医师",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "麻醉学",
+          "other_conditions": "1.1996年1月1日及以后出生；\n2.有三甲医院（麻醉住培基地）工作经历，有住培教学经验者优先考虑。"
+        }
+      ]
+    },
     {
       "group_key": "https://mp.weixin.qq.com/s/zZdxF-y863waOITc-lOdDw",
       "hospital_name": "绵阳市第三人民医院",
@@ -2031,7 +3995,7 @@
       "region": "重庆市",
       "publish_date": "2026-04-09",
       "apply_url": "https://mp.weixin.qq.com/s/r0u-0_1125KwtHSc7hsHXA",
-      "job_count": 20,
+      "job_count": 12,
       "jobs": [
         {
           "title": "临床心理科医师1",
@@ -2058,14 +4022,6 @@
           "other_conditions": "取得执业医师资格。取得住院医师规范化培训合格证者优先。 35周岁及以下"
         },
         {
-          "title": "妇产科医师",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "研究生学历并取得相应学位",
-          "major_requirement": "临床医学与核医学，妇产科学",
-          "other_conditions": "取得执业医师资格证，超声专业全国医师规范化培训合格证者优先。 35周岁及以下"
-        },
-        {
           "title": "心血管内科医师",
           "job_family": "doctor",
           "headcount": "1",
@@ -2074,36 +4030,12 @@
           "other_conditions": "取得执业医师资格，住院医师规范化培训合格证。以第一或通讯作者发表SCI文章者优先。 35周岁及以下"
         },
         {
-          "title": "感染性疾病科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历并取得相应学位",
-          "major_requirement": "内科学与精神卫生学",
-          "other_conditions": "取得执业医师资格证，且按医院规范化培训合格证书要求，有省级医学专科专科学者优先。 35周岁及以下"
-        },
-        {
           "title": "护士",
           "job_family": "nursing",
           "headcount": "40",
           "education_requirement": "本科及以上学历并取得相应学位",
           "major_requirement": "护理、护理学",
           "other_conditions": "取得护士执业资格。取得护士规范化培训合格证者优先。 30周岁及以下"
-        },
-        {
-          "title": "招聘岗位（编外）",
-          "job_family": "other_healthcare",
-          "headcount": "",
-          "education_requirement": "学历、学位原件及复印件(从专业初始学历开始提供)",
-          "major_requirement": "",
-          "other_conditions": "个人简历及应聘登记表均需提交，注意资料齐备。应聘者应根据投递岗位的条件完整、据实提供个人相应资料信息。因应聘者个人原因资料信息不齐备影响资格初审的，由应聘者自行负责。"
-        },
-        {
-          "title": "检验科本科护士",
-          "job_family": "nursing",
-          "headcount": "1",
-          "education_requirement": "大专及以上学历",
-          "major_requirement": "护理学、护理",
-          "other_conditions": "取得护士执业资格证。 30周岁及以下"
         },
         {
           "title": "检验科采血护士",
@@ -2122,28 +4054,12 @@
           "other_conditions": "取得执业医师资格。 35周岁及以下"
         },
         {
-          "title": "神经外科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历并取得相应学位",
-          "major_requirement": "神经病学",
-          "other_conditions": "取得执业医师资格证。 35周岁及以下"
-        },
-        {
           "title": "肾内科护士",
           "job_family": "nursing",
           "headcount": "2",
           "education_requirement": "大专及以上学历",
           "major_requirement": "护理学、护理",
           "other_conditions": "取得护士执业资格。有2年及以上血透工作经历者优先。 30周岁及以下"
-        },
-        {
-          "title": "肾脏甲状旁腺医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历并取得相应学位",
-          "major_requirement": "外科学",
-          "other_conditions": "取得执业医师资格证，且按医院规范化培训合格证书要求，具备相关岗位规范化培训合格证书者优先。 35周岁及以下"
         },
         {
           "title": "胃肠甲乳外科医师",
@@ -2154,28 +4070,12 @@
           "other_conditions": "取得执业医师资格。取得住院医师规范化培训合格证者优先。 35周岁及以下"
         },
         {
-          "title": "血液风湿科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历并取得相应学位",
-          "major_requirement": "内科学与精神卫生学",
-          "other_conditions": "取得执业医师资格证，且按医院规范化培训合格证书要求，有二级医院工作经验者优先。 35周岁及以下"
-        },
-        {
           "title": "超声科医师",
           "job_family": "doctor",
           "headcount": "2",
           "education_requirement": "研究生学历并取得相应学位",
           "major_requirement": "影像医学与核医学、超声医学",
           "other_conditions": "取得执业医师资格，超声专业住院医师规范化培训合格证。 35周岁及以下"
-        },
-        {
-          "title": "院前急救车专职人员（调度岗位）",
-          "job_family": "nursing",
-          "headcount": "4",
-          "education_requirement": "本科及以上学历",
-          "major_requirement": "护理学、护理",
-          "other_conditions": "取得护士执业资格证。 35周岁及以下"
         },
         {
           "title": "院前急救部专技人员（调度和急救岗）",
@@ -4686,268 +6586,6 @@
           "education_requirement": "临床医学相关专业本科及以上学历",
           "major_requirement": "",
           "other_conditions": ""
-        }
-      ]
-    },
-    {
-      "group_key": "https://www.cd7yy.com/recruitment/2026/mepQm1aM.html",
-      "hospital_name": "成都市第七人民医院",
-      "source_title": "成都市第七人民医院2026年编外招聘工作人员的公告",
-      "province": "",
-      "city": "成都市",
-      "district": "",
-      "region": "成都市",
-      "publish_date": "",
-      "apply_url": "https://www.cd7yy.com/recruitment/2026/mepQm1aM.html",
-      "job_count": 31,
-      "jobs": [
-        {
-          "title": "儿科/新生儿科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "博士研究生",
-          "major_requirement": "儿科学",
-          "other_conditions": "1.1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
-        },
-        {
-          "title": "内分泌与代谢性疾病科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "内科学（内分泌方向）",
-          "other_conditions": "1.1996年1月1日及以后出生，博士放宽至1986年1月1日及以后出生。"
-        },
-        {
-          "title": "呼吸内科医师A",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "内科学（呼吸内科方向）",
-          "other_conditions": "1.1996年1月1日及以后出生，中级职称可以放宽至1991年1月1日及以后；\n2.博士研究生、有呼吸科工作经验、发表过北大核心期刊及以上文章者优先考虑。"
-        },
-        {
-          "title": "呼吸内科医师B",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "内科学（呼吸内科方向）",
-          "other_conditions": "1.1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.需有三级医院担任医疗组长工作职责经历2年及以上；\n3.有介入工作经验或纤支镜工作经验；\n4.博士研究生、发表过北大核心期刊及以上文章者优先考虑。"
-        },
-        {
-          "title": "国际医学部/老年医学科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "博士研究生",
-          "major_requirement": "全科医学/老年医学",
-          "other_conditions": "1.1986年1月1日及以后出生。"
-        },
-        {
-          "title": "妇产科医师",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "妇产科学（妇科方向、产科方向）",
-          "other_conditions": "1.1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生；\n2.副主任医师及以上职称须具备产钳助产和产科危急重症救治能力或须胜任妇科恶性肿瘤根治术或盆底重建等手术主刀工作。"
-        },
-        {
-          "title": "康复科医师A",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "中医康复、针灸推拿、康复医学等",
-          "other_conditions": "1.1996年1月1日及以后出生。"
-        },
-        {
-          "title": "康复科医师B",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "中医康复、针灸推拿、康复医学",
-          "other_conditions": "1.1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生。"
-        },
-        {
-          "title": "康复科治疗师",
-          "job_family": "rehab",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "康复治疗学、运动康复学",
-          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生。"
-        },
-        {
-          "title": "心血管内科医师",
-          "job_family": "doctor",
-          "headcount": "5",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "内科学（心血管内科方向）",
-          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.能从事心脏介入工作优先考虑。"
-        },
-        {
-          "title": "急诊医学科医师",
-          "job_family": "doctor",
-          "headcount": "3",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "临床医学、急诊医学、全科医学",
-          "other_conditions": "1.1996年1月1日及以后出生，主治医师放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生；\n2.急诊、全科规培优先考虑。"
-        },
-        {
-          "title": "感染性疾病科医师",
-          "job_family": "doctor",
-          "headcount": "3",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "临床医学、感染性疾病",
-          "other_conditions": "1.1996年1月1日及以后出生，主治医师放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
-        },
-        {
-          "title": "放射科医师",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "医学影像与核医学",
-          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.专业基础理论扎实，熟悉CT及MR成像原理，能够独立处理常见病及多发病影像诊断；\n3.以第一作者身份发表SCI、中文核心期刊论著优先考虑；\n4.中级及以上职称主持纵向课题立项或结题者优先考虑。"
-        },
-        {
-          "title": "放疗技师",
-          "job_family": "other_healthcare",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "影像技术专业、放射治疗技术、生物医学工程",
-          "other_conditions": "1.1996年1月1日及以后出生，主管技师职称可放宽至1991年1月1日后出生，博士、副主任技师职称可放宽至1986年1月1日以后出生，主任技师职称可放宽至1981年1月1日及以后出生；\n2.具有技师资格证、放射工作人员证、辐射安全与防护培训合格证；\n3.熟悉本专业基础理论，熟悉瓦里安和医科达加速器，能够独立完成放疗技师工作。"
-        },
-        {
-          "title": "核医学科医师",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "核医学",
-          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.有PET，SPECT工作经历优先考虑。"
-        },
-        {
-          "title": "核医学科技师",
-          "job_family": "medical_tech",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "医学影像与核医学",
-          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.有PET，SPECT工作经历优先考虑。"
-        },
-        {
-          "title": "检验技师",
-          "job_family": "medical_tech",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "医学检验技术、临床检验诊断学",
-          "other_conditions": "1.2000年1月1日及以后出生，中级职称及以上人员可放宽至1996年1月1日及以后出生；\n2.具有检验技师或医师执业资格证书；\n3.以第一作者身份发表SCI论著（不含综述、meta分析）、中文核心期刊论著（不含综述）优先考虑；\n4.主持局级课题立项或结题者优先考虑（需提供任务书或结题证明）；\n5.有三级甲等医院2年以上从业经历人员优先考虑。"
-        },
-        {
-          "title": "病理科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "病理学及病理生理学",
-          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
-        },
-        {
-          "title": "眼科技师",
-          "job_family": "other_healthcare",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "眼视光专业",
-          "other_conditions": "1.1996年1月1日及以后出生；\n2.有三级医院眼科独立病区工作经验；\n3.对斜弱视训练及角膜塑形镜验配熟练者优先考虑；\n4.熟悉眼科各种特检仪器使用，拥有丰富的眼视光理论及实际操作经验优先考虑。"
-        },
-        {
-          "title": "神经内科医师A",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "神经病学（神经介入）",
-          "other_conditions": "1.1996年1月1日及以后出生；\n2.能独立行脑血管造影；\n3.熟悉本专业基础理论，具有一定的技术操作能力，能独立处理本专业常见病。"
-        },
-        {
-          "title": "神经内科医师B",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "神经病学",
-          "other_conditions": "1.1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.经国家或省级卫生健康行政部门认可的神经血管介入诊疗技术规范化培训并取得合格证书，具备限制类介入诊疗技术资质者优先考虑；\n3.能独立处理神经介入领域疑难危重症病例，熟练掌握围手术期并发症防控技术，具备丰富的急诊介入救治经验优先考虑；\n4.拥有3年以上三甲医院神经介入相关专业组管理或核心骨干工作经验，具备清晰的学科发展规划能力与团队统筹协调能力优先考虑；\n5.能够制定组内工作计划与人才培养方案，组织病例讨论、技术培训及质量控制，指导下级医师开展临床工作与技能提升优先考虑。"
-        },
-        {
-          "title": "神经外科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "神经外科",
-          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，博士、副主任医师职称可放宽至1986年1月1日及以后出生，主任医师职称可放宽至1981年1月1日及以后出生。"
-        },
-        {
-          "title": "耳鼻咽喉头颈外科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "耳鼻咽喉科学",
-          "other_conditions": "1.1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.熟悉本专业基础理论，具有一定的技术操作能力，能独立处理本专业常见病。"
-        },
-        {
-          "title": "肝胆外科医师",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上（应届毕业生）",
-          "major_requirement": "普通外科（肝胆方向）、血管外科（外周血管介入方向）",
-          "other_conditions": "1.1996年1月1日以后出生，2026年应届毕业生；\n2.须在2026年8月前取得公告要求的国家承认的普通高等学校毕业证书、学位证书（学历与学位层次须相对应）及其他岗位相关证明材料，并凭证书及相关证明材料办理入职手续。"
-        },
-        {
-          "title": "肾病内科医师",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "内科学（肾病方向）",
-          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，副主任医师及以上职称可放宽至1986年1月1日及以后出生；\n2熟悉本专业基础理论，能进行透析血管通路手术及DSA下介入手术操作者优先考虑。"
-        },
-        {
-          "title": "肿瘤科医师",
-          "job_family": "doctor",
-          "headcount": "6",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "肿瘤学、放射肿瘤学",
-          "other_conditions": "1.1996年1月1日及以后出生，中级职称可放宽至1991年1月1日及以后出生，副高级职称可放宽至1986年1月1日及以后出生，正高级职称可放宽至1981年1月1日及以后出生；\n2.有肿瘤介入、放射治疗经验者优先考虑。"
-        },
-        {
-          "title": "药师",
-          "job_family": "pharmacy",
-          "headcount": "1",
-          "education_requirement": "博士研究生",
-          "major_requirement": "药学或临床药学",
-          "other_conditions": "1.1996年1月1日及以后出生，博士放宽至1986年1月1日及以后出生。"
-        },
-        {
-          "title": "血液科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "内科学(血液病）、重症医学",
-          "other_conditions": "1.1996年1月1日及以后出生，主治医师可放宽至1991年1月1日及以后出生，博士放宽至1986年1月1日及以后出生；\n2.有细胞治疗的工作经历优先考虑。"
-        },
-        {
-          "title": "静配中心药师",
-          "job_family": "pharmacy",
-          "headcount": "5",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "",
-          "other_conditions": "1.1996年1月1日及以后出生，博士放宽至1986年1月1日及以后出生；\n2.有PIVAS工作经验者优先考虑。"
-        },
-        {
-          "title": "骨外科医师",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "骨科学（脊柱外科方向）",
-          "other_conditions": "1.1996年1月1日及以后出生。"
-        },
-        {
-          "title": "麻醉手术中心医师",
-          "job_family": "doctor",
-          "headcount": "3",
-          "education_requirement": "硕士研究生及以上",
-          "major_requirement": "麻醉学",
-          "other_conditions": "1.1996年1月1日及以后出生；\n2.有三甲医院（麻醉住培基地）工作经历，有住培教学经验者优先考虑。"
         }
       ]
     }
