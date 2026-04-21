@@ -12,13 +12,6 @@ const updateTime = document.getElementById("updateTime");
 const resultsList = document.getElementById("resultsList");
 const emptyState = document.getElementById("emptyState");
 const template = document.getElementById("announcementRowTemplate");
-const xhDeadline = document.getElementById("xhDeadline");
-const xhLocation = document.getElementById("xhLocation");
-const xhHospitalName = document.getElementById("xhHospitalName");
-const xhSubtitle = document.getElementById("xhSubtitle");
-const xhJobsTitle = document.getElementById("xhJobsTitle");
-const xhJobsNote = document.getElementById("xhJobsNote");
-const featuredJobsList = document.getElementById("featuredJobsList");
 
 function normalizeKeyword(value) {
   return String(value || "").trim().toLowerCase();
@@ -70,24 +63,6 @@ function getItemRegion(item) {
 function getHospitalMeta(item) {
   const values = [getItemProvince(item), getItemRegion(item)].filter(Boolean);
   return [...new Set(values)].join(" / ");
-}
-
-function getFeaturedItem(items) {
-  return Array.isArray(items) && items.length ? items[0] : null;
-}
-
-function getDisplayValue(value, fallback = "未明确") {
-  const text = String(value || "").trim();
-  return text || fallback;
-}
-
-function getFeaturedJobs(item) {
-  return getItemJobs(item).slice(0, 6);
-}
-
-function getFeaturedLocation(item) {
-  const parts = [getItemProvince(item), getItemRegion(item)].filter(Boolean);
-  return [...new Set(parts)].join(" · ");
 }
 
 function buildSearchText(item) {
@@ -210,86 +185,6 @@ function createJobList(item, detail) {
   });
 }
 
-function createFeaturedJobCard(job) {
-  const li = document.createElement("li");
-  li.className = "featured-job-card";
-
-  const title = document.createElement("p");
-  title.className = "featured-job-name";
-  title.textContent = getDisplayValue(job.title || job.name, "岗位名称待补充");
-
-  const rows = [
-    ["招聘人数", getDisplayValue(job.headcount)],
-    ["学历", getDisplayValue(job.education_requirement)],
-    ["专业", getDisplayValue(job.major_requirement)],
-  ];
-
-  li.appendChild(title);
-
-  rows.forEach(([label, value]) => {
-    const row = document.createElement("p");
-    row.className = "featured-job-row";
-
-    const labelSpan = document.createElement("span");
-    labelSpan.className = "featured-job-label";
-    labelSpan.textContent = `${label}：`;
-
-    const valueSpan = document.createElement("span");
-    valueSpan.className = "featured-job-value";
-    valueSpan.textContent = value;
-
-    row.append(labelSpan, valueSpan);
-    li.appendChild(row);
-  });
-
-  return li;
-}
-
-function renderFeaturedAnnouncement(items) {
-  const item = getFeaturedItem(items);
-  const jobs = item ? getFeaturedJobs(item) : [];
-
-  xhHospitalName.textContent = item ? getItemHospitalName(item) : "暂无招聘公告";
-  xhSubtitle.textContent = item ? getItemSourceTitle(item) : "筛选结果为空，请调整关键词后重试";
-  xhJobsTitle.textContent = item ? `${getItemHospitalName(item)}岗位总览` : "重点岗位一页看完";
-  xhJobsNote.textContent = item
-    ? `${getItemSourceTitle(item)}`
-    : "展示岗位名称、招聘人数、学历、专业四项核心信息。";
-
-  const deadline = item ? getItemDeadline(item) : "";
-  if (deadline) {
-    xhDeadline.textContent = `截止 ${deadline}`;
-    xhDeadline.hidden = false;
-  } else {
-    xhDeadline.hidden = true;
-  }
-
-  const location = item ? getFeaturedLocation(item) : "";
-  if (location) {
-    xhLocation.textContent = location;
-    xhLocation.hidden = false;
-  } else {
-    xhLocation.hidden = true;
-  }
-
-  featuredJobsList.replaceChildren();
-  if (!jobs.length) {
-    featuredJobsList.appendChild(
-      createFeaturedJobCard({
-        title: "暂无岗位明细",
-        headcount: "未明确",
-        education_requirement: "未明确",
-        major_requirement: "未明确",
-      }),
-    );
-    return;
-  }
-
-  jobs.forEach((job) => {
-    featuredJobsList.appendChild(createFeaturedJobCard(job));
-  });
-}
-
 function configureApplyLink(item, fragment) {
   const link = fragment.querySelector(".apply-link");
   const note = fragment.querySelector(".missing-link-note");
@@ -348,7 +243,6 @@ function configureRowToggle(fragment) {
 }
 
 function render(items) {
-  renderFeaturedAnnouncement(items);
   resultsList.replaceChildren();
   updateSummary(items);
 
