@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-21 13:51:25",
+  "generated_at": "2026-04-21 14:00:37",
   "count": 135,
-  "job_count": 655,
+  "job_count": 640,
   "items": [
     {
       "group_key": "https://www.wcfh.com.cn/zhb_tzgg_rczp/010005700017226.html",
@@ -13,7 +13,7 @@
       "region": "成都市",
       "publish_date": "2026-04-20",
       "apply_url": "https://www.wcfh.com.cn/zhb_tzgg_rczp/010005700017226.html",
-      "job_count": 26,
+      "job_count": 11,
       "jobs": [
         {
           "title": "中毒科/肾脏内科临床医师",
@@ -24,44 +24,12 @@
           "other_conditions": ""
         },
         {
-          "title": "中毒科/肾脏内科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "内科学（肾内）、内科学（内分泌）、内科学（风湿病）",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
-          "title": "中毒科临床医师",
-          "job_family": "doctor",
-          "headcount": "/",
-          "education_requirement": "",
-          "major_requirement": "肾脏内科、内科学（肾内）、内科学（内分泌）、内科学（风湿病）",
-          "other_conditions": ""
-        },
-        {
-          "title": "临床医师岗位信息一览表",
-          "job_family": "doctor",
-          "headcount": "专业方向",
-          "education_requirement": "",
-          "major_requirement": "",
-          "other_conditions": "眩晕、耳鸣，耳聋方向优先"
-        },
-        {
           "title": "口腔科临床医师",
           "job_family": "doctor",
           "headcount": "2",
           "education_requirement": "",
           "major_requirement": "口腔医学（牙体牙髓病学、牙周病学、口腔黏膜病学、儿童口腔医学、口腔外科学）",
           "other_conditions": ""
-        },
-        {
-          "title": "口腔科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "口腔医学（牙体牙髓病学、牙周病学、口腔黏膜病学、儿童口腔医学、口腔外科学）",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
         },
         {
           "title": "姑息医学科临床医师",
@@ -72,35 +40,11 @@
           "other_conditions": ""
         },
         {
-          "title": "姑息医学科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "老年医学、肿瘤学、内科学（感染）等",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
           "title": "尘肺科/呼吸与危重症医学科临床医师",
           "job_family": "doctor",
           "headcount": "2",
           "education_requirement": "",
           "major_requirement": "内科学（呼吸）、内科学（感染）",
-          "other_conditions": ""
-        },
-        {
-          "title": "尘肺科/呼吸与危重症医学科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "2",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "内科学（呼吸）、内科学（感染）",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
-          "title": "尘肺科临床医师",
-          "job_family": "doctor",
-          "headcount": "/",
-          "education_requirement": "",
-          "major_requirement": "呼吸与危重症医学科、内科学（呼吸）、内科学（感染）",
           "other_conditions": ""
         },
         {
@@ -112,28 +56,12 @@
           "other_conditions": ""
         },
         {
-          "title": "康复医学科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "康复医学与理疗学",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
           "title": "急诊科临床医师",
           "job_family": "doctor",
           "headcount": "1",
           "education_requirement": "",
           "major_requirement": "急诊医学、重症医学",
           "other_conditions": ""
-        },
-        {
-          "title": "急诊科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "急诊医学、重症医学",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
         },
         {
           "title": "甲状腺乳腺外科临床医师",
@@ -144,35 +72,11 @@
           "other_conditions": ""
         },
         {
-          "title": "甲状腺乳腺外科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "外科学（甲状腺/乳腺外科）",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
           "title": "耳鼻咽喉头颈外科/睡眠医学中心临床医师",
           "job_family": "doctor",
           "headcount": "1",
           "education_requirement": "",
           "major_requirement": "耳鼻咽喉科学(眩晕、耳鸣，耳聋方向优先)",
-          "other_conditions": ""
-        },
-        {
-          "title": "耳鼻咽喉头颈外科/睡眠医学中心医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "耳鼻咽喉科学(眩晕、耳鸣，耳聋方向优先)",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
-          "title": "耳鼻咽喉头颈外科临床医师",
-          "job_family": "doctor",
-          "headcount": "/",
-          "education_requirement": "",
-          "major_requirement": "睡眠医学中心、耳鼻咽喉科学(眩晕、耳鸣，耳聋方向优先)",
           "other_conditions": ""
         },
         {
@@ -184,14 +88,6 @@
           "other_conditions": ""
         },
         {
-          "title": "胸外科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "外科学（胸外）",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
           "title": "重症医学科临床医师",
           "job_family": "doctor",
           "headcount": "1",
@@ -200,28 +96,12 @@
           "other_conditions": ""
         },
         {
-          "title": "重症医学科医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "重症医学、急诊医学",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
-        },
-        {
           "title": "麻醉手术中心临床医师",
           "job_family": "doctor",
           "headcount": "1",
           "education_requirement": "",
           "major_requirement": "麻醉学",
           "other_conditions": ""
-        },
-        {
-          "title": "麻醉手术中心医师住院医师规范化培训学员",
-          "job_family": "doctor",
-          "headcount": "1",
-          "education_requirement": "研究生学历，且第一学历为全日制本科，博士学位",
-          "major_requirement": "麻醉学",
-          "other_conditions": "完成住院医师规范化培训且取得结业证书 年龄≤35岁，条件优秀者可适当放宽"
         }
       ]
     },
