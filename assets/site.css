@@ -1,5 +1,5 @@
 :root {
-  --page-bg: #eef1ec;
+  --page-bg: #d9e4ff;
   --panel-bg: #ffffff;
   --header-bg: #dbe6d3;
   --detail-bg: #f5f8f2;
@@ -10,6 +10,13 @@
   --accent-soft: #edf4ea;
   --shadow: none;
   --radius: 10px;
+  --screen-height: 1660px;
+  --xh-cover-top: #12213f;
+  --xh-cover-mid: #244b8b;
+  --xh-cover-bottom: #6c9ef7;
+  --xh-jobs-bg: #eef9f7;
+  --xh-jobs-border: rgba(14, 83, 97, 0.1);
+  --xh-jobs-text: #12343b;
 }
 
 * {
@@ -40,9 +47,224 @@ a {
 }
 
 .page-shell {
+  width: min(100%, 1242px);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.sheet-shell {
   width: min(100%, 1120px);
   margin: 0 auto;
   padding: 18px 14px 40px;
+}
+
+.xh-screen {
+  position: relative;
+  min-height: 1660px;
+  min-height: var(--screen-height);
+  overflow: hidden;
+}
+
+.xh-cover-screen {
+  background: linear-gradient(140deg, var(--xh-cover-top) 0%, var(--xh-cover-mid) 52%, var(--xh-cover-bottom) 100%);
+  color: #fff;
+}
+
+.xh-cover-screen::after {
+  content: "";
+  position: absolute;
+  inset: 30px;
+  border-radius: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+}
+
+.xh-cover-inner,
+.xh-jobs-inner {
+  width: 100%;
+  padding: 58px 62px;
+}
+
+.xh-cover-inner {
+  position: relative;
+  display: grid;
+  min-height: var(--screen-height);
+}
+
+.xh-cover-eyebrow,
+.xh-cover-hint,
+.xh-deadline,
+.xh-jobs-kicker,
+.xh-jobs-note,
+.featured-job-row {
+  margin: 0;
+}
+
+.xh-deadline {
+  position: absolute;
+  top: 58px;
+  right: 62px;
+  max-width: 320px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.xh-cover-copy {
+  display: grid;
+  gap: 52px;
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -39%);
+  width: min(100%, 1040px);
+  text-align: center;
+}
+
+.xh-cover-eyebrow {
+  position: absolute;
+  top: 58px;
+  left: 62px;
+  font-size: 24px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+
+.xh-hospital-name {
+  margin: 0;
+  font-size: 140px;
+  line-height: 0.96;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+.xh-location {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.35;
+  letter-spacing: 0.08em;
+  opacity: 0.82;
+}
+
+.xh-subtitle {
+  margin: 0;
+  max-width: 860px;
+  font-size: 46px;
+  line-height: 1.35;
+  opacity: 0.94;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.xh-cover-hint {
+  position: absolute;
+  left: 62px;
+  bottom: 58px;
+  font-size: 28px;
+  letter-spacing: 0.08em;
+  opacity: 0.78;
+}
+
+.xh-jobs-screen {
+  background: linear-gradient(180deg, #fbfffe 0%, var(--xh-jobs-bg) 100%);
+  color: var(--xh-jobs-text);
+}
+
+.xh-jobs-inner {
+  display: grid;
+  gap: 34px;
+}
+
+.xh-jobs-header {
+  display: grid;
+  gap: 14px;
+}
+
+.xh-jobs-kicker {
+  display: inline-flex;
+  width: fit-content;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: rgba(12, 100, 116, 0.1);
+  color: #0b6978;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.xh-jobs-title {
+  margin: 0;
+  max-width: 980px;
+  font-size: 58px;
+  line-height: 1.18;
+  font-weight: 800;
+  color: var(--xh-jobs-text);
+}
+
+.xh-jobs-note {
+  max-width: 980px;
+  font-size: 26px;
+  line-height: 1.5;
+  color: rgba(18, 52, 59, 0.66);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.featured-jobs-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.featured-job-card {
+  min-height: 220px;
+  padding: 26px 28px;
+  border-radius: 26px;
+  border: 1px solid var(--xh-jobs-border);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 16px 36px rgba(31, 96, 102, 0.08);
+}
+
+.featured-job-name {
+  margin: 0 0 16px;
+  font-size: 34px;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #163841;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.featured-job-row {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 6px;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(18, 52, 59, 0.84);
+}
+
+.featured-job-label {
+  font-weight: 600;
+}
+
+.featured-job-value {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .toolbar,
@@ -85,7 +307,7 @@ a {
   text-transform: uppercase;
 }
 
-h1 {
+.toolbar-copy h2 {
   margin: 0;
   font-size: 28px;
   line-height: 1.12;
@@ -360,7 +582,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  .page-shell {
+  .sheet-shell {
     padding: 24px 22px 52px;
   }
 
@@ -371,8 +593,88 @@ h1 {
 }
 
 @media (max-width: 767px) {
-  .page-shell {
+  .sheet-shell {
     padding: 12px 10px 26px;
+  }
+
+  .xh-screen {
+    min-height: auto;
+  }
+
+  .xh-cover-screen::after {
+    inset: 14px;
+    border-radius: 20px;
+  }
+
+  .xh-cover-inner,
+  .xh-jobs-inner {
+    padding: 22px 18px;
+  }
+
+  .xh-cover-inner {
+    min-height: auto;
+  }
+
+  .xh-deadline {
+    position: static;
+    max-width: none;
+    width: fit-content;
+    margin-left: auto;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .xh-cover-eyebrow,
+  .xh-cover-hint,
+  .xh-jobs-kicker,
+  .xh-jobs-note {
+    font-size: 14px;
+  }
+
+  .xh-cover-eyebrow {
+    top: 22px;
+    left: 18px;
+  }
+
+  .xh-hospital-name {
+    font-size: 48px;
+  }
+
+  .xh-location {
+    font-size: 14px;
+  }
+
+  .xh-subtitle {
+    font-size: 22px;
+  }
+
+  .xh-cover-hint {
+    left: 18px;
+    bottom: 22px;
+  }
+
+  .xh-jobs-title {
+    font-size: 28px;
+  }
+
+  .featured-jobs-list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .featured-job-card {
+    min-height: auto;
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .featured-job-name {
+    font-size: 20px;
+  }
+
+  .featured-job-row {
+    grid-template-columns: 74px minmax(0, 1fr);
+    font-size: 14px;
   }
 
   .toolbar {
@@ -383,7 +685,7 @@ h1 {
     font-size: 12px;
   }
 
-  h1 {
+  .toolbar-copy h2 {
     font-size: 24px;
   }
 

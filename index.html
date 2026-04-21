@@ -8,41 +8,67 @@
 </head>
 <body>
   <main class="page-shell">
-    <header class="toolbar">
-      <div class="toolbar-copy">
-        <p class="eyebrow">Structured Recruitment Worksheet</p>
-        <h1>白衣驿站</h1>
-        <p class="toolbar-note">按医院、地区和关键词快速筛选公告，点击整行可查看岗位明细，点“点我报名”可直达原公告。</p>
+    <section id="xhCoverScreen" class="xh-screen xh-cover-screen" aria-label="医院招聘封面图">
+      <div class="xh-cover-inner">
+        <p id="xhEyebrow" class="xh-cover-eyebrow">白衣驿站</p>
+        <p id="xhDeadline" class="xh-deadline" hidden>截止日期待补充</p>
+        <div class="xh-cover-copy">
+          <p id="xhLocation" class="xh-location" hidden>地区待补充</p>
+          <h1 id="xhHospitalName" class="xh-hospital-name">医院名称待补充</h1>
+          <p id="xhSubtitle" class="xh-subtitle">招聘公告待补充</p>
+        </div>
+        <p class="xh-cover-hint">左滑查看岗位信息</p>
       </div>
-      <p id="updateTime" class="update-time">更新时间：正在加载...</p>
-    </header>
-
-    <section class="search-strip" aria-label="搜索招聘公告">
-      <label class="search-label" for="searchInput">搜索医院、公告标题、岗位关键词，或按地区快速筛选</label>
-      <div class="search-row">
-        <select id="provinceFilter" aria-label="按省份筛选">
-          <option value="">全部省份/直辖市</option>
-        </select>
-        <select id="regionFilter" aria-label="按地区筛选">
-          <option value="">全部地区</option>
-        </select>
-        <input id="searchInput" type="search" placeholder="输入医院、公告标题、岗位关键词">
-        <button id="searchButton" type="button">搜索</button>
-      </div>
-      <p id="resultMeta" class="result-meta">正在加载招聘公告...</p>
     </section>
 
-    <section class="sheet-table" aria-label="招聘公告列表">
-      <div class="sheet-head" aria-hidden="true">
-        <span>医院</span>
-        <span>公告标题</span>
-        <span>岗位数</span>
-        <span>发布时间</span>
-        <span>操作</span>
+    <section id="xhJobsScreen" class="xh-screen xh-jobs-screen" aria-label="岗位总览">
+      <div class="xh-jobs-inner">
+        <div class="xh-jobs-header">
+          <p class="xh-jobs-kicker">岗位总览</p>
+          <h2 id="xhJobsTitle" class="xh-jobs-title">重点岗位一页看完</h2>
+          <p id="xhJobsNote" class="xh-jobs-note">展示岗位名称、招聘人数、学历、专业四项核心信息。</p>
+        </div>
+        <ul id="featuredJobsList" class="featured-jobs-list"></ul>
       </div>
-      <div id="emptyState" class="empty-state" hidden>没有找到匹配的招聘公告。</div>
-      <div id="resultsList" class="sheet-body"></div>
     </section>
+
+    <div class="sheet-shell">
+      <header class="toolbar">
+        <div class="toolbar-copy">
+          <p class="eyebrow">Structured Recruitment Worksheet</p>
+          <h2>白衣驿站</h2>
+          <p class="toolbar-note">按医院、地区和关键词快速筛选公告，点击整行可查看岗位明细，点“点我报名”可直达原公告。</p>
+        </div>
+        <p id="updateTime" class="update-time">更新时间：正在加载...</p>
+      </header>
+
+      <section class="search-strip" aria-label="搜索招聘公告">
+        <label class="search-label" for="searchInput">搜索医院、公告标题、岗位关键词，或按地区快速筛选</label>
+        <div class="search-row">
+          <select id="provinceFilter" aria-label="按省份筛选">
+            <option value="">全部省份/直辖市</option>
+          </select>
+          <select id="regionFilter" aria-label="按地区筛选">
+            <option value="">全部地区</option>
+          </select>
+          <input id="searchInput" type="search" placeholder="输入医院、公告标题、岗位关键词">
+          <button id="searchButton" type="button">搜索</button>
+        </div>
+        <p id="resultMeta" class="result-meta">正在加载招聘公告...</p>
+      </section>
+
+      <section class="sheet-table" aria-label="招聘公告列表">
+        <div class="sheet-head" aria-hidden="true">
+          <span>医院</span>
+          <span>公告标题</span>
+          <span>岗位数</span>
+          <span>发布时间</span>
+          <span>操作</span>
+        </div>
+        <div id="emptyState" class="empty-state" hidden>没有找到匹配的招聘公告。</div>
+        <div id="resultsList" class="sheet-body"></div>
+      </section>
+    </div>
   </main>
 
   <template id="announcementRowTemplate">
