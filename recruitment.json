@@ -1,8 +1,248 @@
 {
-  "generated_at": "2026-04-21 14:00:37",
-  "count": 135,
-  "job_count": 640,
+  "generated_at": "2026-04-22 15:07:10",
+  "count": 139,
+  "job_count": 663,
   "items": [
+    {
+      "group_key": "https://sdykdxfsbjazyyncyy.nc120.cn/nd.jsp?fromColId=126&id=6914#_np=126_3314",
+      "hospital_name": "南充市中心医院",
+      "source_title": "首都医科大学附属北京安贞医院南充医院·南充市中心医院2026年住院医师 规范化培训第三批招收简章",
+      "province": "",
+      "city": "南充市",
+      "district": "",
+      "region": "南充市",
+      "publish_date": "2026-04-22",
+      "apply_url": "https://sdykdxfsbjazyyncyy.nc120.cn/nd.jsp?fromColId=126&id=6914#_np=126_3314",
+      "job_count": 10,
+      "jobs": [
+        {
+          "title": ".临床病理科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "6",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": ".儿科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "8",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": ".全科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "10",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": ".外科基地—泌尿外科方向住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "12",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": ".放射肿瘤科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "5",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": ".神经内科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "9",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": ".耳鼻咽喉科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": ".麻醉科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "4",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "外科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "11",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "骨科基地住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.njszyy.com/hos_hr/2026/PdyP97bQ.html",
+      "hospital_name": "内江市中医医院",
+      "source_title": "内江市中医医院2026年春季招聘员额人员公告",
+      "province": "",
+      "city": "内江市",
+      "district": "",
+      "region": "内江市",
+      "publish_date": "2026-04-21",
+      "apply_url": "https://www.njszyy.com/hos_hr/2026/PdyP97bQ.html",
+      "job_count": 5,
+      "jobs": [
+        {
+          "title": "呼吸科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制研究生及以上",
+          "major_requirement": "研究生：中医内科学、中西医结合临床",
+          "other_conditions": "执业医师；取得相应专业规培证；"
+        },
+        {
+          "title": "康复治疗技师",
+          "job_family": "rehab",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上",
+          "major_requirement": "本科：康复治疗学；研究生：康复医学与理疗学",
+          "other_conditions": ""
+        },
+        {
+          "title": "心理治疗师",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上",
+          "major_requirement": "本科：应用心理学；研究生：应用心理学",
+          "other_conditions": "须为医学类院校毕业生"
+        },
+        {
+          "title": "护士",
+          "job_family": "nursing",
+          "headcount": "6",
+          "education_requirement": "全日制本科及以上",
+          "major_requirement": "本科：护理学；研究生：护理学",
+          "other_conditions": "护士资格证；取得规培证优先"
+        },
+        {
+          "title": "精神科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "全日制研究生及以上",
+          "major_requirement": "本科：精神医学、临床医学、中医学；研究生：精神病与精神卫生学",
+          "other_conditions": "执业医师，注册为精神科执业范围；取得相应专业规培证；"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.scsgkyy.com/recruit/2026/DbDkzAal.html",
+      "hospital_name": "四川省骨科医院",
+      "source_title": "四川省骨科医院关于招聘优秀医生、护理人员的公告",
+      "province": "四川省",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-21",
+      "apply_url": "https://www.scsgkyy.com/recruit/2026/DbDkzAal.html",
+      "job_count": 7,
+      "jobs": [
+        {
+          "title": "临床科室医师岗1",
+          "job_family": "doctor",
+          "headcount": "7名",
+          "education_requirement": "博士研究生",
+          "major_requirement": "中医骨伤科学专业；中西医结合、骨外科相关专业（运动医学方向优先）",
+          "other_conditions": "1.博士研究生；2.熟悉骨科临床科研热点、重点，并有研究基础。 1. 1993年1月1日以后出生；2. 特别优秀的、亚专业匹配度较高的、有博士后经历的可视情放宽年龄要求；3. 科研方向与我院匹配度较高的或者有国自然项目基础的，可酌情放宽年龄要求。"
+        },
+        {
+          "title": "临床科室医师岗2",
+          "job_family": "doctor",
+          "headcount": "3名",
+          "education_requirement": "博士研究生",
+          "major_requirement": "中西医结合专业",
+          "other_conditions": "1.博士研究生；2.熟悉相关专业领域热点、重点，并有研究基础。 1.具有手显微外科相关工作经验的优先；2.具有相关工作经验的成熟人才，年龄、学历可酌情放宽。"
+        },
+        {
+          "title": "临床科室医师岗3",
+          "job_family": "doctor",
+          "headcount": "2名",
+          "education_requirement": "博士研究生",
+          "major_requirement": "神经外科、血管外科专业",
+          "other_conditions": "1.博士研究生；2.熟悉相关专业领域热点、重点，并有研究基础。 1.1993年1月1日以后出生；2.具有相关工作经验的成熟人才，年龄、学历可酌情放宽。"
+        },
+        {
+          "title": "医技科室医师岗",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "博士研究生",
+          "major_requirement": "医学影像专业",
+          "other_conditions": "博士研究生 1.1993年1月1日以后出生；2.已完成住院医师规范化培训；3.持有CDFI诊断医师资格证。"
+        },
+        {
+          "title": "护理岗1",
+          "job_family": "nursing",
+          "headcount": "27名",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "护理或护理学",
+          "other_conditions": "1998年1月1日以后出生。"
+        },
+        {
+          "title": "护理岗2",
+          "job_family": "nursing",
+          "headcount": "9名",
+          "education_requirement": "本科及以上",
+          "major_requirement": "护理或护理学",
+          "other_conditions": "1.1998年1月1日以后出生；2.须具有在省级及以上级别中医类医院或市级及以上级别的综合性三甲医院手术室工作满3年的工作经历；3.特别优秀者，可放宽至1991年1月1日以后出生。"
+        },
+        {
+          "title": "麻醉医师岗",
+          "job_family": "doctor",
+          "headcount": "1名",
+          "education_requirement": "博士研究生",
+          "major_requirement": "麻醉专业",
+          "other_conditions": "1.博士研究生；2.熟悉相关专业临床科研热点、重点，并有研究基础。 1993年1月1日以后出生。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.lxery.com/go.htm?url=home_detail&ctype=article&id=74759&k=zhao_pin_xin_xi",
+      "hospital_name": "泸县第二人民医院",
+      "source_title": "泸县第二人民医院招聘公告",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-21",
+      "apply_url": "https://www.lxery.com/go.htm?url=home_detail&ctype=article&id=74759&k=zhao_pin_xin_xi",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "康复治疗技术人员",
+          "job_family": "rehab",
+          "headcount": "1",
+          "education_requirement": "大专及以上",
+          "major_requirement": "康复治疗技术、康复治疗学相关专业",
+          "other_conditions": "具有康复治疗士及以上资格"
+        }
+      ]
+    },
     {
       "group_key": "https://www.wcfh.com.cn/zhb_tzgg_rczp/010005700017226.html",
       "hospital_name": "四川大学华西第四医院",
