@@ -4,10 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>白衣驿站</title>
-  <link rel="stylesheet" href="./assets/site.css?v=202604211352">
+  <link rel="stylesheet" href="./assets/site.css">
 </head>
 <body>
   <main class="page-shell">
+    <section id="xhCoverScreen" class="xh-screen xh-cover-screen" aria-label="医院招聘封面图">
+      <div class="xh-cover-inner">
+        <p id="xhEyebrow" class="xh-cover-eyebrow">白衣驿站</p>
+        <p id="xhDeadline" class="xh-deadline" hidden>截止日期待补充</p>
+        <div class="xh-cover-copy">
+          <p id="xhLocation" class="xh-location" hidden>地区待补充</p>
+          <h1 id="xhHospitalName" class="xh-hospital-name">医院名称待补充</h1>
+          <p id="xhSubtitle" class="xh-subtitle">招聘公告待补充</p>
+        </div>
+        <p class="xh-cover-hint">左滑查看岗位信息</p>
+      </div>
+    </section>
+
+    <section id="xhJobsScreen" class="xh-screen xh-jobs-screen" aria-label="岗位总览">
+      <div class="xh-jobs-inner">
+        <div class="xh-jobs-header">
+          <p class="xh-jobs-kicker">岗位总览</p>
+          <h2 id="xhJobsTitle" class="xh-jobs-title">重点岗位一页看完</h2>
+          <p id="xhJobsNote" class="xh-jobs-note">展示岗位名称、招聘人数、学历、专业四项核心信息。</p>
+        </div>
+        <ul id="featuredJobsList" class="featured-jobs-list"></ul>
+      </div>
+    </section>
+
     <div class="sheet-shell">
       <header class="toolbar">
         <div class="toolbar-copy">
@@ -77,6 +101,6 @@
     </section>
   </template>
 
-  <script src="./assets/site.js?v=202604211352" defer></script>
+  <script src="./assets/site.js?v=202604131510" defer></script>
 </body>
 </html>

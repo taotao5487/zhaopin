@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-22 15:07:10",
-  "count": 139,
-  "job_count": 663,
+  "generated_at": "2026-04-23 01:22:23",
+  "count": 148,
+  "job_count": 683,
   "items": [
     {
       "group_key": "https://sdykdxfsbjazyyncyy.nc120.cn/nd.jsp?fromColId=126&id=6914#_np=126_3314",
@@ -91,6 +91,116 @@
           "title": "骨科基地住院医师规范化培训学员",
           "job_family": "doctor",
           "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.wchscu.cn/public/notice/recruit/96426.html",
+      "hospital_name": "成都上锦南府医院",
+      "source_title": "四川大学华西医院脑血管病中心现面向社会公开招聘项目制工作人员",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-22",
+      "apply_url": "https://www.wchscu.cn/public/notice/recruit/96426.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "科研助理",
+          "job_family": "research_teaching",
+          "headcount": "",
+          "education_requirement": "具有医学、护理、药学等相关专业本科学历",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.ycxrmyy.sc.cn/gw_yygg_zpxx/010050100003482.html",
+      "hospital_name": "岳池县人民医院",
+      "source_title": "岳池县人民医院关于招收见习人员的公告",
+      "province": "",
+      "city": "",
+      "district": "岳池县",
+      "region": "岳池县",
+      "publish_date": "2026-04-22",
+      "apply_url": "https://www.ycxrmyy.sc.cn/gw_yygg_zpxx/010050100003482.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "医疗护理员",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "全日制大专及以上学历",
+          "major_requirement": "护理学、临床医学等医学类专业",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cd2120.com/news_offer/2026/QeZzKgep.html",
+      "hospital_name": "成都市新都区第二人民医院",
+      "source_title": "成都市第二人民医院编外招聘公告",
+      "province": "",
+      "city": "成都市",
+      "district": "",
+      "region": "成都市",
+      "publish_date": "2026-04-22",
+      "apply_url": "https://www.cd2120.com/news_offer/2026/QeZzKgep.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "耳鼻咽喉头颈外科听力技师",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上，已取得学历学位证书",
+          "major_requirement": "耳鼻咽喉科学",
+          "other_conditions": "年龄要求：1996年4月14日及以后出生；"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.hospital-cqmu.com/gw_zpyc_zpgg/010016600050632.html",
+      "hospital_name": "重庆医科大学附属第一医院",
+      "source_title": "重庆医科大学附属第一医院公开招聘1名感染科主任或副主任的通知",
+      "province": "重庆市",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-22",
+      "apply_url": "https://www.hospital-cqmu.com/gw_zpyc_zpgg/010016600050632.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "主任或副主任",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "博士研究生学位",
+          "major_requirement": "临床医学类",
+          "other_conditions": "主任要求正高级职称，副主任要求副高级及以上职称 具有三甲医院从业经历，在本专业或相关专业有10年及以上工作经历，具有相应科室管理经验"
+        }
+      ]
+    },
+    {
+      "group_key": "http://www.hcrmyy.cn/list/287/5516.html",
+      "hospital_name": "重庆市合川区人民医院",
+      "source_title": "重庆小蚂蚁人力资源服务集团有限公司公开招聘劳务派遣员工简章",
+      "province": "重庆市",
+      "city": "合川区",
+      "district": "",
+      "region": "合川区",
+      "publish_date": "2026-04-22",
+      "apply_url": "http://www.hcrmyy.cn/list/287/5516.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "劳务派遣人员",
+          "job_family": "other_healthcare",
+          "headcount": "7",
           "education_requirement": "",
           "major_requirement": "",
           "other_conditions": ""
@@ -240,6 +350,28 @@
           "education_requirement": "大专及以上",
           "major_requirement": "康复治疗技术、康复治疗学相关专业",
           "other_conditions": "具有康复治疗士及以上资格"
+        }
+      ]
+    },
+    {
+      "group_key": "https://cdfy120.cdu.edu.cn/info/1174/13695.htm",
+      "hospital_name": "成都大学附属医院（成都大学附属医院互联网医院）",
+      "source_title": "成都大学附属医院2026年二季度招聘编外工作人员公告",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-21",
+      "apply_url": "https://cdfy120.cdu.edu.cn/info/1174/13695.htm",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "编外工作人员",
+          "job_family": "other_healthcare",
+          "headcount": "6",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
         }
       ]
     },
@@ -480,6 +612,28 @@
           "job_family": "research_teaching",
           "headcount": "2",
           "education_requirement": "本科及以上学历",
+          "major_requirement": "",
+          "other_conditions": "具有科研项目管理等相关经验优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.myszxyy.cn/news_rczp/2026/oeExgmd0.html",
+      "hospital_name": "绵阳市中心医院",
+      "source_title": "绵阳市中心医院余琳、张定伟难治性创面课题组科研助理招聘公告",
+      "province": "",
+      "city": "绵阳市",
+      "district": "",
+      "region": "绵阳市",
+      "publish_date": "2026-04-20",
+      "apply_url": "https://www.myszxyy.cn/news_rczp/2026/oeExgmd0.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "科研助理",
+          "job_family": "research_teaching",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上学历",
           "major_requirement": "",
           "other_conditions": "具有科研项目管理等相关经验优先"
         }
@@ -2942,6 +3096,28 @@
       ]
     },
     {
+      "group_key": "https://www.wchscu.cn/public/notice/recruit/96271.html",
+      "hospital_name": "成都上锦南府医院",
+      "source_title": "四川大学华西医院麻醉学研究所柯博文研究员课题组项目制数据采集员招聘",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-13",
+      "apply_url": "https://www.wchscu.cn/public/notice/recruit/96271.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "数据采集员",
+          "job_family": "nursing",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "有临床医学、护理学等相关医学专业背景者且有临床工作经历者优先考虑。年龄不限。",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
       "group_key": "https://mp.weixin.qq.com/s/JwXO93Podq3KFZDxkXMipQ",
       "hospital_name": "青神县总医院",
       "source_title": "多岗热招｜青神县总医院面向社会公开招聘啦！",
@@ -5256,6 +5432,116 @@
           "education_requirement": "2026年应届硕士研究生",
           "major_requirement": "纪检监察学、法学、审计、行政管理、财务、经济学等",
           "other_conditions": "有审计或地方纪委监委工作经验者优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cqsahcqmu.cn/index.php?c=show&id=23841",
+      "hospital_name": "重庆医科大学附属第二医院",
+      "source_title": "重庆医科大学附属第二医院关于2026年第一季度考核招聘高层次和紧缺人才面试的通知",
+      "province": "重庆市",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-09",
+      "apply_url": "https://www.cqsahcqmu.cn/index.php?c=show&id=23841",
+      "job_count": 12,
+      "jobs": [
+        {
+          "title": "妇产科超声医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "妇科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "感染病科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "整形与颌面外科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "检验科技师",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "泌尿肾病中心儿科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "泌尿肾病中心移植医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "精准医学中心内科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "老年医学科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "脊柱外科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "超声科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "输血科技师",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
         }
       ]
     },
