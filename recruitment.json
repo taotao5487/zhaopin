@@ -1,8 +1,62 @@
 {
-  "generated_at": "2026-04-23 16:44:57",
-  "count": 148,
-  "job_count": 683,
+  "generated_at": "2026-04-23 16:49:22",
+  "count": 149,
+  "job_count": 688,
   "items": [
+    {
+      "group_key": "http://www.scjn120.com/go.htm?url=news_detail&id=6954",
+      "hospital_name": "成都市金牛区人民医院（四川省人民医院金牛医院 成都市脑外伤抢救中心 成都市金牛区人民医院互联网医院）",
+      "source_title": "成都市金牛区人民医院2026年二季度招聘工作人员的公告",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "",
+      "region": "成都市",
+      "publish_date": "2026-04-23",
+      "apply_url": "http://www.scjn120.com/go.htm?url=news_detail&id=6954",
+      "job_count": 5,
+      "jobs": [
+        {
+          "title": "DSA技师",
+          "job_family": "medical_tech",
+          "headcount": "2",
+          "education_requirement": "全日制本科及以上学历并取得相应学位",
+          "major_requirement": "医学影像技术、放射治疗技术等相关专业；",
+          "other_conditions": "具备放射医学技术初级及以上任职资格、有规培证；熟悉DSA手术流程，能熟练操作DSA相关手术设备、仪器。 1996年4月24日及以后出生"
+        },
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "肿瘤学等相关专业；",
+          "other_conditions": "具有执医证、规培证；有肿瘤介入、放射治疗工作经验的优先。 1996年4月24日及以后出生"
+        },
+        {
+          "title": "康复技师",
+          "job_family": "rehab",
+          "headcount": "1",
+          "education_requirement": "全日制研究生及以上学历并取得相应学位",
+          "major_requirement": "康复治疗、运动康复等相关专业；",
+          "other_conditions": "具有相关专业初级及以上职称。 1996年4月24日及以后出生"
+        },
+        {
+          "title": "护士",
+          "job_family": "nursing",
+          "headcount": "10",
+          "education_requirement": "全日制本科及以上学历并取得相应学位",
+          "major_requirement": "护理（学）专业；",
+          "other_conditions": "具有护理专业技术职务任职资格；取得省级护理规范化培训合格证书；具有血透护士等专科护士证者优先；具有全日制研究生学历可适当放宽条件。 1996年4月24日及以后出生"
+        },
+        {
+          "title": "西药剂师",
+          "job_family": "pharmacy",
+          "headcount": "10",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "药剂学等相关专业；",
+          "other_conditions": "具有药师及以上资格证书；具有临床药师证、三级医院临床药学及GCP相关工作经验者优先。 1996年4月24日及以后出生"
+        }
+      ]
+    },
     {
       "group_key": "https://sdykdxfsbjazyyncyy.nc120.cn/nd.jsp?fromColId=126&id=6914#_np=126_3314",
       "hospital_name": "南充市中心医院",
