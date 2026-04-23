@@ -1,27 +1,67 @@
 {
-  "generated_at": "2026-04-23 17:32:03",
+  "generated_at": "2026-04-23 22:06:28",
   "count": 149,
-  "job_count": 688,
+  "job_count": 694,
   "items": [
     {
       "group_key": "http://www.scjn120.com/go.htm?url=news_detail&id=6954",
-      "hospital_name": "成都市金牛区人民医院（四川省人民医院金牛医院 成都市脑外伤抢救中心 成都市金牛区人民医院互联网医院）",
+      "hospital_name": "成都市金牛区人民医院",
       "source_title": "成都市金牛区人民医院2026年二季度招聘工作人员的公告",
-      "province": "四川省",
+      "province": "",
       "city": "成都市",
       "district": "",
       "region": "成都市",
       "publish_date": "2026-04-23",
       "apply_url": "http://www.scjn120.com/go.htm?url=news_detail&id=6954",
-      "job_count": 5,
+      "job_count": 11,
       "jobs": [
         {
-          "title": "DSA技师",
-          "job_family": "medical_tech",
+          "title": "学科带头人",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "皮肤病与性病学专业；",
+          "other_conditions": "具有执医证；具有相关专业副高及以上职称；具有三级医院相关专业工作经验及管理经验者优先。特别优秀者可适当放宽年龄。 1981年4月24日及以后出生"
+        },
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "急诊医学、重症医学等相关专业方向；",
+          "other_conditions": "具有执医证；具有相关专业副高及以上职称。 1981年4月24日及以后出生"
+        },
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "骨科学、外科学、运动医学等相关专业；",
+          "other_conditions": "具有执医证、规培证；具有相关专业中级及以上职称。 1991年4月24日及以后出生"
+        },
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
           "headcount": "2",
-          "education_requirement": "全日制本科及以上学历并取得相应学位",
-          "major_requirement": "医学影像技术、放射治疗技术等相关专业；",
-          "other_conditions": "具备放射医学技术初级及以上任职资格、有规培证；熟悉DSA手术流程，能熟练操作DSA相关手术设备、仪器。 1996年4月24日及以后出生"
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "康复医学、麻醉医学、疼痛学、骨科学、神经病学等相关专业；",
+          "other_conditions": "具有执医证、规培证；具有较强科研能力者优先。 1991年4月24日及以后出生"
+        },
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "内科学（内分泌等相关方向）专业；",
+          "other_conditions": "具有执医证、规培证；具有较强科研能力者优先。 1991年4月24日及以后出生"
+        },
+        {
+          "title": "临床医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "内科学（肾脏内科或风湿免疫方向）专业；",
+          "other_conditions": "具有执医证、规培证；具有肾内或风湿免疫专科培训合格证、相关专业中级职称者优先。 1991年4月24日及以后出生"
         },
         {
           "title": "临床医师",
@@ -40,20 +80,28 @@
           "other_conditions": "具有相关专业初级及以上职称。 1996年4月24日及以后出生"
         },
         {
+          "title": "DSA技师",
+          "job_family": "medical_tech",
+          "headcount": "2",
+          "education_requirement": "全日制本科及以上学历并取得相应学位",
+          "major_requirement": "医学影像技术、放射治疗技术等相关专业；",
+          "other_conditions": "具备放射医学技术初级及以上任职资格、有规培证；熟悉DSA手术流程，能熟练操作DSA相关手术设备、仪器。 1996年4月24日及以后出生"
+        },
+        {
+          "title": "西药剂师",
+          "job_family": "pharmacy",
+          "headcount": "1",
+          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
+          "major_requirement": "药剂学等相关专业；",
+          "other_conditions": "具有药师及以上资格证书；具有临床药师证、三级医院临床药学及GCP相关工作经验者优先。 1996年4月24日及以后出生"
+        },
+        {
           "title": "护士",
           "job_family": "nursing",
           "headcount": "10",
           "education_requirement": "全日制本科及以上学历并取得相应学位",
           "major_requirement": "护理（学）专业；",
           "other_conditions": "具有护理专业技术职务任职资格；取得省级护理规范化培训合格证书；具有血透护士等专科护士证者优先；具有全日制研究生学历可适当放宽条件。 1996年4月24日及以后出生"
-        },
-        {
-          "title": "西药剂师",
-          "job_family": "pharmacy",
-          "headcount": "10",
-          "education_requirement": "全日制硕士研究生及以上学历并取得相应学位",
-          "major_requirement": "药剂学等相关专业；",
-          "other_conditions": "具有药师及以上资格证书；具有临床药师证、三级医院临床药学及GCP相关工作经验者优先。 1996年4月24日及以后出生"
         }
       ]
     },
