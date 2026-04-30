@@ -1,8 +1,534 @@
 {
-  "generated_at": "2026-04-29 07:30:04",
-  "count": 242,
-  "job_count": 1025,
+  "generated_at": "2026-04-30 14:36:54",
+  "count": 269,
+  "job_count": 1100,
   "items": [
+    {
+      "group_key": "https://mp.weixin.qq.com/s/13WDOly6Gx5Ac-gQM_obkQ",
+      "hospital_name": "成华区青龙社区卫生服务中心",
+      "source_title": "【招聘公告】青龙中心关于公开招聘编制外工作人员的公告（康复治疗师）",
+      "province": "",
+      "city": "",
+      "district": "成华区",
+      "region": "成华区",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://mp.weixin.qq.com/s/13WDOly6Gx5Ac-gQM_obkQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "康复治疗师",
+          "job_family": "rehab",
+          "headcount": "2名",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "本科：康复治疗、康复治疗学；研究生：康复医学与理疗学、运动医学、运动人体科学、运动康复学、运动康复与健康",
+          "other_conditions": "取得康复医学治疗技术初级（师）及以上资格证 2021年以后有2年及以上康复治疗工作经历"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/0h500V6tsThTkz9emylapg",
+      "hospital_name": "叙州区南岸街道社区卫生服务中心",
+      "source_title": "宜宾市叙州区南岸街道社区卫生服务中心关于招募见习人员的公告",
+      "province": "四川省",
+      "city": "宜宾市",
+      "district": "",
+      "region": "宜宾市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://mp.weixin.qq.com/s/0h500V6tsThTkz9emylapg",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "护理岗位",
+          "job_family": "nursing",
+          "headcount": "8名",
+          "education_requirement": "全日制国内大专及以上",
+          "major_requirement": "护理相关",
+          "other_conditions": "护士资格证等"
+        },
+        {
+          "title": "见习人员",
+          "job_family": "other_healthcare",
+          "headcount": "15",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/Fju0y6ZQ1Ybyjvh7wIuWVQ",
+      "hospital_name": "宜宾铭星中医医院",
+      "source_title": "【人才招聘】宜宾铭星中医医院医生、药师、行政、病案管理多岗位正在热招中！",
+      "province": "四川省",
+      "city": "宜宾市",
+      "district": "",
+      "region": "宜宾市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://mp.weixin.qq.com/s/Fju0y6ZQ1Ybyjvh7wIuWVQ",
+      "job_count": 5,
+      "jobs": [
+        {
+          "title": "中医医生",
+          "job_family": "doctor",
+          "headcount": "数名",
+          "education_requirement": "",
+          "major_requirement": "中医、中西医结合等相关专业",
+          "other_conditions": "取得执业医师及以上资格证书 精通中医理论知识，具备2年及以上中医临床实践经验。"
+        },
+        {
+          "title": "中药师",
+          "job_family": "pharmacy",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "中药学相关专业",
+          "other_conditions": "中药士及以上资格证书 1.1年以上医院/药房调剂工作经验有先。责任心强、工作细心严谨，具备良好的沟通能力，对待患者耐心，服务态度良好。"
+        },
+        {
+          "title": "外科医生",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "临床医学、中医、中西医结合等相关专业",
+          "other_conditions": "取得执业医师及以上资格证书 熟练掌握急诊创伤知识操作、泌尿系统疾病及手术、血管系统疾病及手术、胸部疾病及手术等基础知识。"
+        },
+        {
+          "title": "病案室编码员",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "不限",
+          "other_conditions": "病案信息技术（士）以上 1.熟悉病案管理相关工作：2.熟悉疾病编码及DRGS相关工作：3.熟悉医疗文书部分质控工作。"
+        },
+        {
+          "title": "行政人员",
+          "job_family": "admin_support",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "行政管理、汉语言文学等相关专业",
+          "other_conditions": "/ 1.本科及以上学历，熟练掌握Word、Excel、PPT等常用办公自动化软件，具备较好的文档排版及数据处理能力；2.具备较强的公文写作能力，能独立撰写通知、报告、请示等常用公文；3.具有良好的沟通表达能力和跨部门协调能力，工作细致、责任心强；4.适应能力强，具备一定的抗压能力和应变能力；5.有医院或企业行政相关工作经验者优先。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/JsUlKvu1tPlKOJLlD_YfHw",
+      "hospital_name": "绵阳市游仙区信义中心卫生院",
+      "source_title": "绵阳市游仙区信义中心卫生院2026年第一季度编外聘用制工作人员招聘公告",
+      "province": "四川省",
+      "city": "绵阳市",
+      "district": "",
+      "region": "绵阳市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://mp.weixin.qq.com/s/JsUlKvu1tPlKOJLlD_YfHw",
+      "job_count": 3,
+      "jobs": [
+        {
+          "title": "医学影像技术",
+          "job_family": "medical_tech",
+          "headcount": "",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "取得相应专业资格证书",
+          "other_conditions": "取得相应专业资格证书"
+        },
+        {
+          "title": "口腔医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "专业技术岗位",
+          "other_conditions": "取得相应专业资格证书"
+        },
+        {
+          "title": "放射技师",
+          "job_family": "medical_tech",
+          "headcount": "",
+          "education_requirement": "全日制大专及以上",
+          "major_requirement": "专业技术岗",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/ZB9q_ICry3JC1DboIY5HWw",
+      "hospital_name": "翠屏区大观楼社区卫生服务中心",
+      "source_title": "公开招募 | 大观楼社区卫生服务中心2026年就业见习岗位招募公告",
+      "province": "",
+      "city": "",
+      "district": "翠屏区",
+      "region": "翠屏区",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://mp.weixin.qq.com/s/ZB9q_ICry3JC1DboIY5HWw",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "中医康复",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "导医",
+          "job_family": "admin_support",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.dy120.net/yygg_zpgg/010038300023702.html",
+      "hospital_name": "德阳市人民医院",
+      "source_title": "德阳市人民医院旌南院区2026年春夏季人才招聘简章",
+      "province": "四川省",
+      "city": "德阳市",
+      "district": "",
+      "region": "德阳市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://www.dy120.net/yygg_zpgg/010038300023702.html",
+      "job_count": 8,
+      "jobs": [
+        {
+          "title": "介入医师",
+          "job_family": "doctor",
+          "headcount": "6",
+          "education_requirement": "全日制本科及以上，取得相应学位",
+          "major_requirement": "临床医学、外科、内科、影像专业",
+          "other_conditions": "取得执业医师证、住院医师需规培合格证 需从事介入诊疗工作"
+        },
+        {
+          "title": "内科医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "硕士研究生及以上",
+          "major_requirement": "临床医学、内科学、全科医学",
+          "other_conditions": "四证全"
+        },
+        {
+          "title": "外科医师",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "全日制本科及以上，取得相应学位",
+          "major_requirement": "临床医学、外科学",
+          "other_conditions": "取得执业医师证、住院医师需规培合格证"
+        },
+        {
+          "title": "康复医师",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "全日制本科及以上，取得相应学位",
+          "major_requirement": "临床医学、中医骨伤、针灸推拿、康复医学",
+          "other_conditions": "取得执业医师证、住院医师需规培合格证"
+        },
+        {
+          "title": "康复技师",
+          "job_family": "rehab",
+          "headcount": "2",
+          "education_requirement": "本科及以上，取得相应学位",
+          "major_requirement": "康复治疗学等相关专业",
+          "other_conditions": "取得康复医学治疗技术资格证书（师级及以上） 掌握PT、OT、言语认知或吞咽等基础理论及操作技术"
+        },
+        {
+          "title": "放射技师",
+          "job_family": "medical_tech",
+          "headcount": "2",
+          "education_requirement": "本科及以上，取得相应学位",
+          "major_requirement": "影像技术",
+          "other_conditions": "取得放射医学技术资格证书（师级及以上）"
+        },
+        {
+          "title": "超声医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上，取得相应学位",
+          "major_requirement": "临床医学、医学影像学、超声医学",
+          "other_conditions": "取得执业医师证、住院医师需规培合格证"
+        },
+        {
+          "title": "麻醉医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上，取得相应学位",
+          "major_requirement": "临床医学、麻醉学",
+          "other_conditions": "取得执业医师证、住院医师需规培合格证"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.wchscu.cn/public/notice/recruit/96563.html",
+      "hospital_name": "成都上锦南府医院",
+      "source_title": "四川大学华西医院呼吸与危重症医学科招聘启事",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://www.wchscu.cn/public/notice/recruit/96563.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "科研助理",
+          "job_family": "research_teaching",
+          "headcount": "1",
+          "education_requirement": "本科学历及以上",
+          "major_requirement": "公共卫生、临床医学、药学、流行病学、护理学等相关专业优先",
+          "other_conditions": "热爱科研事业，具有一定科研基础，曾从事患者随访、数据采集等相关工作者优先。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.cyfyy.cn/gzb_yygg_rczp/010014300026627.html",
+      "hospital_name": "成都医学院第一附属医院",
+      "source_title": "成都医学院第一附属医院招聘合同制人员的公告",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "",
+      "region": "成都市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://www.cyfyy.cn/gzb_yygg_rczp/010014300026627.html",
+      "job_count": 10,
+      "jobs": [
+        {
+          "title": "/烧伤外科医师",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "硕士研究生及以上学历学位",
+          "major_requirement": "外科学专业（烧伤整形方向）",
+          "other_conditions": "具有执业医师资格证"
+        },
+        {
+          "title": "中西医结合科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上学历学位",
+          "major_requirement": "中西医结合临床专业",
+          "other_conditions": "具有执业医师资格证"
+        },
+        {
+          "title": "呼吸与危重症医学科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上学历学位",
+          "major_requirement": "内科学专业（仅限呼吸病方向）",
+          "other_conditions": "具有执业医师资格证"
+        },
+        {
+          "title": "急诊科看守所医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "及以上学历",
+          "major_requirement": "具有",
+          "other_conditions": "执业医师资格证"
+        },
+        {
+          "title": "急诊科驻所护士",
+          "job_family": "nursing",
+          "headcount": "3",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "专业条件要求",
+          "other_conditions": "1"
+        },
+        {
+          "title": "护理（",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "注：经住培合格的本科学历临床医师",
+          "major_requirement": "学）专业",
+          "other_conditions": "具有护士及以上专业技术资格证"
+        },
+        {
+          "title": "检验科技师",
+          "job_family": "medical_tech",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上学历学位",
+          "major_requirement": "临床检验诊断学专业、医学技术专业（医学检验技术方向）",
+          "other_conditions": "具有检验技师及以上专业技术资格证"
+        },
+        {
+          "title": "皮肤性病科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上学历学位",
+          "major_requirement": "中医外科学专业（仅限皮肤病方向）",
+          "other_conditions": "具有执业医师资格证"
+        },
+        {
+          "title": "美容整形/烧伤外科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "肿瘤科放射治疗技师",
+          "job_family": "medical_tech",
+          "headcount": "1",
+          "education_requirement": "硕士研究生及以上学历学位",
+          "major_requirement": "肿瘤学专业额、放射肿瘤学专业、医学影像技术专业",
+          "other_conditions": "具有卫生类专业技术资格证"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.scsmysgkyy.cn/index.php?m=content&c=index&a=show&catid=20&id=296",
+      "hospital_name": "绵阳市骨科医院",
+      "source_title": "招贤纳士",
+      "province": "四川省",
+      "city": "绵阳市",
+      "district": "",
+      "region": "绵阳市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://www.scsmysgkyy.cn/index.php?m=content&c=index&a=show&catid=20&id=296",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "临床护理",
+          "job_family": "nursing",
+          "headcount": "2",
+          "education_requirement": "全日制本科及以上",
+          "major_requirement": "护理学",
+          "other_conditions": "执业护士 28岁及以下，同等条件下，具有护士规培合格证者优先"
+        },
+        {
+          "title": "重症医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "中医学、中西医结合临床",
+          "other_conditions": "执业医师 具有住院医师规培证，35岁及以下，同等条件下有硕士研究生学历或急重症专培证者优先"
+        }
+      ]
+    },
+    {
+      "group_key": "http://www.hcrmyy.cn/list/287/5539.html",
+      "hospital_name": "重庆市合川区人民医院",
+      "source_title": "重庆小蚂蚁人力资源服务集团有限公司公开招聘劳务派遣员工简章",
+      "province": "重庆市",
+      "city": "合川区",
+      "district": "",
+      "region": "合川区",
+      "publish_date": "2026-04-29",
+      "apply_url": "http://www.hcrmyy.cn/list/287/5539.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "劳务派遣人员",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.wchscu.cn/public/notice/recruit/90045.html",
+      "hospital_name": "成都上锦南府医院",
+      "source_title": "四川大学华西医院神经内科陈芹课题组项目制科研助理招聘启事",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://www.wchscu.cn/public/notice/recruit/90045.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "科研助理",
+          "job_family": "research_teaching",
+          "headcount": "2",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "具有神经内科认知评估实践经验"
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.gyszxyy.cn/newsshow.html?cls1=2&cls2=20&id=68001",
+      "hospital_name": "广元市中心医院",
+      "source_title": "广元市中心医院2026年第三批住院医师规范化培训招收简章",
+      "province": "四川省",
+      "city": "广元市",
+      "district": "",
+      "region": "广元市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://www.gyszxyy.cn/newsshow.html?cls1=2&cls2=20&id=68001",
+      "job_count": 3,
+      "jobs": [
+        {
+          "title": "妇产科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "外科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "6",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "耳鼻咽喉科住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "3",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/WbNEk2D8LYZkcLHRkdyv7w",
+      "hospital_name": "成华区猛追湾社区卫生服务中心",
+      "source_title": "编制4人！成都市成华区猛追湾社区卫生服务中心2026年上半年公开考试招聘工作人员公告",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "",
+      "region": "成都市",
+      "publish_date": "2026-04-29",
+      "apply_url": "https://mp.weixin.qq.com/s/WbNEk2D8LYZkcLHRkdyv7w",
+      "job_count": 4,
+      "jobs": [
+        {
+          "title": "儿科医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历并取得学历相应学位",
+          "major_requirement": "本科：临床医学100201K、儿科学100207TK；研究生：临床医学1002/1051",
+          "other_conditions": "取得执业医师资格证和医师执业证；执业范围为儿科专业 2年及以上儿科诊疗工作经历"
+        },
+        {
+          "title": "皮肤科医师B",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历并取得学历相应学位",
+          "major_requirement": "本科：临床医学100201K；研究生：临床医学1002/1051",
+          "other_conditions": "取得执业医师资格证和医师执业证；执业范围为皮肤病与性病专业；有2年及以上皮肤美容工作经历或取得皮肤专业住院医师规范化培训合格证书 2年及以上皮肤美容工作经历或取得皮肤专业住院医师规范化培训合格证书"
+        },
+        {
+          "title": "西医康复医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历并取得学历相应学位",
+          "major_requirement": "本科：临床医学100201K；研究生：临床医学1002/1051",
+          "other_conditions": "取得执业医师资格证和医师执业证；执业范围为康复医学专业"
+        },
+        {
+          "title": "超声科医师B",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "本科及以上学历并取得学历相应学位",
+          "major_requirement": "本科：临床医学100201K、医学影像学100203TK；研究生：临床医学1002/1051",
+          "other_conditions": "取得执业医师资格证和医师执业证；执业范围为医学影像和放射治疗专业 3年及以上超声工作经历"
+        }
+      ]
+    },
     {
       "group_key": "https://www.ahswmu.cn/detail/8f5e683f-9698-fb7f-46fd-1883e22f.html",
       "hospital_name": "西南医科大学附属医院",
@@ -257,8 +783,8 @@
       "source_title": "金堂县第二人民医院2026年4月工作人员招聘公告",
       "province": "四川省",
       "city": "成都市",
-      "district": "",
-      "region": "成都市",
+      "district": "金堂县",
+      "region": "金堂县",
       "publish_date": "2026-04-28",
       "apply_url": "https://jtxdermyy.com/Article/View?id=50490",
       "job_count": 14,
@@ -374,6 +900,340 @@
           "education_requirement": "全日制硕士研究生及以上学历，并取得学历相应的学位",
           "major_requirement": "外科学、运动医学等",
           "other_conditions": "1.具备执业医师资格2.具备住院医师规范化培训合格证书。"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/t-FTXEhtQRxefyw5I95EMw",
+      "hospital_name": "四川天府新区永兴卫生院",
+      "source_title": "【医院动态】四川天府新区永兴卫生院关于延长编外人员招聘报名时间的公告",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "",
+      "region": "成都市",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/t-FTXEhtQRxefyw5I95EMw",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "影像医师（放射方向）",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/AD-IVXRtDXCwU4lKUDb0rw",
+      "hospital_name": "自贡市第四人民医院",
+      "source_title": "冲！市四医院招聘来了：20个名额，最高10万安家费……",
+      "province": "四川省",
+      "city": "自贡市",
+      "district": "",
+      "region": "自贡市",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/AD-IVXRtDXCwU4lKUDb0rw",
+      "job_count": 13,
+      "jobs": [
+        {
+          "title": "全科医学科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "老年医学（专业代码：105103、100203）、全科医学（专业代码：105109）、内科学（专业代码：105101、100201）",
+          "other_conditions": ""
+        },
+        {
+          "title": "内分泌代谢病科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "内科学（专业代码：105101、100201）、全科医学（专业代码：105109）",
+          "other_conditions": ""
+        },
+        {
+          "title": "口腔科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "口腔医学一级学科（专业代码：1003、1052）",
+          "other_conditions": ""
+        },
+        {
+          "title": "呼吸与危重症医学科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "内科学（专业代码：105101、100201）",
+          "other_conditions": ""
+        },
+        {
+          "title": "康复科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "康复医学与理疗学（专业代码：105110、100215）、麻醉学（专业代码：105118、100217）、针灸推拿学（专业代码：105707、100512）、中医内科学（专业代码：100506、105701）",
+          "other_conditions": ""
+        },
+        {
+          "title": "心血管内科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "内科学（专业代码：105101、100201）",
+          "other_conditions": ""
+        },
+        {
+          "title": "护理人员",
+          "job_family": "nursing",
+          "headcount": "",
+          "education_requirement": "经住培合格的本科学历临床医师",
+          "major_requirement": "护理一级学科（专业代码：1054）、护理学一级学科（专业代码：1011）",
+          "other_conditions": "硕士研究生学历原则上要求35周岁及以下（1991年1月1日及以后出生），2026年应届毕业生也可报名。"
+        },
+        {
+          "title": "消化内科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "内科学（专业代码：105101、100201）",
+          "other_conditions": "硕士研究生学历原则上要求35周岁及以下（1991年1月1日及以后出生），2026年应届毕业生也可报名。"
+        },
+        {
+          "title": "耳鼻咽喉头颈外科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "耳鼻咽喉科学（专业代码：100213、105117）",
+          "other_conditions": ""
+        },
+        {
+          "title": "肝胆胰脾诊疗中心介入医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "全日制硕士研究生及以上学历",
+          "major_requirement": "外科学（专业代码：105111、100210）",
+          "other_conditions": "硕士研究生学历原则上要求30周岁及以下（1996年1月1日及以后出生），仅限2026年应届毕业生报名。"
+        },
+        {
+          "title": "肝胆胰脾诊疗中心医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "外科学（专业代码：105111、100210）",
+          "other_conditions": ""
+        },
+        {
+          "title": "血液风湿免疫科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "内科学（专业代码：105101、100201）",
+          "other_conditions": ""
+        },
+        {
+          "title": "超声科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "超声医学（专业代码：105124）、内科学（专业代码：105101）、外科学（专业代码：105111）",
+          "other_conditions": "超声医学专业优先录用"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/p5nUqYbOhA097lWWmWVa-w",
+      "hospital_name": "木里藏族自治县人民医院",
+      "source_title": "木里藏族自治县医共体（木里县人民医院）公开招聘编外专业技术人员公告",
+      "province": "",
+      "city": "",
+      "district": "木里藏族自治县",
+      "region": "木里藏族自治县",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/p5nUqYbOhA097lWWmWVa-w",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "编外专业技术人员",
+          "job_family": "doctor",
+          "headcount": "3名",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "中医学、针灸推拿、中西结合专业",
+          "other_conditions": "执业助理医师及以上资格证书"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/D9cZ64zPsdV20GzYLymXpg",
+      "hospital_name": "凉山州第二人民医院",
+      "source_title": "凉山彝族自治州第二人民医院2026年第二次公开招聘编制外工作人员的公告",
+      "province": "四川省",
+      "city": "凉山彝族自治州",
+      "district": "",
+      "region": "凉山彝族自治州",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/D9cZ64zPsdV20GzYLymXpg",
+      "job_count": 3,
+      "jobs": [
+        {
+          "title": "放射技师",
+          "job_family": "medical_tech",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "皮肤科医生",
+          "job_family": "doctor",
+          "headcount": "",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "编制外工作人员",
+          "job_family": "other_healthcare",
+          "headcount": "4",
+          "education_requirement": "其中报考者本人有效的毕业证以及学位证所载学历和专业名称",
+          "major_requirement": "与拟报考岗位“学历或学位要求”和“专业条件要求”（指与学历学位相对应的专业条件）等栏的学历、专业资格条件要求应分别相符。与《情况表》中要求的条件和资格不符者",
+          "other_conditions": "具备本公告具体招聘岗位要求的条件和资格（详见《情况表》）"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/HCy4OsTk6lyEAKWOJ2AYaQ",
+      "hospital_name": "梓潼太康医院",
+      "source_title": "梓潼太康医院招聘公告",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/HCy4OsTk6lyEAKWOJ2AYaQ",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "见习临床医师",
+          "job_family": "doctor",
+          "headcount": "一名",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "",
+          "other_conditions": ""
+        },
+        {
+          "title": "见习临床检验人员",
+          "job_family": "other_healthcare",
+          "headcount": "一名",
+          "education_requirement": "大专及以上学历",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/rMneBhs6ZPSAP2_uqvVXbg",
+      "hospital_name": "健康龙泉驿",
+      "source_title": "成都市龙泉驿区卫生健康局关于下属7家医疗卫生事业单位2026年公开考试招聘工作人员公告",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "",
+      "region": "成都市",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/rMneBhs6ZPSAP2_uqvVXbg",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "工作人员",
+          "job_family": "other_healthcare",
+          "headcount": "8",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://www.samsph.cn/hos_hr/2026/Qe1NP0aJ.html",
+      "hospital_name": "四川省医学科学院·四川省人民医院",
+      "source_title": "四川省医致远医学检验有限责任公司招聘信息",
+      "province": "四川省",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://www.samsph.cn/hos_hr/2026/Qe1NP0aJ.html",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "基因检测实验人员",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "生物技术、医学检验、分子生物学、遗传学等相关专业本科学历及以上",
+          "major_requirement": "享有公司福利、生日礼金、年度体检、专业培训等多项补充福利。",
+          "other_conditions": "35周岁以下；"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/H0RL8UutWXmDJjeWfB-yFQ",
+      "hospital_name": "成都市成华区中医医院",
+      "source_title": "【招聘】成华区中医医院·成医附一院成华医院公开招聘编外工作人员的公告",
+      "province": "四川省",
+      "city": "成都市",
+      "district": "成华区",
+      "region": "成华区",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/H0RL8UutWXmDJjeWfB-yFQ",
+      "job_count": 3,
+      "jobs": [
+        {
+          "title": "内科医师住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "本科：中医学、中西医临床医学、临床医学；研究生：中医内科学、内科学",
+          "other_conditions": "1.取得执业医师资格证书；2.取得住院医师规范化培训合格证书；4.1991年1月1日及以后出生；取得卫生中级职称的，年龄放宽至1986年1月1日及以后出生；取得卫生高级职称的，年龄放宽至1981年1月1日及以后出生。 3.具有2年以上二级及以上医院内科工作经验；"
+        },
+        {
+          "title": "急诊外科医师住院医师规范化培训学员",
+          "job_family": "doctor",
+          "headcount": "2",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "本科：临床医学；研究生：急诊医学",
+          "other_conditions": "1.取得执业医师资格证书；2.取得住院医师规范化培训合格证书；4.1991年1月1日及以后出生；取得卫生中级职称的，年龄放宽至1986年1月1日及以后出生；取得卫生高级职称的，年龄放宽至1981年1月1日及以后出生。 3.具有2年以上二级及以上医院急诊科工作经验；"
+        },
+        {
+          "title": "护士",
+          "job_family": "nursing",
+          "headcount": "10",
+          "education_requirement": "本科及以上学历",
+          "major_requirement": "护理学",
+          "other_conditions": "1.取得护师(士)执业资格证书；4.1991年1月1日及以后出生；取得卫生中级职称的，年龄放宽至1986年1月1日及以后出生。 2.具有2年以上二级及以上医院工作经验；"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/qJqgcvMJFFhAgg52YXHtzw",
+      "hospital_name": "自贡市第四人民医院",
+      "source_title": "自贡市第四人民医院2名员额人员招聘公告",
+      "province": "四川省",
+      "city": "自贡市",
+      "district": "",
+      "region": "自贡市",
+      "publish_date": "2026-04-28",
+      "apply_url": "https://mp.weixin.qq.com/s/qJqgcvMJFFhAgg52YXHtzw",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "神经电生理技师",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "全日制本科及以上学历",
+          "major_requirement": "临床医学（专业代码：100201K）",
+          "other_conditions": "有神经内科工作、规培或神经电生理工作经历者优先。"
         }
       ]
     },
@@ -535,7 +1395,7 @@
     },
     {
       "group_key": "https://www.wchscu.cn/public/notice/recruit/96524.html",
-      "hospital_name": "四川大学华西医院",
+      "hospital_name": "成都上锦南府医院",
       "source_title": "四川大学华西医院实验医学科项目制科研助理招聘",
       "province": "四川省",
       "city": "成都市",
@@ -559,8 +1419,8 @@
       "group_key": "https://mp.weixin.qq.com/s/HXZsw7t7YqDmzQ7-bDKn3g",
       "hospital_name": "绵阳城南社区卫生服务中心",
       "source_title": "就业见习招聘公告",
-      "province": "",
-      "city": "",
+      "province": "四川省",
+      "city": "绵阳市",
       "district": "绵阳城南社区",
       "region": "绵阳城南社区",
       "publish_date": "2026-04-27",
@@ -640,13 +1500,131 @@
       ]
     },
     {
-      "group_key": "https://mp.weixin.qq.com/s/YkffZAWKcjMz8j3Ck-QAmQ",
-      "hospital_name": "成都市第四人民医院",
-      "source_title": "通知｜重庆市渝中区精神卫生中心精神科医师非编岗位招聘",
+      "group_key": "https://mp.weixin.qq.com/s/NtKZ0K_ErD9OzVQuoOAalg",
+      "hospital_name": "西南医院",
+      "source_title": "人才延揽 | “医”路同行，共创未来  陆军军医大学西南医院2026年人才引进公告",
+      "province": "",
+      "city": "",
+      "district": "",
+      "region": "",
+      "publish_date": "2026-04-27",
+      "apply_url": "https://mp.weixin.qq.com/s/NtKZ0K_ErD9OzVQuoOAalg",
+      "job_count": 2,
+      "jobs": [
+        {
+          "title": "医学技术、影像医学与核医学",
+          "job_family": "public_health",
+          "headcount": "",
+          "education_requirement": "全日制博士学历学位",
+          "major_requirement": "神经病学，免夜学，生物信总学，分子生物学，公共卫生，预防",
+          "other_conditions": "以第书或通讯作者发表影响因子大于10的 SCI论著1篇"
+        },
+        {
+          "title": "康复医学科",
+          "job_family": "other_healthcare",
+          "headcount": "",
+          "education_requirement": "全日制硕士及以上学历学依",
+          "major_requirement": "婚床医学",
+          "other_conditions": "应展毕业生，已发表SCI论文优先"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/zNFT4Lrw8rLy9RVkQPLqQQ",
+      "hospital_name": "武侯区簇桥社区卫生服务中心",
+      "source_title": "【小桥公告】成都市武侯区簇桥社区卫生服务中心招聘西医康复医师啦~",
       "province": "四川省",
       "city": "成都市",
       "district": "",
       "region": "成都市",
+      "publish_date": "2026-04-27",
+      "apply_url": "https://mp.weixin.qq.com/s/zNFT4Lrw8rLy9RVkQPLqQQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "西医康复医师",
+          "job_family": "doctor",
+          "headcount": "1",
+          "education_requirement": "大学专科及以上学历",
+          "major_requirement": "临床医学、康复医学或运动医学相关专业",
+          "other_conditions": "初级及以上 年龄在45周岁及以下，副高级及以上职称年龄可放宽至50周岁及以下；持有医师执业证"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/0knfabVTGsV4pNBh1zUjgQ",
+      "hospital_name": "宜宾市叙州区第三人民医院",
+      "source_title": "宜宾市叙州区第三人民医院关于公开招募见习人员的公告",
+      "province": "四川省",
+      "city": "宜宾市",
+      "district": "",
+      "region": "宜宾市",
+      "publish_date": "2026-04-27",
+      "apply_url": "https://mp.weixin.qq.com/s/0knfabVTGsV4pNBh1zUjgQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "见习人员",
+          "job_family": "other_healthcare",
+          "headcount": "22",
+          "education_requirement": "",
+          "major_requirement": "",
+          "other_conditions": "具有良好的政治、业务素质，遵纪守法，品行端正，有良好的职业道德，爱岗敬业，事业心、责任感和组织纪律性强，能吃苦耐劳，中共党员（含预备党员）优先；"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/1mVB2uKkvU9MGmPRrdfZuQ",
+      "hospital_name": "綦江区三江街道社区卫生服务中心",
+      "source_title": "热爱不止 心存未来——三江街道社区卫生服务中心招聘啦（见习岗位）",
+      "province": "",
+      "city": "",
+      "district": "綦江区",
+      "region": "綦江区",
+      "publish_date": "2026-04-27",
+      "apply_url": "https://mp.weixin.qq.com/s/1mVB2uKkvU9MGmPRrdfZuQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "文秘岗",
+          "job_family": "other_healthcare",
+          "headcount": "1",
+          "education_requirement": "大专及以上",
+          "major_requirement": "中国语言文学类、新闻传播学类、公共管理类、图书情报与档案管理类、设计学类、艺术设计类、新闻采编与制作专业、网络与新媒体专业",
+          "other_conditions": ""
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/erTYgKj89lvAtKErwIu4zQ",
+      "hospital_name": "重庆两江新区",
+      "source_title": "两江新区多岗位招聘，最高月薪4万元！",
+      "province": "重庆市",
+      "city": "两江新区",
+      "district": "",
+      "region": "两江新区",
+      "publish_date": "2026-04-27",
+      "apply_url": "https://mp.weixin.qq.com/s/erTYgKj89lvAtKErwIu4zQ",
+      "job_count": 1,
+      "jobs": [
+        {
+          "title": "质量检验员",
+          "job_family": "other_healthcare",
+          "headcount": "3人",
+          "education_requirement": "初中及以上学历",
+          "major_requirement": "",
+          "other_conditions": "年龄22－45岁；全检包覆产品质量"
+        }
+      ]
+    },
+    {
+      "group_key": "https://mp.weixin.qq.com/s/YkffZAWKcjMz8j3Ck-QAmQ",
+      "hospital_name": "重庆市渝中区精神卫生中心",
+      "source_title": "通知｜重庆市渝中区精神卫生中心精神科医师非编岗位招聘",
+      "province": "重庆市",
+      "city": "渝中区",
+      "district": "",
+      "region": "渝中区",
       "publish_date": "2026-04-26",
       "apply_url": "https://mp.weixin.qq.com/s/YkffZAWKcjMz8j3Ck-QAmQ",
       "job_count": 1,
@@ -1548,9 +2526,9 @@
       "hospital_name": "崇州市人民医院",
       "source_title": "崇州市人民医院2026年护士规范化培训学员自主招生简章（第二批）",
       "province": "四川省",
-      "city": "成都市",
+      "city": "崇州市",
       "district": "",
-      "region": "成都市",
+      "region": "崇州市",
       "publish_date": "2026-04-24",
       "apply_url": "https://www.xn--gmqr3i68juyaffp44fww1e.cn/tzgg_zpgg/010089900006521.html",
       "job_count": 1,
@@ -1567,7 +2545,7 @@
     },
     {
       "group_key": "https://www.sichuancancer.org/info/1072/12131.htm",
-      "hospital_name": "四川省肿瘤医院",
+      "hospital_name": "四川肿瘤医院",
       "source_title": "四川省肿瘤医院·电子科技大学附属肿瘤医院2026年度第三轮医生招聘公告",
       "province": "四川省",
       "city": "成都市",
@@ -1681,12 +2659,12 @@
     },
     {
       "group_key": "https://www.wchscu.cn/public/notice/recruit/96478.html",
-      "hospital_name": "四川大学华西医院",
+      "hospital_name": "成都上锦南府医院",
       "source_title": "四川大学华西医院李为民教授团队发布项目制科研助理 （宜宾）招聘启事",
       "province": "四川省",
-      "city": "成都市",
+      "city": "宜宾市",
       "district": "",
-      "region": "成都市",
+      "region": "宜宾市",
       "publish_date": "2026-04-24",
       "apply_url": "https://www.wchscu.cn/public/notice/recruit/96478.html",
       "job_count": 1,
@@ -2003,7 +2981,7 @@
     },
     {
       "group_key": "https://mp.weixin.qq.com/s/4-tojLzj-UXptJ1ZUy3tSg",
-      "hospital_name": "成都青白江区中医医院",
+      "hospital_name": "成都市青白江区中医医院",
       "source_title": "23名！区中医医院2026年面向社会公开招募见习人员的公告",
       "province": "四川省",
       "city": "成都市",
@@ -2287,12 +3265,12 @@
     },
     {
       "group_key": "https://mp.weixin.qq.com/s/aB_hAUIO_1NeHAJTCL3nkA",
-      "hospital_name": "自贡市第三人民医院",
+      "hospital_name": "市三医院",
       "source_title": "4月30日截止 市三医院招聘公告",
       "province": "四川省",
-      "city": "自贡市",
+      "city": "市三医院市",
       "district": "",
-      "region": "自贡市",
+      "region": "市三医院市",
       "publish_date": "2026-04-23",
       "apply_url": "https://mp.weixin.qq.com/s/aB_hAUIO_1NeHAJTCL3nkA",
       "job_count": 3,
@@ -2325,7 +3303,7 @@
     },
     {
       "group_key": "https://www.wchscu.cn/public/notice/recruit/96456.html",
-      "hospital_name": "四川大学华西医院",
+      "hospital_name": "成都上锦南府医院",
       "source_title": "四川大学华西临床医学院、华西医院2026年科研岗、实验技术岗社会招聘公告",
       "province": "四川省",
       "city": "成都市",
@@ -2357,10 +3335,10 @@
       "group_key": "https://www.wchscu.cn/hxsj/zhaoshengzhaopin/96468.html",
       "hospital_name": "成都上锦南府医院",
       "source_title": "医院医生招聘启事",
-      "province": "",
-      "city": "",
+      "province": "四川省",
+      "city": "成都市",
       "district": "",
-      "region": "",
+      "region": "成都市",
       "publish_date": "2026-04-23",
       "apply_url": "https://www.wchscu.cn/hxsj/zhaoshengzhaopin/96468.html",
       "job_count": 12,
@@ -2613,7 +3591,7 @@
     },
     {
       "group_key": "https://www.wchscu.cn/public/notice/recruit/96426.html",
-      "hospital_name": "四川大学华西医院",
+      "hospital_name": "成都上锦南府医院",
       "source_title": "四川大学华西医院脑血管病中心现面向社会公开招聘项目制工作人员",
       "province": "四川省",
       "city": "成都市",
@@ -2639,8 +3617,8 @@
       "source_title": "岳池县人民医院关于招收见习人员的公告",
       "province": "四川省",
       "city": "广安市",
-      "district": "",
-      "region": "广安市",
+      "district": "岳池县",
+      "region": "岳池县",
       "publish_date": "2026-04-22",
       "apply_url": "https://www.ycxrmyy.sc.cn/gw_yygg_zpxx/010050100003482.html",
       "job_count": 1,
@@ -2657,7 +3635,7 @@
     },
     {
       "group_key": "https://www.cd2120.com/news_offer/2026/QeZzKgep.html",
-      "hospital_name": "成都市第二人民医院",
+      "hospital_name": "成都市新都区第二人民医院",
       "source_title": "成都市第二人民医院编外招聘公告",
       "province": "四川省",
       "city": "成都市",
@@ -3311,7 +4289,7 @@
     },
     {
       "group_key": "https://cdfy120.cdu.edu.cn/info/1174/13695.htm",
-      "hospital_name": "成都大学附属医院",
+      "hospital_name": "成都大学附属医院（成都大学附属医院互联网医院）",
       "source_title": "成都大学附属医院2026年二季度招聘编外工作人员公告",
       "province": "四川省",
       "city": "成都市",
@@ -4827,8 +5805,8 @@
       "source_title": "【招聘公告】金堂县第二人民医院安保人员招聘公告",
       "province": "四川省",
       "city": "成都市",
-      "district": "",
-      "region": "成都市",
+      "district": "金堂县",
+      "region": "金堂县",
       "publish_date": "2026-04-17",
       "apply_url": "https://mp.weixin.qq.com/s/QbIOAWi34gS142Ymm0nOsg",
       "job_count": 1,
@@ -5333,7 +6311,7 @@
     },
     {
       "group_key": "https://www.cd2120.com/news_offer/2026/1aKLo8bQ.html",
-      "hospital_name": "成都市第二人民医院",
+      "hospital_name": "成都市新都区第二人民医院",
       "source_title": "成都市第二人民医院2026年住院医师规范化培训第二批招收简章",
       "province": "四川省",
       "city": "成都市",
@@ -6247,11 +7225,11 @@
     },
     {
       "group_key": "https://www.cqljzp.com/announcement/index.php?id=1629",
-      "hospital_name": "重庆两江新区人民医院",
+      "hospital_name": "两江新区人才招聘",
       "source_title": "两江新区人民医院招聘简章",
       "province": "重庆市",
       "city": "两江新区",
-      "district": "",
+      "district": "两江新区",
       "region": "两江新区",
       "publish_date": "2026-04-16",
       "apply_url": "https://www.cqljzp.com/announcement/index.php?id=1629",
@@ -6333,11 +7311,11 @@
     },
     {
       "group_key": "https://www.cqljzp.com/announcement/index.php?id=1628",
-      "hospital_name": "重庆两江新区人民医院",
+      "hospital_name": "两江新区人才招聘",
       "source_title": "两江新区人民医院劳务派遣岗位招聘简章",
       "province": "重庆市",
       "city": "两江新区",
-      "district": "",
+      "district": "两江新区",
       "region": "两江新区",
       "publish_date": "2026-04-16",
       "apply_url": "https://www.cqljzp.com/announcement/index.php?id=1628",
@@ -6429,7 +7407,7 @@
     },
     {
       "group_key": "https://www.qbjzyy.cn/go.htm?url=new_detail&ctype=article&id=76227",
-      "hospital_name": "成都市青白江区中医医院",
+      "hospital_name": "成都青白江区中医医院",
       "source_title": "202604-14成都市青白江区中医医院2026年面向社会公开招募见习人员的公告为切实促进高校毕业生（青年）等重点群体提升就业技能、实现充分就业，成都市青白区中医医院2026年计划面向高校毕业生（青年）公开招募23名见习人员，现将有关事项公告如下：",
       "province": "四川省",
       "city": "成都市",
@@ -6483,7 +7461,7 @@
     },
     {
       "group_key": "https://www.cd2120.com/news_offer/2026/7e5RoXa2.html",
-      "hospital_name": "成都市第二人民医院",
+      "hospital_name": "成都市新都区第二人民医院",
       "source_title": "成都市第二人民医院编外招聘公告",
       "province": "四川省",
       "city": "成都市",
@@ -7149,7 +8127,7 @@
     },
     {
       "group_key": "https://www.wchscu.cn/public/notice/recruit/96271.html",
-      "hospital_name": "四川大学华西医院",
+      "hospital_name": "成都上锦南府医院",
       "source_title": "四川大学华西医院麻醉学研究所柯博文研究员课题组项目制数据采集员招聘",
       "province": "四川省",
       "city": "成都市",
@@ -8457,12 +9435,12 @@
     },
     {
       "group_key": "https://mp.weixin.qq.com/s/sz5TTwfr97y0Px6_xNMBDw",
-      "hospital_name": "中国融通集团",
+      "hospital_name": "北京某军队单位",
       "source_title": "中国融通集团2026年春季社会招聘正式启动",
       "province": "北京市",
-      "city": "海淀区",
+      "city": "昌平区",
       "district": "",
-      "region": "海淀区",
+      "region": "昌平区",
       "publish_date": "2026-04-09",
       "apply_url": "https://mp.weixin.qq.com/s/sz5TTwfr97y0Px6_xNMBDw",
       "job_count": 6,
@@ -9654,9 +10632,9 @@
       "hospital_name": "重庆大学附属江津医院",
       "source_title": "重庆大学附属江津医院2026年医院自聘岗位招聘简章",
       "province": "重庆市",
-      "city": "江津区",
+      "city": "重庆江津区",
       "district": "",
-      "region": "江津区",
+      "region": "重庆江津区",
       "publish_date": "2026-04-08",
       "apply_url": "https://mp.weixin.qq.com/s/pGueY3J3gaMpaxhse91vFA",
       "job_count": 15,
@@ -11549,7 +12527,7 @@
     },
     {
       "group_key": "https://www.msfybj.com/news_job/2026/YerRn6eO.html",
-      "hospital_name": "眉山市妇幼保健院",
+      "hospital_name": "眉山妇幼保健院",
       "source_title": "四川大学华西第二医院眉山市妇女儿童医院（眉山市妇幼保健院）关于公开招聘编外内科医生的公告",
       "province": "四川省",
       "city": "眉山市",
@@ -11571,7 +12549,7 @@
     },
     {
       "group_key": "https://www.wchscu.cn/public/notice/recruit/91359.html",
-      "hospital_name": "四川大学华西医院",
+      "hospital_name": "成都上锦南府医院",
       "source_title": "四川大学华西医院医生助理招聘启事",
       "province": "四川省",
       "city": "成都市",
